@@ -13,8 +13,8 @@ export default function About() {
 
       <section className="section about">
         <Reveal className="about__txt">
-          <p className="lead"><strong>D'Flamz Nation Ltd</strong> is Nigeria's leading DJ management, training and entertainment company — built on a single belief: that music, properly delivered, is a force of nature.</p>
-          <p>Founded and led by award-winning DJ Flammzy, we train, develop and manage top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond. From intimate lounges to festival stages of 5,000+, our DJs don't just play music — they own the room.</p>
+          <p className="lead"><strong>D'Flamz Nation</strong> is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them — no middlemen.</p>
+          <p>We train, develop and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: that music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs don't just play music — they own the room.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
             {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) => (

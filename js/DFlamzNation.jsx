@@ -391,7 +391,7 @@ function Home() {
           <Reveal className="hero__c">
             <Eyebrow n="★">Africa's Premier DJ Management Crew</Eyebrow>
             <h1 className="hero__t">D'FLAMZ<br /><span>NATION</span></h1>
-            <p className="hero__s">Nigeria's most dynamic DJ management, training and entertainment company — building global careers and delivering world-class DJ services across venues, festivals and residencies.</p>
+            <p className="hero__s">Nigeria's most dynamic DJ management, training and entertainment company, building global careers and delivering world-class DJ services across venues, festivals and residencies.</p>
             <div className="row-btns">
               <Btn lg onClick={() => go("contact")}>Book a DJ</Btn>
               <Btn kind="outline" lg onClick={() => go("presskit")}>Press Kit</Btn>
@@ -450,7 +450,7 @@ function About() {
       <section className="section about">
         <Reveal className="about__txt">
           <p className="lead"><strong>D'Flamz Nation Ltd</strong> is Nigeria's leading DJ management, training and entertainment company — built on a single belief: that music, properly delivered, is a force of nature.</p>
-          <p>Founded and led by award-winning DJ Flammzy, we train, develop and manage top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond. From intimate lounges to festival stages of 5,000+, our DJs don't just play music — they own the room.</p>
+          <p>Founded and led by award-winning DJ Flammzy, we train, develop and manage top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond. From intimate lounges to festival stages of 5,000+, our DJs play music that controls the room.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
             {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) =>

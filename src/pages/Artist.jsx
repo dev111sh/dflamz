@@ -11,6 +11,8 @@ import CtaBand from "../components/CtaBand.jsx";
 
 export default function Artist({ slug }) {
   const p = PROFILES[slug];
+  // Unknown slug (e.g. a retired profile like #/artist/jd) → send to the roster.
+  if (!p) { go("artists"); return null; }
   return (
     <>
       <section className="section">

@@ -4,7 +4,13 @@ import tonik from "./tonik.jpg";
 import famzy from "./famzy.jpg";
 import scan from "./scan.jpg";
 import shawn from "./shawn.jpg";
-import jd from "./jd.jpg";
 import logo from "./logo.png";
+import six7even from "./six7even.jpg";
+import simss from "./simss.jpg";
+import dyslex from "./dyslex.jpg";
+import maloney from "./maloney.jpg";
+import blaa from "./blaa.jpg";
+import maff from "./maff.jpg";
+import miky from "./miky.jpg";
 
-export const IMAGES = { flammzy, flammzy2, tonik, famzy, scan, shawn, jd, logo };
+export const IMAGES = { flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky };

@@ -1,4 +1,4 @@
-import { ROSTER, AFFILIATE, GANG } from "../data/site.js";
+import { ROSTER, GANG } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import VinylMark from "../components/VinylMark.jsx";
@@ -24,13 +24,6 @@ export default function Artists() {
       </section>
 
       <section className="section section--t">
-        <SectionHead n="02" eyebrow="Affiliated" title="In The Network" />
-        <div className="roster">
-          <RosterCard dj={AFFILIATE} />
-        </div>
-      </section>
-
-      <section className="section">
         <Reveal className="gang">
           <Eyebrow n="+">Extended Network</Eyebrow>
           <h2 className="h2">Gang of DJs</h2>
