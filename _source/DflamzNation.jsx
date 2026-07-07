@@ -68,10 +68,10 @@ const GANG = ["DJ Shizzy", "Simss the DJ", "DJ Choice", "DJ Play", "DJ Voltron",
 
 const SERVICES = [
   { n: "01", t: "DJ Booking & Management", d: "Book any DJ from our roster or Gang of DJs network for your venue, event or residency. We handle logistics, contracts and performance standards end-to-end." },
-  { n: "02", t: "DJ Academy & Training", d: "Our academy develops the next generation — from technical mixing fundamentals to stage presence, branding and long-term career development." },
-  { n: "03", t: "Event Production & Festivals", d: "We build events from concept to execution. Our BPM DJ Festival drew 5,000+ in its debut — we know how to build a moment that lasts." },
-  { n: "04", t: "Venue Residencies", d: "Ongoing partnerships with bars, lounges, restaurants and hotels — consistent, curated entertainment that keeps guests coming back." },
-  { n: "05", t: "Music Promotion", d: "Amplify your sound. We plug into our radio and media network — City 105.1, Kiss FM Lagos, Beat FM London — to push music where it needs to be heard." },
+  { n: "02", t: "DJ Academy & Training", d: "Our academy develops the next generation from technical mixing fundamentals to stage presence, branding and long-term career development." },
+  { n: "03", t: "Event Production & Festivals", d: "We build events from concept to execution. Our BPM DJ Festival drew 5,000+ in its debut." },
+  { n: "04", t: "Venue Residencies", d: "Ongoing partnerships with bars, lounges, restaurants and hotels. Consistent, curated entertainment that keeps guests coming back." },
+  { n: "05", t: "Music Promotion", d: "Amplify your sound. We plug into our radio and media network: City 105.1, Kiss FM Lagos, Beat FM London; to push music where it needs to be heard." },
   { n: "06", t: "Brand & Sponsorship", d: "Partner with D'Flamz Nation to reach Lagos and London's entertainment audiences. Festival sponsorships, branded residencies and media integration." },
 ];
 
@@ -83,9 +83,9 @@ const PROCESS = [
 ];
 
 const VALUES = [
-  { t: "Fire in the Music", d: "Every set carries energy, intention and craft. We don't fill time — we create moments." },
+  { t: "Fire in the Music", d: "Every set carries energy, intention and craft. We create moments." },
   { t: "Building Careers", d: "We train, mentor and elevate DJs, giving them the platform, skills and connections to last." },
-  { t: "Global Sound", d: "Our sound crosses borders. Lagos to London, Afrobeats to UK Garage — every dancefloor's language." },
+  { t: "Global Sound", d: "Our sound crosses borders. Lagos to London, Afrobeats to UK Garage, every dancefloor's language." },
 ];
 
 const MILESTONES = [
@@ -94,7 +94,7 @@ const MILESTONES = [
   { y: "2021", t: "BPM DJ Festival — Lagos", d: "Our first major festival at Wave Beach. 10 DJs, 5,000+ attendees, noon to 3am." },
   { y: "2023", t: "Best DJ Crew — Rave Award", d: "D'Flamz Nation wins Best DJ Crew, cementing its place at the top." },
   { y: "2024", t: "VICI Lagos Partnership", d: "Premier venue residency secured. Flammzy honoured with an Award for Excellence by Premier Records." },
-  { y: "2025", t: "Central London Sound Tour", d: "The D'Flamz sound lands in Soho — Greek Street, Mayfair and beyond." },
+  { y: "2025", t: "Central London Sound Tour", d: "The D'Flamz sound lands in Soho, Greek Street, Mayfair and beyond." },
 ];
 
 const CLIENTS = ["Kiss FM Lagos 98.9", "City 105.1 FM", "Vybz FM 94.5", "Rhythm 93.7 FM", "VICI Lagos", "Wave Beach", "The Artisan Lounge", "Zun-Paradise Lounge", "First Bank Nigeria", "MTV Base", "Bheerhugz Café", "Trybez"];
@@ -123,8 +123,8 @@ const PROFILES = {
     name: "DJ Flammzy", img: "flammzy", gallery: ["flammzy", "flammzy2"],
     role: "Founder · Head DJ · Global Sound", handle: "@deejayflammzy", ig: LINKS.igFlammzy,
     based: "Lagos · London", tags: ["Afro", "House", "Rock", "Hip-Hop", "Open Format"],
-    bio: "Award-winning, London-based Nigerian DJ with over a decade behind the decks — the rare selector who folds Afro, House, Rock and Hip-Hop into one seamless set.",
-    long: "Founder of D'Flamz Nation, Flammzy has shut down venues from Lagos to Soho, held a premier residency at VICI Lagos, and headlined the BPM DJ Festival in front of 5,000+. His recognition runs from a Headies Rookie of the Year nod to an Award for Excellence from Premier Records — and his sound continues to cross borders between Nigeria and the UK.",
+    bio: "Award-winning, London-based Nigerian DJ with over a decade behind the decks, the rare selector who folds Afro, House, Rock and Hip-Hop into one seamless set.",
+    long: "Founder of D'Flamz Nation, Flammzy has shut down venues from Lagos to Soho, held a premier residency at VICI Lagos, and headlined the BPM DJ Festival in front of 5,000+. His recognition runs from a Headies Rookie of the Year nod to an Award for Excellence from Premier Records and his sound continues to cross borders between Nigeria and the UK.",
     highlights: [
       ["2014", "Headies — Rookie of the Year"],
       ["2016–19", "RocktoberFest — Official DJ"],
@@ -147,8 +147,8 @@ const PROFILES = {
     role: "Affiliated Artist · DJ & Radio Host", handle: "@VibemasterJD", ig: "https://instagram.com/vibemasterjd",
     ext: "https://vibemasterjd.com", apple: "https://music.apple.com/us/artist/vibemaster-jd/1679045180",
     based: "Boston, USA", tags: ["Afrobeats", "Dancehall", "Reggae", "Soul", "Hip-Hop"],
-    bio: "Boston-based world-music DJ, radio host and self-described Afrobeats culture amplifier — infectious energy and a passion for diverse sound.",
-    long: "Across 87.7 FM and his Afrobeat In The Morning show, Vibemaster JD spans Afrobeats, Dancehall, Reggae, Soul and Hip-Hop. A frequent D'Flamz collaborator — he features alongside DJ Flammzy and DJ M.A.F. on \u201CGSS Riddim,\u201D and his \u201CThis Year\u201D remix features DysleX — JD carries the D'Flamz sound to audiences across the United States under Vibemaster Entertainment / Bolon Music Group.",
+    bio: "Boston-based world-music DJ, radio host and self-described Afrobeats culture amplifier with an infectious energy and a passion for diverse sound.",
+    long: "Across 87.7 FM and his Afrobeat In The Morning show, Vibemaster JD spans Afrobeats, Dancehall, Reggae, Soul and Hip-Hop. A frequent D'Flamz collaborator, he features alongside DJ Flammzy and DJ M.A.F. on \u201CGSS Riddim,\u201D and his \u201CThis Year\u201D remix features DysleX. JD carries the D'Flamz sound to audiences across the United States under Vibemaster Entertainment / Bolon Music Group.",
     highlights: [
       ["Radio", "87.7 FM Boston — Host"],
       ["Show", "Afrobeat In The Morning"],
@@ -306,7 +306,7 @@ function CtaBand() {
       <div className="cta__glow" />
       <Eyebrow n="—">Let's build a moment</Eyebrow>
       <h2 className="cta__h">Ready to set your dancefloor alight?</h2>
-      <p className="cta__p">From a single night to a full residency, tell us the brief — we bring the fire.</p>
+      <p className="cta__p">From a single night to a full residency, tell us the brief and we'll bring the fire.</p>
       <div className="row-btns">
         <Btn lg onClick={() => go("contact")}>Book a DJ</Btn>
         <Btn kind="outline" lg onClick={() => go("presskit")}>View Press Kit</Btn>
@@ -391,7 +391,7 @@ function Home() {
           <Reveal className="hero__c">
             <Eyebrow n="★">Africa's Premier DJ Management Crew</Eyebrow>
             <h1 className="hero__t">D'FLAMZ<br /><span>NATION</span></h1>
-            <p className="hero__s">Nigeria's most dynamic DJ management, training and entertainment company — building global careers and delivering world-class DJ services across venues, festivals and residencies.</p>
+            <p className="hero__s">Nigeria's most dynamic DJ management, training and entertainment company, building global careers and delivering world-class DJ services across venues, festivals and residencies.</p>
             <div className="row-btns">
               <Btn lg onClick={() => go("contact")}>Book a DJ</Btn>
               <Btn kind="outline" lg onClick={() => go("presskit")}>Press Kit</Btn>
@@ -424,7 +424,7 @@ function Home() {
           <div className="feat-strip__b">
             <span className="feat-strip__role">{AFFILIATE.role}</span>
             <h3 className="feat-strip__n">Vibemaster JD</h3>
-            <p className="feat-strip__d">Boston radio host and Afrobeats culture amplifier — and a frequent D'Flamz collaborator on record and on the bill.</p>
+            <p className="feat-strip__d">Boston radio host and Afrobeats culture amplifier and a frequent D'Flamz collaborator on record and on the roster.</p>
             <div className="tags">{AFFILIATE.tags.map(t => <span key={t} className="tag">{t}</span>)}</div>
             <span className="rc__view">View profile →</span>
           </div>
@@ -449,8 +449,8 @@ function About() {
       <PageHead n="About" title={<>Spreading Music<br /><span>Like Wild Fire</span></>} />
       <section className="section about">
         <Reveal className="about__txt">
-          <p className="lead"><strong>D'Flamz Nation Ltd</strong> is Nigeria's leading DJ management, training and entertainment company — built on a single belief: that music, properly delivered, is a force of nature.</p>
-          <p>Founded and led by award-winning DJ Flammzy, we train, develop and manage top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond. From intimate lounges to festival stages of 5,000+, our DJs don't just play music — they own the room.</p>
+          <p className="lead"><strong>D'Flamz Nation Ltd</strong> is Nigeria's leading DJ management, training and entertainment company built on a single belief: that music, properly delivered, is a force of nature.</p>
+          <p>Founded and led by award-winning DJ Flammzy, we train, develop and manage top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond. From intimate lounges to festival stages of 5,000+, our DJs play music that controls the room.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
             {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) =>
@@ -482,7 +482,7 @@ function Services() {
   return (
     <>
       <PageHead n="Our Services" title={<>What <span>We Do</span></>}
-        intro="From single-night bookings to long-term residencies, DJ training to full event production — D'Flamz Nation delivers fire at every level." />
+        intro="From single-night bookings to long-term residencies, DJ training to full event production, D'Flamz Nation delivers fire at every level." />
       <section className="section">
         <div className="svc">{SERVICES.map((s, i) =>
           <Reveal key={s.n} delay={i * 50} className="svc__c"><span className="svc__n">{s.n}</span><h3>{s.t}</h3><p>{s.d}</p></Reveal>)}
@@ -497,7 +497,7 @@ function Services() {
       <section className="section">
         <Reveal className="gang">
           <Eyebrow n="+">Extended Network</Eyebrow><h2 className="h2">Gang of DJs</h2>
-          <p className="gang__i">Our vetted extended network of independent DJs — same standard, wider options. Available across all event types and genres.</p>
+          <p className="gang__i">Our vetted extended network of independent DJs with the same standard and wider options. Available across all event types and genres.</p>
           <div className="gang__l">{GANG.map(g => <span key={g} className="chip"><VinylMark size={13} />{g}</span>)}</div>
         </Reveal>
       </section>
@@ -510,7 +510,7 @@ function Artists() {
   return (
     <>
       <PageHead n="The Crew" title={<>Our <span>Artists</span></>}
-        intro="Award-winning resident DJs plus a vetted extended network — the right sound for every room, every crowd, every city." />
+        intro="Award-winning resident DJs plus a vetted extended network bringing the right sound for every room, every crowd, every city." />
       <section className="section">
         <SectionHead n="01" eyebrow="Resident Roster" title="The D'Flamz DJs" />
         <div className="roster">{ROSTER.map((dj, i) => <RosterCard key={i} dj={dj} />)}</div>
@@ -539,7 +539,7 @@ function PressKit() {
           <Reveal>
             <Eyebrow n="EPK">Electronic Press Kit</Eyebrow>
             <h1 className="pk-hero__t">D'FLAMZ NATION</h1>
-            <p className="pk-hero__s">Everything a venue, promoter, festival or brand needs to book Africa's premier DJ management crew — in one place.</p>
+            <p className="pk-hero__s">Everything a venue, promoter, festival or brand needs to book Africa's premier DJ management crew all in one place.</p>
             <div className="row-btns">
               <Btn lg href={LINKS.epkPdf} download>Download EPK (PDF)</Btn>
               <Btn kind="outline" lg onClick={() => go("contact")}>Book Now</Btn>
@@ -558,8 +558,8 @@ function PressKit() {
         <Reveal className="pk-bio">
           <Eyebrow n="01">The Story</Eyebrow>
           <h2 className="h2">Profile</h2>
-          <p className="lead">D'Flamz Nation is Nigeria's leading DJ management, training and entertainment company, built on a single belief — that music, properly delivered, is a force of nature.</p>
-          <p>Founded and led by award-winning DJ Flammzy, the crew trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US. From intimate lounges to festival stages of 5,000+, D'Flamz DJs don't just play music — they own the room. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
+          <p className="lead">D'Flamz Nation is Nigeria's leading DJ management, training and entertainment company, built on a single belief that music, properly delivered, is a force of nature.</p>
+          <p>Founded and led by award-winning DJ Flammzy, the crew trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US. From intimate lounges to festival stages of 5,000+, D'Flamz DJs play music that controls the room. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
         </Reveal>
         <Reveal className="pk-metrics" delay={120}>
           <Eyebrow n="02">By The Numbers</Eyebrow>
@@ -631,7 +631,7 @@ function Artist({ slug }) {
               {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>}
               {p.apple && <Btn kind="outline" lg href={p.apple} target="_blank" rel="noreferrer">Apple Music ↗</Btn>}
             </div>
-            {p.draft && <p className="draft-note">Draft bio — send final copy to replace.</p>}
+            {p.draft && <p className="draft-note">Draft bio: send final copy to replace.</p>}
           </Reveal>
         </div>
       </section>

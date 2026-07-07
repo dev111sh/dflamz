@@ -2,18 +2,18 @@ import { CLIENTS } from "../data/site.js";
 import Reveal from "./Reveal.jsx";
 
 /* Partner / client logo wall.
-   CLIENTS entries are { name, logo }. When a real logo lands, drop the file in
-   src/assets/logos/ and set CLIENTS[].logo to that path (e.g. an imported asset
-   URL). Until then logo is null and we render a uniform monochrome name card so
-   the grid still reads like a logo wall rather than a plain text list. */
+   Logo files live in src/assets/logos/ and CLIENTS[].logo holds the filename.
+   Vite's import.meta.glob resolves every file in that folder at build time; we
+   key the resolved URLs by filename so each client maps to its logo image. */
+const LOGO_URLS = import.meta.glob("../assets/logos/*", { eager: true, import: "default" });
+const logoSrc = file => LOGO_URLS[`../assets/logos/${file}`];
+
 export default function PartnerWall() {
   return (
     <Reveal className="pwall">
       {CLIENTS.map(c => (
         <div key={c.name} className="pwall__i" title={c.name}>
-          {c.logo
-            ? <img className="pwall__logo" src={c.logo} alt={c.name} loading="lazy" />
-            : <span className="pwall__name">{c.name}</span>}
+          <img className="pwall__logo" src={logoSrc(c.logo)} alt={c.name} loading="lazy" />
         </div>
       ))}
     </Reveal>

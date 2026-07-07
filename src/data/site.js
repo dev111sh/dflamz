@@ -52,13 +52,13 @@ export const ROSTER = [
   { slug: "shawn",      name: "DJ Shawn",             img: "shawn",   mono: "SH", role: "Afrobeats · Amapiano · House",     tags: ["Afrobeats", "Amapiano", "Deep House"],        profile: true },
   { slug: "famzy",      name: "DJ Famzy",             img: "famzy",   mono: "FZ", role: "Afrobeats",                        tags: ["Afrobeats"],                                  profile: true },
   { slug: "scandamile", name: "Scandamile Mercury",   img: "scan",    mono: "SM", role: "Amapiano · Afro",                  tags: ["Amapiano", "Afro"],                           profile: true },
-  { slug: "six7even",   name: "DJ Six7even",          img: null,      mono: "S7", role: "Amapiano · Afro House · 3-Step",   tags: ["Amapiano", "Afro House", "3-Step"],           profile: true },
-  { slug: "simss",      name: "Simss",                img: null,      mono: "SI", role: "Open Format · Afro House · EDM",   tags: ["Pop", "EDM", "Afro House", "Disco"],          profile: true },
-  { slug: "dyslex",     name: "DysleX",               img: null,      mono: "DX", role: "Gqom · AfroTech · Slap House",     tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],   profile: true },
-  { slug: "maloney",    name: "DJ B. Maloney",        img: null,      mono: "BM", role: "Afrobeats · Dancehall · R&B",      tags: ["Afrobeats", "Dancehall", "Amapiano", "R&B"],  profile: true },
-  { slug: "blaa",       name: "DJ Blaa",              img: null,      mono: "BL", role: "Afro House · Amapiano · EDM",      tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"], profile: true },
-  { slug: "maff",       name: "Deejay Maff",          img: null,      mono: "MF", role: "All Genres · Open Format",         tags: ["Open Format", "Afrobeats"],                   profile: true },
-  { slug: "miky",       name: "Unstoppable DjMiky",   img: null,      mono: "MK", role: "Afrobeats · Pop · Dance",          tags: ["Afrobeats", "Pop", "Dance"],                  profile: true },
+  { slug: "six7even",   name: "DJ Six7even",          img: "six7even",      mono: "S7", role: "Amapiano · Afro House · 3-Step",   tags: ["Amapiano", "Afro House", "3-Step"],           profile: true },
+  { slug: "simss",      name: "Simss",                img: "simss",      mono: "SI", role: "Open Format · Afro House · EDM",   tags: ["Pop", "EDM", "Afro House", "Disco"],          profile: true },
+  { slug: "dyslex",     name: "DysleX",               img: "dyslex",      mono: "DX", role: "Gqom · AfroTech · Slap House",     tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],   profile: true },
+  { slug: "maloney",    name: "DJ B. Maloney",        img: "maloney",      mono: "BM", role: "Afrobeats · Dancehall · R&B",      tags: ["Afrobeats", "Dancehall", "Amapiano", "R&B"],  profile: true },
+  { slug: "blaa",       name: "DJ Blaa",              img: "blaa",      mono: "BL", role: "Afro House · Amapiano · EDM",      tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"], profile: true },
+  { slug: "maff",       name: "Deejay Maff",          img: "maff",      mono: "MF", role: "All Genres · Open Format",         tags: ["Open Format", "Afrobeats"],                   profile: true },
+  { slug: "miky",       name: "Unstoppable DjMiky",   img: "miky",      mono: "MK", role: "Afrobeats · Pop · Dance",          tags: ["Afrobeats", "Pop", "Dance"],                  profile: true },
 ];
 
 /* ---------------------------------------------------------------------
@@ -108,7 +108,7 @@ export const PROFILES = {
     highlights: [], draft: true,
   },
   six7even: {
-    name: "DJ Six7even", img: null, gallery: [],
+    name: "DJ Six7even", img: "six7even", gallery: ["six7even"],
     role: "DJ · Amapiano, Afro House & 3-Step", handle: "@djsix7even", ig: "https://instagram.com/djsix7even",
     based: "Lagos, Nigeria", tags: ["Amapiano", "Afro House", "3-Step", "Afrobeats"],
     bio: "The Lagos selector helping push Amapiano into Nigerian nightlife, calm on stage and lethal on the build.",
@@ -116,7 +116,7 @@ export const PROFILES = {
     highlights: [["Festival", "Afro Nation"], ["International", "YSL South Africa"], ["Europe", "Afrobeats Festival Berlin"], ["Europe", "Pépèle Festival Paris"]],
   },
   simss: {
-    name: "Simss", img: null, gallery: [],
+    name: "Simss", img: "simss", gallery: ["simss"],
     role: "DJ · Open Format, Afro House & EDM", handle: "@simssbaby", ig: "https://instagram.com/simssbaby",
     based: "Lagos, Nigeria", tags: ["Pop", "EDM", "Afrotech", "Disco", "Hip-Hop"],
     bio: "One of Lagos' most exciting selectors, named a top 10 DJ in the city and the mind behind mashups with millions of views.",
@@ -124,7 +124,7 @@ export const PROFILES = {
     highlights: [["Festival", "Flytime Fest (opened for Asake)"], ["Worked with", "Ayra Starr · Victony"], ["Press", "Top 10 DJ in Lagos"], ["Release", "CTRL (Activity Records, 2025)"]],
   },
   dyslex: {
-    name: "DysleX", img: null, gallery: [],
+    name: "DysleX", img: "dyslex", gallery: ["dyslex"],
     role: "DJ & Producer · Electronic Dance Music", handle: "@dyslexmikhael", ig: "https://instagram.com/dyslexmikhael",
     based: "Lagos, Nigeria", tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],
     bio: "A Lagos-born DJ, producer and dance-music artist making records built for the floor and sets built to detonate.",
@@ -132,7 +132,7 @@ export const PROFILES = {
     highlights: [["Festival", "Activity Music Festival"], ["Events", "House Arrest · Sunday Service"], ["Releases", "London Downtown · L2D Call"], ["Remix", "This Year (Afro-EDM)"]],
   },
   maloney: {
-    name: "DJ B. Maloney", img: null, gallery: [],
+    name: "DJ B. Maloney", img: "maloney", gallery: ["maloney"],
     role: "International DJ · Afrobeats & Global Blend", handle: "@djbmaloney", ig: "https://instagram.com/djbmaloney",
     based: "Lagos · London · International", tags: ["Afrobeats", "Dancehall", "Amapiano", "Hip-Hop", "R&B"],
     bio: "An international powerhouse who has warmed up stages for Wizkid, Rema, Davido and Asake, and headlined her own across four continents.",
@@ -140,7 +140,7 @@ export const PROFILES = {
     highlights: [["Stages", "Wizkid · Rema · Davido"], ["Also", "Asake · Tiwa Savage · Ruger"], ["Reach", "Nigeria · UK · Sweden · USA · Australia"], ["Style", "Afrobeats-rooted, global blend"]],
   },
   blaa: {
-    name: "DJ Blaa", img: null, gallery: [],
+    name: "DJ Blaa", img: "blaa", gallery: ["blaa"],
     role: "DJ & Producer · Afro-Fusion", handle: "@deejayblaa", ig: "https://instagram.com/deejayblaa",
     based: "Lagos, Nigeria", tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"],
     bio: "An Afro-fusion producer and DJ making rhythmic, culturally driven records for the club and beyond.",
@@ -148,7 +148,7 @@ export const PROFILES = {
     highlights: [["Craft", "Producer & DJ"], ["Sound", "Afro-fusion, culturally driven"]],
   },
   maff: {
-    name: "World Famous Deejay Maff", img: null, gallery: [],
+    name: "World Famous Deejay Maff", img: "maff", gallery: ["maff"],
     role: "DJ · All Genres", handle: "@djmaf_classic", ig: "https://instagram.com/djmaf_classic",
     based: "Lagos, Nigeria", tags: ["Open Format", "Afrobeats", "All Genres"],
     bio: "An all-genre selector who reads the room and plays whatever the moment needs.",
@@ -156,7 +156,7 @@ export const PROFILES = {
     highlights: [["Release", "GSS Riddim (with DJ Flammzy & Vibemaster JD)"]], draft: true,
   },
   miky: {
-    name: "Unstoppable DjMiky", img: null, gallery: [],
+    name: "Unstoppable DjMiky", img: "miky", gallery: ["miky"],
     role: "DJ · Afrobeats, Pop & Dance", handle: "@unstoppabledjmiky_fanspage", ig: "https://instagram.com/unstoppabledjmiky_fanspage",
     based: "Lagos, Nigeria", tags: ["Afrobeats", "Pop", "Dance"],
     bio: "The life of the party and the reason the floor stays full.",
@@ -201,18 +201,18 @@ export const MILESTONES = [
 
 /* Clients as objects so a real logo can swap in later (logo:null → styled name card) */
 export const CLIENTS = [
-  { name: "Kiss FM Lagos 98.9", logo: null },
-  { name: "City 105.1 FM", logo: null },
-  { name: "Vybz FM 94.5", logo: null },
-  { name: "Rhythm 93.7 FM", logo: null },
-  { name: "VICI Lagos", logo: null },
-  { name: "Wave Beach", logo: null },
-  { name: "The Artisan Lounge", logo: null },
-  { name: "Zun-Paradise Lounge", logo: null },
-  { name: "First Bank Nigeria", logo: null },
-  { name: "MTV Base", logo: null },
-  { name: "Bheerhugz Café", logo: null },
-  { name: "Trybez", logo: null },
+  { name: "Kiss FM Lagos 98.9", logo: "kiss_fm.png" },
+  { name: "City 105.1 FM", logo: "city_fm.png" },
+  { name: "Vybz FM 94.5", logo: "vybz_fm.png" },
+  { name: "Rhythm 93.7 FM", logo: "rhythm_fm.png" },
+  { name: "VICI Lagos", logo: "vici.png" },
+  { name: "Wave Beach", logo: "wave_beach.png" },
+  { name: "The Artisan Lounge", logo: "artisan.jpg" },
+  { name: "Zun-Paradise Lounge", logo: "zun_paradise.jpg" },
+  { name: "First Bank Nigeria", logo: "first_bank.png" },
+  { name: "MTV Base", logo: "mtv_base.jpeg" },
+  { name: "Bheerhugz Café", logo: "bheerhugz.png" },
+  { name: "Trybez", logo: "tribe_lagos.jpg" },
 ];
 
 export const PK_FACTS = [
