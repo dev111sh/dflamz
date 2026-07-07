@@ -509,10 +509,10 @@ function Services() {
 function Artists() {
   return (
     <>
-      <PageHead n="The Crew" title={<>Our <span>Artists</span></>}
+      <PageHead n="The Crew" title={<>Our <span>DJs</span></>}
         intro="Award-winning resident DJs plus a vetted extended network bringing the right sound for every room, every crowd, every city." />
       <section className="section">
-        <SectionHead n="01" eyebrow="Resident Roster" title="The D'Flamz DJs" />
+        <SectionHead n="01" eyebrow="Resident Roster" title="Our Network of DJs" />
         <div className="roster">{ROSTER.map((dj, i) => <RosterCard key={i} dj={dj} />)}</div>
       </section>
       <section className="section section--t">
