@@ -1,10 +1,11 @@
 import { go } from "../hooks/useHashRoute.js";
-import { LINKS, PK_FACTS, STATS, ROSTER, CLIENTS } from "../data/site.js";
+import { LINKS, PK_FACTS, STATS, ROSTER } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
+import PartnerWall from "../components/PartnerWall.jsx";
 import Gallery from "../components/Gallery.jsx";
 import ListenSection from "../components/ListenSection.jsx";
 
@@ -38,8 +39,8 @@ export default function PressKit() {
         <Reveal className="pk-bio">
           <Eyebrow n="01">The Story</Eyebrow>
           <h2 className="h2">Profile</h2>
-          <p className="lead">D'Flamz Nation is Nigeria's leading DJ management, training and entertainment company, built on a single belief — that music, properly delivered, is a force of nature.</p>
-          <p>Founded and led by award-winning DJ Flammzy, the crew trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US. From intimate lounges to festival stages of 5,000+, D'Flamz DJs don't just play music — they own the room. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
+          <p className="lead">D'Flamz Nation is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them — no middlemen.</p>
+          <p>The collective trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US, built on a single belief — that music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, D'Flamz DJs don't just play music — they own the room. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
         </Reveal>
         <Reveal className="pk-metrics" delay={120}>
           <Eyebrow n="02">By The Numbers</Eyebrow>
@@ -71,14 +72,12 @@ export default function PressKit() {
 
       <section className="section section--t">
         <SectionHead n="04" eyebrow="Track Record" title="Clients & Venues" />
-        <Reveal className="clients">
-          {CLIENTS.map(c => <span key={c} className="clients__i">{c}</span>)}
-        </Reveal>
+        <PartnerWall />
       </section>
 
       <section className="section">
         <SectionHead n="05" eyebrow="In The Booth" title="Gallery" />
-        <Gallery slots={["flammzy", "tonik", "scan", "famzy", "shawn", "jd"]} />
+        <Gallery slots={["flammzy", "flammzy2", "tonik", "scan", "famzy", "shawn"]} />
       </section>
 
       <ListenSection compact />

@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { PAGES, PROFILES } from "../data/site.js";
+const PAGES = ["home", "about", "services", "artists", "presskit", "contact"];
 
 export function parseHash() {
   const h = (window.location.hash || "").replace(/^#\/?/, "").trim();
   if (!h) return "home";
   const parts = h.split("/");
-  if (parts[0] === "artist" && PROFILES[parts[1]]) return "artist:" + parts[1];
+  // Any artist/<slug> is routed to the Artist page; unknown slugs (e.g. a
+  // retired profile like jd) fall through to the roster from there.
+  if (parts[0] === "artist" && parts[1]) return "artist:" + parts[1];
   return PAGES.includes(parts[0]) ? parts[0] : "home";
 }
 

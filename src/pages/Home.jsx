@@ -1,5 +1,5 @@
 import { go } from "../hooks/useHashRoute.js";
-import { ROSTER, AFFILIATE, CLIENTS, STATS } from "../data/site.js";
+import { ROSTER, STATS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
@@ -8,6 +8,7 @@ import VinylMark from "../components/VinylMark.jsx";
 import Ticker from "../components/Ticker.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
+import PartnerWall from "../components/PartnerWall.jsx";
 import ListenSection from "../components/ListenSection.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
@@ -51,27 +52,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section--t">
-        <SectionHead n="02" eyebrow="Affiliated Artist" title="In The Network" />
-        <Reveal className="feat-strip" onClick={() => go("artist:jd")}>
-          <Media slot="jd" ratio="1 / 1" className="feat-strip__img" alt="Vibemaster JD" />
-          <div className="feat-strip__b">
-            <span className="feat-strip__role">{AFFILIATE.role}</span>
-            <h3 className="feat-strip__n">Vibemaster JD</h3>
-            <p className="feat-strip__d">Boston radio host and Afrobeats culture amplifier — and a frequent D'Flamz collaborator on record and on the bill.</p>
-            <div className="tags">{AFFILIATE.tags.map(t => <span key={t} className="tag">{t}</span>)}</div>
-            <span className="rc__view">View profile →</span>
-          </div>
-        </Reveal>
-      </section>
-
       <ListenSection compact />
 
       <section className="section">
-        <SectionHead n="03" eyebrow="Esteemed Clients" title="Who We Work With" />
-        <Reveal className="clients">
-          {CLIENTS.map(c => <span key={c} className="clients__i">{c}</span>)}
-        </Reveal>
+        <SectionHead n="02" eyebrow="Esteemed Clients" title="Who We Work With" />
+        <PartnerWall />
       </section>
 
       <CtaBand />
