@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { go } from "../hooks/useHashRoute.js";
+import { useNavigate } from "react-router-dom";
 import {
   LINKS, SOCIALS, ROSTER,
   BOOKING_EVENT_TYPES, BOOKING_CROWD_SIZES, BOOKING_BUDGETS, BOOKING_EQUIPMENT,
@@ -30,7 +30,7 @@ function BookForm() {
   const set = k => e => setF(s => ({ ...s, [k]: e.target.value }));
 
   const send = () => {
-    const subject = `DJ Booking: ${f.eventType}${f.name ? ` — ${f.name}` : ""}`;
+    const subject = `DJ Booking: ${f.eventType}${f.name ? ` - ${f.name}` : ""}`;
     mailto(subject, [
       ["Name", f.name], ["Email", f.email], ["Phone", f.phone],
       ["Event date", f.date], ["Event type", f.eventType], ["Crowd size", f.crowd],
@@ -105,7 +105,7 @@ function EnquiryForm() {
   const set = k => e => setF(s => ({ ...s, [k]: e.target.value }));
 
   const send = () => {
-    const subject = `Enquiry: ${f.subject}${f.name ? ` — ${f.name}` : ""}`;
+    const subject = `Enquiry: ${f.subject}${f.name ? ` - ${f.name}` : ""}`;
     mailto(subject, [
       ["Name", f.name], ["Email", f.email], ["Subject", f.subject], ["Message", f.message],
     ]);
@@ -138,6 +138,7 @@ function EnquiryForm() {
 
 export default function Contact() {
   const [tab, setTab] = useState("book");
+  const navigate = useNavigate();
 
   return (
     <>
@@ -162,7 +163,7 @@ export default function Contact() {
           </div>
           <div className="ci ci--note">
             <p>Marketing or press enquiry? Grab the full <strong>press kit</strong> with everything in one place.</p>
-            <button className="larrow" onClick={() => go("presskit")}>Open the Press Kit →</button>
+            <button className="larrow" onClick={() => navigate("/presskit")}>Open the Press Kit →</button>
           </div>
         </Reveal>
         <div className="contact__forms">

@@ -12,5 +12,14 @@ import maloney from "./maloney.jpg";
 import blaa from "./blaa.jpg";
 import maff from "./maff.jpg";
 import miky from "./miky.jpg";
+import jd from "./jd.jpg";
+import shardz from "./shardz.jpg";
+import yilmaz from "./yilmaz.jpg";
+import versatile from "./versatile.jpg";
+import shumzy from "./shumzy.jpg";
+import homdiggy from "./homdiggy.jpg";
+import geshgroove from "./geshgroove.jpg";
+import femzey from "./femzey.jpg";
+import play from "./play.jpg";
 
-export const IMAGES = { flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky };
+export const IMAGES = { flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play };

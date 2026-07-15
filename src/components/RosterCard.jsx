@@ -1,10 +1,11 @@
-import { go } from "../hooks/useHashRoute.js";
+import { useNavigate } from "react-router-dom";
 import Reveal from "./Reveal.jsx";
 import Media from "./Media.jsx";
 
 export default function RosterCard({ dj }) {
+  const navigate = useNavigate();
   const clickable = dj.profile;
-  const onClick = () => { if (dj.profile) go("artist:" + dj.slug); };
+  const onClick = () => { if (dj.profile) navigate("/dj/" + dj.slug); };
   return (
     <Reveal className="rc-wrap">
       <div

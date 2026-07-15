@@ -1,4 +1,4 @@
-import { go } from "../hooks/useHashRoute.js";
+import { useParams, useNavigate } from "react-router-dom";
 import { PROFILES } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
@@ -9,15 +9,17 @@ import Gallery from "../components/Gallery.jsx";
 import ListenSection from "../components/ListenSection.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
-export default function Artist({ slug }) {
+export default function Artist() {
+  const { slug } = useParams();
+  const navigate = useNavigate();
   const p = PROFILES[slug];
-  // Unknown slug (e.g. a retired profile like #/artist/jd) → send to the roster.
-  if (!p) { go("artists"); return null; }
+  // Unknown slug (e.g. a retired profile like /dj/jd) → send to the roster.
+  if (!p) { navigate("/gangofdjs"); return null; }
   return (
     <>
       <section className="section">
         <Reveal>
-          <button className="larrow larrow--back" onClick={() => go("artists")}>← Back to roster</button>
+          <button className="larrow larrow--back" onClick={() => navigate("/gangofdjs")}>← Back to roster</button>
         </Reveal>
         <div className="ap">
           <Reveal className="ap__media">
@@ -36,11 +38,11 @@ export default function Artist({ slug }) {
               <div><span>Genres</span><b>{p.tags.join(" · ")}</b></div>
             </div>
             <div className="row-btns">
-              <Btn lg onClick={() => go("contact")}>Book {p.name.replace("DJ ", "")}</Btn>
+              <Btn lg onClick={() => navigate("/contact")}>Book {p.name.replace("DJ ", "")}</Btn>
               {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>}
               {p.apple && <Btn kind="outline" lg href={p.apple} target="_blank" rel="noreferrer">Apple Music ↗</Btn>}
             </div>
-            {p.draft && <p className="draft-note">Draft bio — send final copy to replace.</p>}
+            {p.draft && <p className="draft-note">Draft bio, send final copy to replace.</p>}
           </Reveal>
         </div>
       </section>

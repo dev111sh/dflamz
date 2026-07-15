@@ -1,7 +1,7 @@
 import { VALUES, MILESTONES } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Media from "../components/Media.jsx";
-import VinylMark from "../components/VinylMark.jsx";
+import FlameMark from "../components/FlameMark.jsx";
 import PageHead from "../components/PageHead.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import CtaBand from "../components/CtaBand.jsx";
@@ -13,8 +13,8 @@ export default function About() {
 
       <section className="section about">
         <Reveal className="about__txt">
-          <p className="lead"><strong>D'Flamz Nation</strong> is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them — no middlemen.</p>
-          <p>We train, develop and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: that music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs don't just play music — they own the room.</p>
+          <p className="lead"><strong>D'Flamz Nation</strong> is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them, no middlemen.</p>
+          <p>We train, develop and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs own the room, not just fill it with sound.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
             {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) => (
@@ -32,7 +32,7 @@ export default function About() {
         <div className="values">
           {VALUES.map((v, i) => (
             <Reveal key={v.t} delay={i * 80} className="value">
-              <VinylMark size={24} /><h3>{v.t}</h3><p>{v.d}</p>
+              <FlameMark size={24} /><h3>{v.t}</h3><p>{v.d}</p>
             </Reveal>
           ))}
         </div>
