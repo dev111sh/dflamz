@@ -1,4 +1,4 @@
-import { go } from "../hooks/useHashRoute.js";
+import { useNavigate } from "react-router-dom";
 import { LINKS, PK_FACTS, STATS, ROSTER } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
@@ -10,6 +10,7 @@ import Gallery from "../components/Gallery.jsx";
 import ListenSection from "../components/ListenSection.jsx";
 
 export default function PressKit() {
+  const navigate = useNavigate();
   return (
     <>
       <section className="pk-hero">
@@ -18,10 +19,10 @@ export default function PressKit() {
           <Reveal>
             <Eyebrow n="EPK">Electronic Press Kit</Eyebrow>
             <h1 className="pk-hero__t">D'FLAMZ NATION</h1>
-            <p className="pk-hero__s">Everything a venue, promoter, festival or brand needs to book Africa's premier DJ management crew — in one place.</p>
+            <p className="pk-hero__s">Everything a venue, promoter, festival or brand needs to book Africa's premier DJ management crew, all in one place.</p>
             <div className="row-btns">
               <Btn lg href={LINKS.epkPdf} download>Download EPK (PDF)</Btn>
-              <Btn kind="outline" lg onClick={() => go("contact")}>Book Now</Btn>
+              <Btn kind="outline" lg onClick={() => navigate("/contact")}>Book Now</Btn>
             </div>
           </Reveal>
         </div>
@@ -39,8 +40,8 @@ export default function PressKit() {
         <Reveal className="pk-bio">
           <Eyebrow n="01">The Story</Eyebrow>
           <h2 className="h2">Profile</h2>
-          <p className="lead">D'Flamz Nation is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them — no middlemen.</p>
-          <p>The collective trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US, built on a single belief — that music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, D'Flamz DJs don't just play music — they own the room. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
+          <p className="lead">D'Flamz Nation is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them, no middlemen.</p>
+          <p>The collective trains, develops and manages top-tier DJs for venues, events and residencies across Nigeria, the UK and the US, built on a single belief: music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, D'Flamz DJs own the room, not just fill it with sound. The Gang of DJs network extends that reach with carefully vetted independent talent.</p>
         </Reveal>
         <Reveal className="pk-metrics" delay={120}>
           <Eyebrow n="02">By The Numbers</Eyebrow>
@@ -52,9 +53,9 @@ export default function PressKit() {
           <div className="pk-press">
             <span className="pk-press__h">Selected recognition</span>
             <ul>
-              <li>Best DJ Crew — Rave Award (2023)</li>
-              <li>Headies Rookie of the Year — DJ Flammzy (2014)</li>
-              <li>Award for Excellence — Premier Records (2024)</li>
+              <li>Best DJ Crew, Rave Award (2023)</li>
+              <li>Headies Rookie of the Year, DJ Flammzy (2014)</li>
+              <li>Award for Excellence, Premier Records (2024)</li>
             </ul>
           </div>
         </Reveal>
@@ -62,8 +63,8 @@ export default function PressKit() {
 
       <section className="section">
         <SectionHead
-          n="03" eyebrow="The Talent" title="Roster Snapshot"
-          action={<button className="larrow" onClick={() => go("artists")}>Full roster →</button>}
+          n="03" eyebrow="The Talent" title="Gang of DJs Snapshot"
+          action={<button className="larrow" onClick={() => navigate("/gangofdjs")}>Full gang →</button>}
         />
         <div className="roster">
           {ROSTER.slice(0, 4).map((dj, i) => <RosterCard key={i} dj={dj} />)}
@@ -92,7 +93,7 @@ export default function PressKit() {
             <div><span>Socials</span><b>@dflamzz · @dflamzuk</b></div>
           </div>
           <div className="row-btns">
-            <Btn lg onClick={() => go("contact")}>Send a booking enquiry</Btn>
+            <Btn lg onClick={() => navigate("/contact")}>Send a booking enquiry</Btn>
           </div>
         </Reveal>
       </section>

@@ -1,28 +1,31 @@
-import { go } from "../hooks/useHashRoute.js";
+import { useNavigate } from "react-router-dom";
 import { LINKS, SOCIALS } from "../data/site.js";
-import { IMAGES } from "../assets/images.js";
+import dflamzBrand from "../assets/dflamz-brand.png";
 
 const NAV_LINKS = [
-  ["home", "Home"],
-  ["about", "About"],
-  ["services", "Services"],
-  ["artists", "Artists"],
-  ["presskit", "Press Kit"],
-  ["contact", "Contact"],
+  ["/", "Home"],
+  ["/about", "About"],
+  ["/services", "Services"],
+  ["/gangofdjs", "Gang of DJs"],
+  ["/presskit", "Press Kit"],
+  ["/contact", "Contact"],
 ];
 
 export default function Footer() {
+  const navigate = useNavigate();
   return (
     <footer className="footer">
       <div className="footer__grid">
         <div className="footer__brandcol">
-          <img className="footer__logo" src={IMAGES.logo} alt="D'Flamz Nation" />
+          <button className="footer__logobtn" onClick={() => navigate("/")} style={{ background: "none", border: "none", padding: 0, cursor: "pointer" }}>
+            <img className="footer__logo" src={dflamzBrand} alt="D'Flamz Nation" style={{ height: 110, width: "auto" }} />
+          </button>
           <p className="footer__tag">Spreading Music Like Wild Fire</p>
         </div>
         <div className="footer__col">
           <span className="footer__h">Navigate</span>
           {NAV_LINKS.map(([r, l]) => (
-            <button key={r} className="footer__a" onClick={() => go(r)}>{l}</button>
+            <button key={r} className="footer__a" onClick={() => navigate(r)}>{l}</button>
           ))}
         </div>
         <div className="footer__col">
