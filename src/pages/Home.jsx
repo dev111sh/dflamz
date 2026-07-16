@@ -19,7 +19,7 @@ function pickRandom(arr, n) {
 
 export default function Home() {
   const navigate = useNavigate();
-  const [featured] = useState(() => pickRandom(ROSTER, 6));
+  const [featured] = useState(() => pickRandom(ROSTER, 3));
   return (
     <>
       <section className="hero hero--center">
