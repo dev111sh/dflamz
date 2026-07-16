@@ -30,15 +30,15 @@ export const SOCIALS = [
 export const MARQUEE = [
   "Spreading Music Like Wild Fire",
   "Book The Right DJ, Direct, No Middlemen",
-  "Afrobeats · Amapiano · Afro House · EDM · Open Format",
+  "Afrobeats · Amapiano · Afro House · EDM · Hip-Hop",
   "Lagos · London · Nairobi · Toronto · New York",
   "Venues · Festivals · Brands · Private Events",
 ];
 
 export const STATS = [
-  { n: "21", l: "DJs on the roster" },
+  { n: "20+", l: "DJs on the roster" },
   { n: "5K+", l: "Festival crowd" },
-  { n: "9", l: "Radio stations" },
+  { n: "10+", l: "Radio stations" },
   { n: "4", l: "Continents played" },
 ];
 
@@ -47,26 +47,26 @@ export const STATS = [
    Photo-backed DJs are ordered first so the grid reads full at launch.
    --------------------------------------------------------------------- */
 export const ROSTER = [
-  { slug: "flammzy",    name: "Fire DJ Flammzy",      img: "flammzy", mono: "DF", role: "Global Sound · DJ/Producer",      tags: ["Afro", "House", "Rock", "Hip-Hop"],           profile: true },
-  { slug: "tonik",      name: "Tonik",                img: "tonik",   mono: "TK", role: "Open Format · Afro · House",       tags: ["Open Format", "Afro", "House"],               profile: true },
-  { slug: "shawn",      name: "DJ Shawn",             img: "shawn",   mono: "SH", role: "Afrobeats · Amapiano · House",     tags: ["Afrobeats", "Amapiano", "Deep House"],        profile: true },
-  { slug: "famzy",      name: "DJ Famzy",             img: "famzy",   mono: "FZ", role: "Afrobeats",                        tags: ["Afrobeats"],                                  profile: true },
-  { slug: "scandamile", name: "Scandamile Mercury",   img: "scan",    mono: "SM", role: "Amapiano · Afro",                  tags: ["Amapiano", "Afro"],                           profile: true },
-  { slug: "six7even",   name: "DJ Six7even",          img: "six7even",      mono: "S7", role: "Amapiano · Afro House · 3-Step",   tags: ["Amapiano", "Afro House", "3-Step"],           profile: true },
-  { slug: "simss",      name: "Simss",                img: "simss",      mono: "SI", role: "Open Format · Afro House · EDM",   tags: ["Pop", "EDM", "Afro House", "Disco"],          profile: true },
-  { slug: "dyslex",     name: "DysleX",               img: "dyslex",      mono: "DX", role: "Gqom · AfroTech · Slap House",     tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],   profile: true },
+  { slug: "flammzy",    name: "Fire DJ Flammzy",      img: "flammzy", mono: "DF", role: "Global Sound · DJ/Producer",      tags: ["Global Sound"],           profile: true },
+  { slug: "tonik",      name: "Tonik",                img: "tonik",   mono: "TK", role: "Afrobeats · House · Old School",       tags: ["Afrobeats", "House", "Old School"],               profile: true },
+  { slug: "shawn",      name: "DJ Shawn",             img: "shawn",   mono: "SH", role: "Afrobeats · Amapiano · Pop",     tags: ["Afrobeats", "Amapiano", "Pop"],        profile: true },
+  { slug: "famzy",      name: "DJ Famzy",             img: "famzy",   mono: "FZ", role: "Afrobeats · Hip-hop",                        tags: ["Afrobeats", "Hip-Hop"],                                  profile: true },
   { slug: "maloney",    name: "DJ B. Maloney",        img: "maloney",      mono: "BM", role: "Afrobeats · Dancehall · R&B",      tags: ["Afrobeats", "Dancehall", "Amapiano", "R&B"],  profile: true },
-  { slug: "blaa",       name: "DJ Blaa",              img: "blaa",      mono: "BL", role: "Afro House · Amapiano · EDM",      tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"], profile: true },
-  { slug: "maff",       name: "Deejay Maff",          img: "maff",      mono: "MF", role: "All Genres · Open Format",         tags: ["Open Format", "Afrobeats"],                   profile: true },
-  { slug: "miky",       name: "Unstoppable DjMiky",   img: "miky",      mono: "MK", role: "Afrobeats · Pop · Dance",          tags: ["Afrobeats", "Pop", "Dance"],                  profile: true },
+  { slug: "six7even",   name: "DJ Six7even",          img: "six7even",      mono: "S7", role: "Amapiano · Deep House · 3-Step",   tags: ["Amapiano", "Deep House", "3-Step"],           profile: true },
   { slug: "jd", name: "Vibemaster JD", img: "jd", mono: "JD", role: "Afrobeats · Dancehall · Soul", tags: ["Afrobeats", "Dancehall", "Reggae", "Soul"], profile: true },
+  { slug: "simss",      name: "Simss",                img: "simss",      mono: "SI", role: "Pop · Disco · EDM",   tags: ["Pop", "EDM", "Disco", "Dance"],          profile: true },
+  { slug: "scandamile", name: "Scandamile Mercury",   img: "scan",    mono: "SM", role: "Rock · Alternative · Electronic",    tags: ["Rock", "Alternative", "Electronic"],               profile: true },
   { slug: "yilmaz", name: "DJ Yilmaz Sumbul", img: "yilmaz", mono: "YS", role: "Turkish House · Arabic House", tags: ["Turkish House", "Arabic House", "Afro House"], profile: true },
-  { slug: "shardz", name: "Just Shardz", img: "shardz", mono: "JS", role: "UK House · Tribal · Afro House", tags: ["UK House", "Tribal House", "Afro House"], profile: true },
   { slug: "versatile", name: "Versatile", img: "versatile", mono: "VR", role: "Amapiano · Gqom · Bashment", tags: ["Amapiano", "Gqom", "Afro House", "Bashment"], profile: true },
-  { slug: "homdiggy", name: "DJ Homdiggy", img: "homdiggy", mono: "HB", role: "Open Format · Fashion · Events", tags: ["Open Format", "Hip-Hop", "Afrobeats"], profile: true },
-  { slug: "shumzy", name: "DJ Shumzy", img: "shumzy", mono: "SZ", role: "Afrobeats · Hip-Hop", tags: ["Afrobeats", "Hip-Hop"], profile: true },
+  { slug: "homdiggy", name: "DJ Homdiggy", img: "homdiggy", mono: "HB", role: "Hip-Hop · Fashion · Events", tags: ["Hip-Hop", "R&B", "Afrobeats"], profile: true },
   { slug: "geshgroove", name: "DJ Geshgroove", img: "geshgroove", mono: "GG", role: "Old School R&B · Amapiano · House", tags: ["R&B", "Hip-Hop", "Amapiano", "House"], profile: true },
-  { slug: "femzey", name: "Luminos DJ Femzey", img: "femzey", mono: "FE", role: "Open Format · Radio · Events", tags: ["Open Format", "Radio", "Events"], profile: true },
+  // { slug: "shardz", name: "Just Shardz", img: "shardz", mono: "JS", role: "UK House · Tribal · Afro House", tags: ["UK House", "Tribal House", "Afro House"], profile: true },
+  { slug: "dyslex",     name: "DysleX",               img: "dyslex",      mono: "DX", role: "Gqom · AfroTech · Slap House",     tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],   profile: true },
+  { slug: "maff",       name: "Deejay Maff",          img: "maff",      mono: "MF", role: "All Genres · Afrobeats",         tags: ["Afrobeats", "Amapiano"],                   profile: true },
+  { slug: "femzey", name: "Luminos DJ Femzey", img: "femzey", mono: "FE", role: "Afrobeats · Radio · Events", tags: ["Afrobeats", "Radio", "Events"], profile: true },
+  { slug: "miky",       name: "Unstoppable DjMiky",   img: "miky",      mono: "MK", role: "Afrobeats · Street Pop · Dance",          tags: ["Afrobeats", "Street Pop", "Dance"],                  profile: true },
+  { slug: "blaa",       name: "DJ Blaa",              img: "blaa",      mono: "BL", role: "Afro House · Amapiano · EDM",      tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"], profile: true },
+  { slug: "shumzy", name: "DJ Shumzy", img: "shumzy", mono: "SZ", role: "Afrobeats · Hip-Hop", tags: ["Afrobeats", "Hip-Hop"], profile: true },
   { slug: "play", name: "DJ Play", img: "play", mono: "PL", role: "Afrobeats · House · Hip-Hop", tags: ["Afrobeats", "House", "Hip-Hop", "Old School"], profile: true },
 ];
 
@@ -79,15 +79,15 @@ export const PROFILES = {
   flammzy: {
     name: "Fire DJ Flammzy", img: "flammzy", gallery: ["flammzy", "flammzy2"],
     role: "DJ/Producer · Global Sound", handle: "@deejayflammzy", ig: "https://instagram.com/deejayflammzy",
-    based: "Lagos, London", tags: ["Global Sound", "Afro", "House", "Rock", "Hip-Hop", "Open Format"],
+    based: "Lagos, London", tags: ["Global Sound"],
     bio: "A London-based Nigerian DJ and producer with over a decade behind the decks and a genre range that few DJs can match. Also known as The King Maker.",
     long: "Fire DJ Flammzy is the founder of D'Flamz and brings over 15 years of experience as a radio DJ across Lagos, Nigeria and London, UK. Throughout his career he has worked alongside artists including Don Jazzy, Reekado Banks and many others. Passionate about developing new talent, he has trained and mentored more than 50 DJs, helping aspiring entertainers build their careers and make their mark in the industry. He is currently headlining the Global Sound Central London Tour, bringing his signature sound to audiences across Clapham Common, Mayfair and Shoreditch. As the creator and only DJ performing the exclusive Global Sound Set, he continues to redefine the club experience with a musical journey that blends sounds from around the world. Whether on radio, in the club or on the festival stage, Fire DJ Flammzy delivers performances that earn his reputation as The King Maker.",
-    highlights: [["Festival", "RocktoberFest 2016, 2017 and 2019"], ["Festival", "The BPM DJ Festival 2022"], ["Festival", "The Beach House 2023"], ["Tour", "Nights with Mavins East African Tour"], ["Tour", "Global Sound Central London Tour (current)"], ["Genre", "Global Sound"]],
+    highlights: [["Festival", "RocktoberFest 2016, 2017 and 2019"], ["Festival", "The BPM DJ Festival 2022"], ["Festival", "The Beach House 2023"], ["Tour", "Night with Mavins East African Tour"], ["Tour", "Global Sound Central London Tour (current)"], ["Genre", "Global Sound"]],
   },
   tonik: {
     name: "Tonik", img: "tonik", gallery: ["tonik"],
-    role: "International DJ · Open Format", handle: "@glassoftonik", ig: "https://instagram.com/glassoftonik",
-    based: "Lagos · NY USA  ", tags: ["Open Format", "AfroBeats", "House", "Old School"],
+    role: "International DJ · Afro House", handle: "@glassoftonik", ig: "https://instagram.com/glassoftonik",
+    based: "Lagos · NY USA  ", tags: ["AfroBeats", "House", "Old School"],
     bio: "An international DJ who reads a floor in seconds and never lets the energy sit still.",
     long: "Tonik works across Afrobeats, afro house and different global genres that keep people moving, shifting between them without breaking the flow. The sets travel well, which is why the bookings do too, from private rooms to peak-time club slots. Give Tonik a crowd and a brief, and the read is quick and the delivery is clean.",
     highlights: [["Residency", "Lagos Marriott Hotel ·  Danfo Bistro"], ], draft: true,
@@ -97,28 +97,28 @@ export const PROFILES = {
     role: "DJ · Afrobeats, Amapiano & House", handle: "@deejayshawn_", ig: "https://instagram.com/deejayshawn_",
     based: "Lagos, Nigeria", tags: ["Afrobeats", "Amapiano", "Deep House", "Dancehall", "Hip-Hop", "EDM"],
     bio: "A Lagos DJ who came up through radio and residencies and now runs floors from Ikoyi to Nairobi.",
-    long: "DJ Shawn started on the decks in 2012, joining D'Flamz and turned pro through an internship at City FM 105, later landing residencies at Lagos spots like W Bar in Ikoyi and a slot on Rhythm 93.7 FM. He plays the city's premier nightlife rooms, from Obi's House to Lulu Beach, and has taken the brand on the road with African club tours through Nairobi and dates in the UK. Across Afrobeats, Amapiano, deep house, dancehall, Hip-Hop and EDM, he covers whatever a night demands.",
-    highlights: [["Radio", "City FM 105 · Rhythm 93.7"], ["Residency", "W Bar, Ikoyi · Vaniti Lagos"], ["Nightlife", "Obi's House"], ["Worked with", "Falz · Pheelz · L.A.X · Magnito"], ["Tours", "Nairobi · UK"]],
+    long: "DJ Shawn started on the decks in 2012, joining D'Flamz and landing residencies at Lagos spots like W Bar in Ikoyi and a slot on Rhythm 93.7 FM. He plays the city's premier nightlife rooms, from Obi's House to Lulu Beach, and has taken the brand on the road with African club tours through Nairobi and dates in the UK. Across Afrobeats, Amapiano, deep house, dancehall, Hip-Hop and Pop, he covers whatever a night demands.",
+    highlights: [["Radio", "City FM 105 · Rhythm 93.7"], ["Residency", "W Bar, Ikoyi · Vaniti Lagos"], ["Nightlife", "Obi's House", "Pitstop Village"], ["Worked with", "Falz · Pheelz · L.A.X · Magnito"], ["Tours", "Nairobi · UK"]],
   },
   famzy: {
     name: "DJ Famzy", img: "famzy", gallery: ["famzy"],
     role: "DJ · Afrobeats", handle: null, ig: null,
-    based: "Lagos, Nigeria", tags: ["Afrobeats", "Party", "Open Format"],
+    based: "Lagos, Nigeria", tags: ["Afrobeats", "Party"],
     bio: "A Lagos DJ with a clean Afrobeats sensibility and an ear for the record that turns a room.",
     long: "Winner of the first Pepsi DJ competition in Lagos, Famzy keeps sets tight and current, built around the Afrobeats and party records a Nigerian crowd wants to hear, with the timing to land them right. His approach is polished and dependable, the kind of DJ a venue books once and keeps on the calendar.",
     highlights: [], draft: true,
   },
   scandamile: {
     name: "Scandamile Mercury", img: "scan", gallery: ["scan"],
-    role: "DJ · Amapiano & Afro", handle: null, ig: null,
-    based: "Lagos, Nigeria", tags: ["Amapiano", "Afro", "Festival"],
-    bio: "Festival-tested and equally at home in a packed booth or an open field of thousands.",
-    long: "Scandamile Mercury brings Amapiano and Afro heat with the presence of a DJ who has worked the big stages. The log-drum grooves and the patient build-and-release are the signature, paced for a crowd that came to dance. Main stage or late-night room, the delivery carries weight.",
-    highlights: [], draft: true,
+    role: "DJ · Alternative, Rock & Electronic", handle: null, ig: null,
+    based: "Lagos, Nigeria", tags: ["Alternative", "Rock", "Festival"],
+    bio: "King of Rock, and Alternative genres with one of the most versatile and unique sounds in the world.",
+    long: "Scandamile Mercury breathes new air into Rock and Alternative genres with the intensity and the presence of a DJ who has worked the big stages. His unique love for Alternative, Punk Rock, Metal, Dance and his signature Electronic Body Music, along with his mysterious persona and his ability to fuse all his influences together makes him one of the most unique and versatile new generation DJs.",
+    highlights: [["Festival", "Rock Night"], ["Radio", "The Isle 95.9"], ["Residency", "Bheerhugz Cafe · Wakame"], ["Worked with", "Clayrocksu"]], draft: true,
   },
   six7even: {
     name: "DJ Six7even", img: "six7even", gallery: ["six7even"],
-    role: "DJ · Amapiano, Afro House & 3-Step", handle: "@djsix7even", ig: "https://instagram.com/djsix7even",
+    role: "International DJ · Amapiano, Afro House & 3-Step", handle: "@djsix7even", ig: "https://instagram.com/djsix7even",
     based: "Lagos, Nigeria", tags: ["Amapiano", "Afro House", "3-Step", "Afrobeats"],
     bio: "The Lagos selector helping push Amapiano into Nigerian nightlife, calm on stage and lethal on the build.",
     long: "Six7even blends Amapiano, Afro House and 3-Step into a sound that treats the genre with real respect, studying its roots rather than chasing only the viral hits. Known for patient, intentional sets that snap a floor to attention on the drop, he has taken that sound to stages including Afro Nation, YSL South Africa, the Afrobeats Festival in Berlin and Pépèle Festival in Paris. He is one of the names carrying the Lagos Amapiano wave abroad.",
@@ -126,10 +126,10 @@ export const PROFILES = {
   },
   simss: {
     name: "Simss", img: "simss", gallery: ["simss"],
-    role: "DJ · Open Format, Afro House & EDM", handle: "@simssbaby", ig: "https://instagram.com/simssbaby",
-    based: "Lagos, Nigeria", tags: ["Pop", "EDM", "Afrotech", "Disco", "Hip-Hop"],
-    bio: "One of Lagos' most exciting selectors, named a top 10 DJ in the city and the mind behind mashups with millions of views.",
-    long: "Based in Lagos, Simss fuses hip-hop, pop and disco with Amapiano, Afro House, EDM and nostalgic 80s, 90s and 2000s records into sets that feel both familiar and fresh. Since 2018 she has played major parties, raves and brand events, including a Flytime Fest slot where she opened for Asake, and she has worked with African stars like Ayra Starr and Victony. WeTalkSound, TheFemmeMag and The Lagos Weekender have all covered her, the last naming her one of the top 10 DJs in Lagos. Beyond the decks she makes her own music, from a self-voiced Nu-Disco flip of Good Luck, Babe! to CTRL, her 2025 collaboration with Jamie Black and Activity Records that became a staple in the city's Afro House scene.",
+    role: "DJ & Singer · Pop, Disco & EDM", handle: "@simssbaby", ig: "https://instagram.com/simssbaby",
+    based: "Lagos, Nigeria", tags: ["Pop", "EDM", "Disco"],
+    bio: "One of Lagos' most exciting DJs, who sings, writes, spins and is behind mashups with millions of views.",
+    long: "Based in Lagos, Simss fuses pop and disco with Electronic, Dance, and alternative genres curating sets that feel both familiar and fresh. Since 2018 she has played major parties, raves and brand events, including a Flytime Fest slot where she opened for Asake, and she has worked with African stars like Ayra Starr and Victony. WeTalkSound, TheFemmeMag and The Lagos Weekender have all covered her, the last naming her one of the top 10 DJs in Lagos. Beyond the decks she makes her own music, from a self-voiced Nu-Disco flip of Good Luck, Babe! to CTRL, her 2025 collaboration with Jamie Black and Activity Records that became a staple in the city's Afro House scene.",
     highlights: [["Festival", "Flytime Fest (opened for Asake)"], ["Worked with", "Ayra Starr · Victony"], ["Press", "Top 10 DJ in Lagos"], ["Release", "CTRL (Activity Records, 2025)"]],
   },
   dyslex: {
@@ -158,9 +158,9 @@ export const PROFILES = {
   },
   maff: {
     name: "World Famous Deejay Maff", img: "maff", gallery: ["maff"],
-    role: "DJ · All Genres", handle: "@djmaf_classic", ig: "https://instagram.com/djmaf_classic",
-    based: "Lagos, Nigeria", tags: ["Open Format", "Afrobeats", "All Genres"],
-    bio: "An all-genre selector who reads the room and plays whatever the moment needs.",
+    role: "DJ · Amapiano & Afro House", handle: "@djmaf_classic", ig: "https://instagram.com/djmaf_classic",
+    based: "Lagos, Nigeria", tags: ["Amapiano", "Afro House"],
+    bio: "An SA-based Nigerian DJ who fuses genres across dancefloors and plays whatever the moment needs.",
     long: "Maff is a versatile selector who moves across genres rather than boxing himself into one lane, ready to swing a set wherever the crowd takes it. He appears on the GSS Riddim record alongside DJ Flammzy and Vibemaster JD, a link that places him in company with the wider D'Flamz circle. For a party that wants range over a single sound, Maff is built for exactly that.",
     highlights: [["Release", "GSS Riddim (with DJ Flammzy & Vibemaster JD)"]], draft: true,
   },
@@ -176,17 +176,17 @@ export const PROFILES = {
 
   yilmaz: { name: "DJ Yilmaz Sumbul", img: "yilmaz", gallery: ["yilmaz"], role: "DJ · Turkish House, Arabic House & Global Dance", handle: "@djyilmazsumbul", ig: "https://instagram.com/djyilmazsumbul", based: "London, UK", tags: ["Turkish House", "Arabic House", "Afro House", "Indie House", "Pop"], bio: "A London-based DJ whose sets pull from Turkish, Arabic and Afro House traditions, delivering a global sound most selectors never attempt.", long: "DJ Yilmaz Sumbul brings international experience across club nights, private events and large-scale concert productions. His sets thread Turkish House, Arabic House, Afro House, Indie House, Pop and global dance music into a premium listening experience that works for diverse, international audiences. For events that need a selector who can read a cosmopolitan room and deliver something outside the usual rotation, Yilmaz is that booking.", highlights: [["Based", "London, UK"], ["Scope", "Club nights · Private events · Concert productions"], ["Sound", "Turkish, Arabic & Afro House fusion"]] },
 
-  shardz: { name: "Just Shardz", img: "shardz", gallery: ["shardz"], role: "DJ · UK House, Tribal & Afro House", handle: "@justshardz", ig: "https://instagram.com/justshardz", based: "London, UK", tags: ["UK House", "Tribal House", "Soulful House", "Afro House"], bio: "A London selector on a mission to bring house music back to the mainstream, with Caribbean, African and old-school flavours woven through every set.", long: "JustShardz leaves her heart on the decks and her soul in the music, playing across UK house, tribal, soulful and Afro house with hints of Caribbean, African and old-school sounds. She has played Pop Brixton, One Hundred Shoreditch, BRIX LDN, Market House, Queen of South, BoxPark and Heaven, and has made radio appearances on Reprezent Radio, Brixton Radio and BBC 1Xtra. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside Versatile, and runs Diaspora Nights, her own events brand with a growing catalogue of sold-out parties. The mission is simple: rebirth house music, bring back its commerciality, and add some musical seasoning.", highlights: [["Venues", "Pop Brixton · One Hundred Shoreditch · Heaven"], ["Radio", "BBC 1Xtra · Reprezent Radio · Brixton Radio"], ["Events", "Diaspora Nights (founder)"], ["Style", "UK House with Caribbean & African roots"]] },
+  // shardz: { name: "Just Shardz", img: "shardz", gallery: ["shardz"], role: "DJ · UK House, Tribal & Afro House", handle: "@justshardz", ig: "https://instagram.com/justshardz", based: "London, UK", tags: ["UK House", "Tribal House", "Soulful House", "Afro House"], bio: "A London selector on a mission to bring house music back to the mainstream, with Caribbean, African and old-school flavours woven through every set.", long: "JustShardz leaves her heart on the decks and her soul in the music, playing across UK house, tribal, soulful and Afro house with hints of Caribbean, African and old-school sounds. She has played Pop Brixton, One Hundred Shoreditch, BRIX LDN, Market House, Queen of South, BoxPark and Heaven, and has made radio appearances on Reprezent Radio, Brixton Radio and BBC 1Xtra. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside Versatile, and runs Diaspora Nights, her own events brand with a growing catalogue of sold-out parties. The mission is simple: rebirth house music, bring back its commerciality, and add some musical seasoning.", highlights: [["Venues", "Pop Brixton · One Hundred Shoreditch · Heaven"], ["Radio", "BBC 1Xtra · Reprezent Radio · Brixton Radio"], ["Events", "Diaspora Nights (founder)"], ["Style", "UK House with Caribbean & African roots"]] },
 
-  versatile: { name: "Versatile", img: "versatile", gallery: ["versatile"], role: "DJ · Amapiano, Gqom & Afro House", handle: "@versatile_les", ig: "https://instagram.com/versatile_les", based: "London, UK", tags: ["Amapiano", "Gqom", "Afro House", "Tribal House", "Bashment", "Soca"], bio: "London-based and true to the name, blending African and Caribbean undertones across every genre she touches.", long: "Versatile plays a wide spread of sounds and brings heat to every deck: Amapiano, Gqom, Afro House, Tribal House, Bashment, Soca and open format, all blended with African and Caribbean influences that give the sets a distinct flavour. With four-plus years in the game, she has played Notting Hill Carnival, Heaven, Tape London, BoxPark, Pop Brixton and international venues in Nairobi. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside JustShardz, and has done guest mixes on Sound Source Radio, BBC 1Xtra and Brixton Radio. You never know exactly what to expect, but the energy is always accounted for.", highlights: [["Festival", "Notting Hill Carnival"], ["Venues", "Tape London · Heaven · Pop Brixton"], ["International", "Nairobi, Kenya"], ["Radio", "BBC 1Xtra · Reprezent Radio"]] },
+  versatile: { name: "Versatile", img: "versatile", gallery: ["versatile"], role: "DJ · Amapiano, Gqom & Afro House", handle: "@versatile_les", ig: "https://instagram.com/versatile_les", based: "London, UK", tags: ["Amapiano", "Gqom", "Afro House", "Tribal House", "Bashment", "Soca"], bio: "London-based and true to the name, blending African and Caribbean undertones across every genre she touches.", long: "Versatile plays a wide spread of sounds and brings heat to every deck: Amapiano, Gqom, Afro House, Tribal House, Bashment and Soca, all blended with African and Caribbean influences that give the sets a distinct flavour. With four-plus years in the game, she has played Notting Hill Carnival, Heaven, Tape London, BoxPark, Pop Brixton and international venues in Nairobi. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside JustShardz, and has done guest mixes on Sound Source Radio, BBC 1Xtra and Brixton Radio. You never know exactly what to expect, but the energy is always accounted for.", highlights: [["Festival", "Notting Hill Carnival"], ["Venues", "Tape London · Heaven · Pop Brixton"], ["International", "Nairobi, Kenya"], ["Radio", "BBC 1Xtra · Reprezent Radio"]] },
 
-  homdiggy: { name: "DJ Homdiggy", img: "homdiggy", gallery: ["homdiggy"], role: "DJ & Music Director · Open Format", handle: "@homdiggymuzik", ig: "https://instagram.com/homdiggymuzik", based: "London · Oslo", tags: ["Open Format", "Hip-Hop", "R&B", "Afrobeats"], bio: "A DJ and music director whose career spans Oslo club circuits, Norwegian TV, fashion week runways and London's event scene.", long: "DJ Homdiggy (Homeboy) cut his teeth spinning for the G Spot/911 parties at Oslo's Fabrikken, The Park and Snore Company on behalf of DA WORKS Records, then landed a resident slot at Big Kids, Soul Train and MTV Norway. He toured as DJ for Norwegian artist Winta, performing at Quart Festival in Kristiansand and the VG Top Ten tour. His production skills crossed into fashion when he was appointed Music Director for African Fashion Week London, a role he holds to this day, and his runway credits include Fashions Finest, The Gate Notting Hill, Fashion Renaissance, Britain's Next Designer and Face of Fashion 4 Africa. He now works with In-Eight Entertainment as one of their main circuit DJs across London venues.", highlights: [["Fashion", "African Fashion Week London (official DJ)"], ["TV", "MTV Norway · Resident DJ"], ["Festival", "Quart Festival, Kristiansand"], ["Runways", "Fashions Finest · The Gate · Britain's Next Designer"]] },
+  homdiggy: { name: "DJ Homdiggy", img: "homdiggy", gallery: ["homdiggy"], role: "DJ & Music Director · Hip-Hop", handle: "@homdiggymuzik", ig: "https://instagram.com/homdiggymuzik", based: "London · Oslo", tags: ["Hip-Hop", "R&B", "Afrobeats"], bio: "A DJ and music director whose career spans Oslo club circuits, Norwegian TV, fashion week runways and London's event scene.", long: "DJ Homdiggy (Homeboy) cut his teeth spinning for the G Spot/911 parties at Oslo's Fabrikken, The Park and Snore Company on behalf of DA WORKS Records, then landed a resident slot at Big Kids, Soul Train and MTV Norway. He toured as DJ for Norwegian artist Winta, performing at Quart Festival in Kristiansand and the VG Top Ten tour. His production skills crossed into fashion when he was appointed Music Director for African Fashion Week London, a role he holds to this day, and his runway credits include Fashions Finest, The Gate Notting Hill, Fashion Renaissance, Britain's Next Designer and Face of Fashion 4 Africa. He now works with In-Eight Entertainment as one of their main circuit DJs across London venues.", highlights: [["Fashion", "African Fashion Week London (official DJ)"], ["TV", "MTV Norway · Resident DJ"], ["Festival", "Quart Festival, Kristiansand"], ["Runways", "Fashions Finest · The Gate · Britain's Next Designer"]] },
 
   shumzy: { name: "DJ Shumzy", img: "shumzy", gallery: ["shumzy"], role: "DJ · Afrobeats & Hip-Hop", handle: "@djshumzy", ig: "https://instagram.com/djshumzy", based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip-Hop"], bio: "A professional DJ who carries quiet confidence behind the decks and delivers consistently across weddings, corporate events and private parties.", long: "DJ Shumzy works across the event circuit with a focus on Afrobeats and Hip-Hop, bringing a professional touch to weddings, corporate functions and social events. The approach is reliable and polished: read the room, match the energy, keep the floor moving. For organisers who need a safe pair of hands on the decks and a DJ who shows up prepared, Shumzy fits the brief.", highlights: [["Speciality", "Weddings · Corporate · Private events"], ["Sound", "Afrobeats & Hip-Hop"]], draft: true },
 
   geshgroove: { name: "DJ Geshgroove", img: "geshgroove", gallery: ["geshgroove"], role: "DJ, Broadcaster & Entrepreneur", handle: "@djgeshgroove", ig: "https://instagram.com/djgeshgroove", based: "London · Zambia · Global", tags: ["Old School R&B", "Hip-Hop", "Amapiano", "House"], bio: "Broadcaster, radio station owner, fashion music director and globe-trotting DJ who built a creative empire where music, mentorship and media collide.", long: "Chishala Chitoshi Jr., known on stage as GeshGroove, went from defining Zambian pop culture on radio to shutting down dancefloors across four continents. One weekend he is mixing Afro House at the Zambia Independence Dinner in Atlanta, the next he is at News Cafe Randburg in Johannesburg, Katjushas Lounge in Bryanston, or running his Grown and Sexy series at spots in North London and Dallas. A broadcaster, producer, TV personality, qualified lawyer, entrepreneur and owner of Flava FM Zambia, Gesh is also the founder of The DJ Academy Zambia, a talent factory shaping the next generation of African DJs. When he is not spinning decks, he is spinning dreams into reality.", highlights: [["Radio", "Flava FM Zambia (owner)"], ["Academy", "The DJ Academy Zambia (founder)"], ["International", "Atlanta · Johannesburg · Dallas · London"], ["Background", "Broadcaster · Lawyer · Entrepreneur"]] },
 
-  femzey: { name: "Luminos DJ Femzey", img: "femzey", gallery: ["femzey"], role: "DJ · Radio & Events", handle: "@djfemzey", ig: "https://instagram.com/djfemzey", based: "Lagos, Nigeria", tags: ["Open Format", "Radio", "Events"], bio: "The Light Goddess: a dynamic Nigerian female DJ with years of experience across radio, live events and crowd engagement.", long: "Luminos DJ Femzey, known as The Light Goddess, brings energetic vibes, smooth mixes and memorable entertainment to every event she touches. With years of experience in music, entertainment and crowd engagement, she has built a reputation for reading rooms and delivering sets that keep audiences locked in, whether the brief is a radio broadcast, a club night or a private party. The name carries light and the sets carry heat.", highlights: [["Alias", "The Light Goddess"], ["Scope", "Radio · Club nights · Private events"], ["Sound", "Open format, crowd-first energy"]], draft: true },
+  femzey: { name: "Luminos DJ Femzey", img: "femzey", gallery: ["femzey"], role: "DJ · Radio & Events", handle: "@djfemzey", ig: "https://instagram.com/djfemzey", based: "Lagos, Nigeria", tags: ["Afrobeats", "Radio", "Events"], bio: "The Light Goddess: a dynamic Nigerian female DJ with years of experience across radio, live events and crowd engagement.", long: "Luminos DJ Femzey, known as The Light Goddess, brings energetic vibes, smooth mixes and memorable entertainment to every event she touches. With years of experience in music, entertainment and crowd engagement, she has built a reputation for reading rooms and delivering sets that keep audiences locked in, whether the brief is a radio broadcast, a club night or a private party. The name carries light and the sets carry heat.", highlights: [["Alias", "The Light Goddess"], ["Scope", "Radio · Club nights · Private events"], ["Sound", "Crowd-first energy, tuned to the room"]], draft: true },
 
   play: { name: "DJ Play", img: "play", gallery: ["play"], role: "DJ · Afrobeats, House & Hip-Hop", handle: "@djplay021", ig: "https://instagram.com/djplay021", based: "Lagos, Nigeria", tags: ["Afrobeats", "House", "Hip-Hop", "Old School"], bio: "A professional DJ covering the full spread of social and corporate events with a sound rooted in Afrobeats, House, Hip-Hop and old-school records.", long: "DJ Play provides a wide range of DJ services for both social and corporate events, drawing from Afrobeats, House, Hip-Hop and old-school records. The approach is professional and event-ready: understand the brief, match the crowd, and deliver a set that runs clean from open to close. For organisers looking for reliable, experienced hands on the decks, Play is a solid fit.", highlights: [["Speciality", "Social & corporate events"], ["Sound", "Afrobeats · House · Hip-Hop · Old School"]], draft: true },
 };
@@ -237,7 +237,6 @@ export const CLIENTS = [
   { name: "First Bank Nigeria", logo: "first_bank.png" },
   { name: "MTV Base", logo: "mtv_base.jpeg" },
   { name: "Bheerhugz Café", logo: "bheerhugz.png" },
-  // { name: "Trybez", logo: "tribe_lagos.jpg" },
   { name: "Africa Magic", logo: "africa-magic.jpg" },
   { name: "Apple", logo: "apple-logo.jpg" },
   { name: "BBNaija", logo: "bbnaija.jpg" },
@@ -269,7 +268,7 @@ export const CLIENTS = [
 export const PK_FACTS = [
   ["Based in", "Lagos, Nigeria · London, UK"],
   ["Roster", "21 DJs, one flat booking hub"],
-  ["Genres", "Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop · Open Format"],
+  ["Genres", "Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop"],
   ["Event types", "Festivals · Club nights · Residencies · Corporate · Private"],
   ["Reach", "Nigeria, UK, Europe, USA, Zambia"],
   ["Languages", "English · Yoruba · Pidgin"],

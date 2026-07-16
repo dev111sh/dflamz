@@ -4,7 +4,6 @@ import { ROSTER, STATS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
-import Media from "../components/Media.jsx";
 import dflamzBrand from "../assets/dflamz-brand.png";
 import Ticker from "../components/Ticker.jsx";
 import SectionHead from "../components/SectionHead.jsx";
@@ -23,14 +22,14 @@ export default function Home() {
   const [featured] = useState(() => pickRandom(ROSTER, 6));
   return (
     <>
-      <section className="hero">
+      <section className="hero hero--center">
         <div className="vinyl-bg" />
         <div className="hero__glow" />
-        <div className="hero__in">
+        <div className="hero__in hero__in--center">
           <Reveal className="hero__c">
+            <img src={dflamzBrand} alt="D'Flamz" className="hero__logo" />
             <Eyebrow n="★">Africa's Premier DJ Management Crew</Eyebrow>
-            <h1 className="hero__t">D'FLAMZ<br /><span>NATION</span></h1>
-            <p className="hero__s">Nigeria's most dynamic DJ management, training and entertainment company, building global careers and delivering world-class DJ services across venues, festivals and residencies.</p>
+            <p className="hero__s">The most dynamic DJ booking, management,and entertainment company, giving global recognition, building careers and delivering world-class DJ services across venues, festivals and residencies.</p>
             <div className="row-btns">
               <Btn lg onClick={() => navigate("/contact")}>Book a DJ</Btn>
               <Btn kind="outline" lg onClick={() => navigate("/presskit")}>Press Kit</Btn>
@@ -40,10 +39,6 @@ export default function Home() {
                 <div key={s.l} className="hero__stat"><b>{s.n}</b><span>{s.l}</span></div>
               ))}
             </div>
-          </Reveal>
-          <Reveal className="hero__media" delay={140}>
-            <Media slot="flammzy" ratio="4 / 5" alt="DJ Flammzy" className="media--glow" />
-            <div className="hero__chip"><img src={dflamzBrand} alt="" style={{ height: 16, width: "auto" }} /> Est. Lagos · London</div>
           </Reveal>
         </div>
       </section>
