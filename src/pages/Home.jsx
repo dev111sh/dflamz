@@ -4,12 +4,12 @@ import { ROSTER, STATS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
-import dflamzBrand from "../assets/dflamz-brand.png";
+import dflamzBrand from "../assets/dflamz-logo-main.png";
 import Ticker from "../components/Ticker.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
 import PartnerWall from "../components/PartnerWall.jsx";
-import ListenSection from "../components/ListenSection.jsx";
+import GalleryMarquee from "../components/GalleryMarquee.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
 function pickRandom(arr, n) {
@@ -58,10 +58,13 @@ export default function Home() {
         </div>
       </section>
 
-      <ListenSection compact />
+      <section className="section section--t">
+        <SectionHead n="02" eyebrow="Behind The Decks" title="Gallery" />
+        <GalleryMarquee />
+      </section>
 
       <section className="section">
-        <SectionHead n="02" eyebrow="Esteemed Clients" title="Who We Work With" />
+        <SectionHead n="03" eyebrow="Esteemed Clients" title="Clients (Past & Present)" />
         <PartnerWall />
       </section>
 

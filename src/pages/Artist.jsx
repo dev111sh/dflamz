@@ -6,7 +6,6 @@ import Btn from "../components/Btn.jsx";
 import Media from "../components/Media.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import Gallery from "../components/Gallery.jsx";
-import ListenSection from "../components/ListenSection.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
 export default function Artist() {
@@ -39,10 +38,10 @@ export default function Artist() {
             </div>
             <div className="row-btns">
               <Btn lg onClick={() => navigate("/contact")}>Book {p.name.replace("DJ ", "")}</Btn>
-              {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>}
-              {p.apple && <Btn kind="outline" lg href={p.apple} target="_blank" rel="noreferrer">Apple Music ↗</Btn>}
+              {/* {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>} */}
+              {/* {p.apple && <Btn kind="outline" lg href={p.apple} target="_blank" rel="noreferrer">Apple Music ↗</Btn>} */}
             </div>
-            {p.draft && <p className="draft-note">Draft bio, send final copy to replace.</p>}
+            {/* {p.draft && <p className="draft-note">Draft bio, send final copy to replace.</p>} */}
           </Reveal>
         </div>
       </section>
@@ -68,7 +67,6 @@ export default function Artist() {
         </section>
       )}
 
-      <ListenSection compact />
       <CtaBand />
     </>
   );

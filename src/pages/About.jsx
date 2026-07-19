@@ -13,8 +13,8 @@ export default function About() {
 
       <section className="section about">
         <Reveal className="about__txt">
-          <p className="lead"><strong>D'Flamz Nation</strong> is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them, no middlemen.</p>
-          <p>We train, develop and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs own the room, not just fill it with sound.</p>
+          <p className="lead"><strong>D'Flamz</strong> is a DJ booking and management collective connecting top DJs directly with the venues, festivals, brands and event planners who want them, no middlemen.</p>
+          <p>We book, represent and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs own the room and not just play songs.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
             {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) => (
@@ -23,7 +23,7 @@ export default function About() {
           </div>
         </Reveal>
         <Reveal className="about__media" delay={120}>
-          <Media slot="flammzy2" ratio="4 / 5" alt="D'Flamz Nation" />
+          {/* <Media slot="flammzy2" ratio="4 / 5" alt="D'Flamz Nation" /> */}
         </Reveal>
       </section>
 

@@ -16,10 +16,6 @@ export const LINKS = {
   ig: "https://instagram.com/dflamzz",
   igUk: "https://instagram.com/dflamzuk",
   epkPdf: "#",       // link a downloadable EPK / press kit PDF
-  soundcloud: "#",
-  mixcloud: "#",
-  spotify: "#",
-  youtube: "#",
 };
 
 export const SOCIALS = [
@@ -60,7 +56,7 @@ export const ROSTER = [
   { slug: "versatile", name: "Versatile", img: "versatile", mono: "VR", role: "Amapiano · Gqom · Bashment", tags: ["Amapiano", "Gqom", "Afro House", "Bashment"], profile: true },
   { slug: "homdiggy", name: "DJ Homdiggy", img: "homdiggy", mono: "HB", role: "Hip-Hop · Fashion · Events", tags: ["Hip-Hop", "R&B", "Afrobeats"], profile: true },
   { slug: "geshgroove", name: "DJ Geshgroove", img: "geshgroove", mono: "GG", role: "Old School R&B · Amapiano · House", tags: ["R&B", "Hip-Hop", "Amapiano", "House"], profile: true },
-  // { slug: "shardz", name: "Just Shardz", img: "shardz", mono: "JS", role: "UK House · Tribal · Afro House", tags: ["UK House", "Tribal House", "Afro House"], profile: true },
+  { slug: "lemmy", name: "DJ Lemmy", img: "lemmy", mono: "LM", role: "Afrobeats · Hip-hop · Afro House", tags: ["Afrobeats", "Hip-Hop", "Afro House"], profile: true },
   { slug: "dyslex",     name: "DysleX",               img: "dyslex",      mono: "DX", role: "Gqom · AfroTech · Slap House",     tags: ["Gqom", "3-Step", "AfroTech", "Slap House"],   profile: true },
   { slug: "maff",       name: "Deejay Maff",          img: "maff",      mono: "MF", role: "All Genres · Afrobeats",         tags: ["Afrobeats", "Amapiano"],                   profile: true },
   { slug: "femzey", name: "Luminos DJ Femzey", img: "femzey", mono: "FE", role: "Afrobeats · Radio · Events", tags: ["Afrobeats", "Radio", "Events"], profile: true },
@@ -176,7 +172,7 @@ export const PROFILES = {
 
   yilmaz: { name: "DJ Yilmaz Sumbul", img: "yilmaz", gallery: ["yilmaz"], role: "DJ · Turkish House, Arabic House & Global Dance", handle: "@djyilmazsumbul", ig: "https://instagram.com/djyilmazsumbul", based: "London, UK", tags: ["Turkish House", "Arabic House", "Afro House", "Indie House", "Pop"], bio: "A London-based DJ whose sets pull from Turkish, Arabic and Afro House traditions, delivering a global sound most selectors never attempt.", long: "DJ Yilmaz Sumbul brings international experience across club nights, private events and large-scale concert productions. His sets thread Turkish House, Arabic House, Afro House, Indie House, Pop and global dance music into a premium listening experience that works for diverse, international audiences. For events that need a selector who can read a cosmopolitan room and deliver something outside the usual rotation, Yilmaz is that booking.", highlights: [["Based", "London, UK"], ["Scope", "Club nights · Private events · Concert productions"], ["Sound", "Turkish, Arabic & Afro House fusion"]] },
 
-  // shardz: { name: "Just Shardz", img: "shardz", gallery: ["shardz"], role: "DJ · UK House, Tribal & Afro House", handle: "@justshardz", ig: "https://instagram.com/justshardz", based: "London, UK", tags: ["UK House", "Tribal House", "Soulful House", "Afro House"], bio: "A London selector on a mission to bring house music back to the mainstream, with Caribbean, African and old-school flavours woven through every set.", long: "JustShardz leaves her heart on the decks and her soul in the music, playing across UK house, tribal, soulful and Afro house with hints of Caribbean, African and old-school sounds. She has played Pop Brixton, One Hundred Shoreditch, BRIX LDN, Market House, Queen of South, BoxPark and Heaven, and has made radio appearances on Reprezent Radio, Brixton Radio and BBC 1Xtra. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside Versatile, and runs Diaspora Nights, her own events brand with a growing catalogue of sold-out parties. The mission is simple: rebirth house music, bring back its commerciality, and add some musical seasoning.", highlights: [["Venues", "Pop Brixton · One Hundred Shoreditch · Heaven"], ["Radio", "BBC 1Xtra · Reprezent Radio · Brixton Radio"], ["Events", "Diaspora Nights (founder)"], ["Style", "UK House with Caribbean & African roots"]] },
+  lemmy: { name: "DJ Lemmy", img: "lemmy", gallery: ["lemmy"], role: "DJ · Afrobeats, Hip Hop, Dance & Afro House", handle: "@dj_lemmy", ig: "https://instagram.com/dj_lemmy", based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip Hop", "Dance", "Afro House"], bio: "DJ Lemmy makes every genre sound mainstream and the way his performances make people lose composure in every venue he plays.", long: "Having shared a stage with the best of the best, DJ Lemmy's sound always stands out and his sets make audiences dance to all flavours of music, playing across Afrobeats, tribal, street and Afro house with hints of Hip hop, Pop and old-school sounds. His mission is simple: reinvent African music, bring back its commerciality, and add some seasoning.", highlights: [["Style", "Dance, Streets and House founded in African sounds"]] },
 
   versatile: { name: "Versatile", img: "versatile", gallery: ["versatile"], role: "DJ · Amapiano, Gqom & Afro House", handle: "@versatile_les", ig: "https://instagram.com/versatile_les", based: "London, UK", tags: ["Amapiano", "Gqom", "Afro House", "Tribal House", "Bashment", "Soca"], bio: "London-based and true to the name, blending African and Caribbean undertones across every genre she touches.", long: "Versatile plays a wide spread of sounds and brings heat to every deck: Amapiano, Gqom, Afro House, Tribal House, Bashment and Soca, all blended with African and Caribbean influences that give the sets a distinct flavour. With four-plus years in the game, she has played Notting Hill Carnival, Heaven, Tape London, BoxPark, Pop Brixton and international venues in Nairobi. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside JustShardz, and has done guest mixes on Sound Source Radio, BBC 1Xtra and Brixton Radio. You never know exactly what to expect, but the energy is always accounted for.", highlights: [["Festival", "Notting Hill Carnival"], ["Venues", "Tape London · Heaven · Pop Brixton"], ["International", "Nairobi, Kenya"], ["Radio", "BBC 1Xtra · Reprezent Radio"]] },
 
@@ -217,15 +213,22 @@ export const VALUES = [
 
 /* Brand-level journey (collective, not centred on any one DJ) */
 export const MILESTONES = [
-  { y: "2016", t: "RocktoberFest Official DJ", d: "D'Flamz becomes a fixture at one of Nigeria's biggest rock festivals, a run held through 2019." },
+  { y: "2013", t: "Bheerhugz Cafe Residency", d: "12 years DJ residency at their iconic Lagos locations." },
+  { y: "2016", t: "Rocktoberfest", d: "Oragnized and sponsored the Rocktoberfest 2016 edition" },
+  { y: "2020", t: "Pepsi DJ Competition", d: "D'Flamz DJs were winners and runner up at the Pepsi DJ competition first and second edition" },
   { y: "2021", t: "BPM DJ Festival, Lagos", d: "A debut festival at Wave Beach. 10 DJs, 5,000+ in the crowd, noon to 3am." },
+  { y: "2022", t: "The Beach House", d: "Played one of the biggest beach parties in the world." },
   { y: "2023", t: "Best DJ Crew, Rave Award", d: "The collective takes home Best DJ Crew." },
-  { y: "2024", t: "VICI Lagos Residency", d: "A premier Lagos residency secured for the roster." },
   { y: "2025", t: "Central London Sound Run", d: "The D'Flamz sound lands in Soho, from Greek Street to Mayfair." },
 ];
 
 /* Clients as objects so a real logo can swap in later (logo:null → styled name card) */
 export const CLIENTS = [
+  { name: "Mavin", logo: "mavin-records.jpg" },
+  { name: "Marriott", logo: "marriott.png" },
+  { name: "Bheerhugz Café", logo: "bheerhugz.png" },
+  { name: "Enish", logo: "enish-nigerian-restaurant.jpg" },
+  { name: "MTV Base", logo: "mtv_base.jpeg" },
   { name: "Kiss FM Lagos 98.9", logo: "kiss_fm.png" },
   { name: "City 105.1 FM", logo: "city_fm.png" },
   { name: "Vybz FM 94.5", logo: "vybz_fm.png" },
@@ -233,10 +236,7 @@ export const CLIENTS = [
   { name: "VICI Lagos", logo: "vici.png" },
   { name: "Wave Beach", logo: "wave_beach.png" },
   { name: "The Artisan Lounge", logo: "artisan.jpg" },
-  { name: "Zun-Paradise Lounge", logo: "zun_paradise.jpg" },
   { name: "First Bank Nigeria", logo: "first_bank.png" },
-  { name: "MTV Base", logo: "mtv_base.jpeg" },
-  { name: "Bheerhugz Café", logo: "bheerhugz.png" },
   { name: "Africa Magic", logo: "africa-magic.jpg" },
   { name: "Apple", logo: "apple-logo.jpg" },
   { name: "BBNaija", logo: "bbnaija.jpg" },
@@ -245,12 +245,10 @@ export const CLIENTS = [
   { name: "CR1 Croydon", logo: "cr1-croydon.png" },
   { name: "Danfo Bistro", logo: "danfo-bistro.png" },
   { name: "Eastcheap Records", logo: "eastcheap-records.png" },
-  { name: "Enish", logo: "enish-nigerian-restaurant.jpg" },
   { name: "Fish Farm Gbagada", logo: "fish-farm-gbagada.png" },
   { name: "Hennessy", logo: "hennessy.png" },
   { name: "Jaks Mayfair", logo: "jaks-mayfair.png" },
   { name: "Mainland Block Party", logo: "mainland-block-party.png" },
-  { name: "Marriott", logo: "marriott.png" },
   { name: "Northcote Records", logo: "northcote-records-logo.jpg" },
   { name: "Old Street Records", logo: "old-street-records.png" },
   { name: "Rave TV", logo: "rave-tv.png" },

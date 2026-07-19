@@ -7,7 +7,6 @@ import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
 import PartnerWall from "../components/PartnerWall.jsx";
 import Gallery from "../components/Gallery.jsx";
-import ListenSection from "../components/ListenSection.jsx";
 
 export default function PressKit() {
   const navigate = useNavigate();
@@ -54,7 +53,7 @@ export default function PressKit() {
             <span className="pk-press__h">Selected recognition</span>
             <ul>
               <li>Best DJ Crew, Rave Award (2023)</li>
-              <li>Headies Rookie of the Year, DJ Flammzy (2014)</li>
+              <li>Headies Rookie of the Year with Reekado Banks (2014)</li>
               <li>Award for Excellence, Premier Records (2024)</li>
             </ul>
           </div>
@@ -80,8 +79,6 @@ export default function PressKit() {
         <SectionHead n="05" eyebrow="In The Booth" title="Gallery" />
         <Gallery slots={["flammzy", "flammzy2", "tonik", "scan", "famzy", "shawn"]} />
       </section>
-
-      <ListenSection compact />
 
       <section className="section section--t">
         <Reveal className="pk-contact">
