@@ -47,7 +47,7 @@ export default function Home() {
 
       <section className="section">
         <SectionHead
-          n="01" eyebrow="Our DJs" title="Gang of DJs"
+          n="01" eyebrow="Our DJs" title=""
           action={<button className="larrow" onClick={() => navigate("/gangofdjs")}>See all →</button>}
         />
         <div className="roster">
