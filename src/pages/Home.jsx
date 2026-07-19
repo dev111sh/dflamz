@@ -4,7 +4,7 @@ import { ROSTER, STATS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
-import dflamzBrand from "../assets/dflamz-logo-main.png";
+import dflamzBrand from "../assets/Dflamz-logo-main.png";
 import Ticker from "../components/Ticker.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
