@@ -194,7 +194,7 @@ export const SERVICES = [
   { n: "02", t: "DJ Academy & Training", d: "Our academy develops the next generation, from technical mixing fundamentals to stage presence, branding and long-term career development." },
   { n: "03", t: "Event Production & Festivals", d: "We build events from concept to execution. Our BPM DJ Festival drew 5,000+ in its debut, and we know how to build a moment that lasts." },
   { n: "04", t: "Venue Residencies", d: "Ongoing partnerships with bars, lounges, restaurants and hotels, matched with the right resident to keep guests coming back." },
-  { n: "05", t: "Music Promotion", d: "Amplify your sound. We plug into our radio and media network, from City 105.1 to Kiss FM Lagos and Beat FM London, to push music where it needs to be heard." },
+  { n: "05", t: "Music Promotion", d: "Amplify your sound. We plug into our network where we have access to over 500 DJ playlists all over the world, to push music where it needs to be heard." },
   { n: "06", t: "Brand & Sponsorship", d: "Partner with D'Flamz Nation to reach Lagos and London entertainment audiences through festival sponsorships, branded residencies and media integration." },
 ];
 
@@ -265,10 +265,10 @@ export const CLIENTS = [
 
 export const PK_FACTS = [
   ["Based in", "Lagos, Nigeria · London, UK"],
-  ["Roster", "21 DJs, one flat booking hub"],
-  ["Genres", "Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop"],
-  ["Event types", "Festivals · Club nights · Residencies · Corporate · Private"],
-  ["Reach", "Nigeria, UK, Europe, USA, Zambia"],
+  ["Roster", "Over 500 DJs all over the world, one flat booking hub"],
+  ["Genres", "Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop, Global Sound · Old School · Pop · Dancehall · Reggae · R&B · Soul · Electronic · Dub"],
+  ["Event types", "Festivals · Club nights · Club residencies · Corporate · Private · Weddings · Brunches · Day parties · Concerts · Brand activations · Launches · Fashion shows · Radio · Tours · International DJ bookings"],
+  ["Reach", "Nigeria, UK, Europe, USA, South Africa, Zambia"],
   ["Languages", "English · Yoruba · Pidgin"],
 ];
 
