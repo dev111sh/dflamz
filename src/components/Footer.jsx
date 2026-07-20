@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { LINKS, SOCIALS } from "../data/site.js";
-import dflamzBrand from "../assets/dflamz-brand.png";
+import dflamzBrand from "../assets/Dflamz-logo-main.png";
 
 const NAV_LINKS = [
   ["/", "Home"],
