@@ -66,7 +66,7 @@ export default function PressKit() {
           action={<button className="larrow" onClick={() => navigate("/gangofdjs")}>Full gang →</button>}
         />
         <div className="roster">
-          {ROSTER.slice(0, 4).map((dj, i) => <RosterCard key={i} dj={dj} />)}
+          {ROSTER.slice(0, 6).map((dj, i) => <RosterCard key={i} dj={dj} />)}
         </div>
       </section>
 
