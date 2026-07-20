@@ -157,8 +157,8 @@ export const PROFILES = {
     role: "DJ · Amapiano & Afro House", handle: "@djmaf_classic", ig: "https://instagram.com/djmaf_classic",
     based: "Lagos, Nigeria", tags: ["Amapiano", "Afro House"],
     bio: "An SA-based Nigerian DJ who fuses genres across dancefloors and plays whatever the moment needs.",
-    long: "Maff is a versatile selector who moves across genres rather than boxing himself into one lane, ready to swing a set wherever the crowd takes it. He appears on the GSS Riddim record alongside DJ Flammzy and Vibemaster JD, a link that places him in company with the wider D'Flamz circle. For a party that wants range over a single sound, Maff is built for exactly that.",
-    highlights: [["Release", "GSS Riddim (with DJ Flammzy & Vibemaster JD)"]], draft: true,
+    long: "Maff is a versatile selector who moves across genres rather than boxing himself into one lane, ready to swing a set wherever the crowd takes it.",
+    highlights: [["Collab", "GSS Riddim (with DJ Flammzy & Vibemaster JD)"]], draft: true,
   },
   miky: {
     name: "Unstoppable DjMiky", img: "miky", gallery: ["miky"],
@@ -172,7 +172,7 @@ export const PROFILES = {
 
   yilmaz: { name: "DJ Yilmaz Sumbul", img: "yilmaz", gallery: ["yilmaz"], role: "DJ · Turkish House, Arabic House & Global Dance", handle: "@djyilmazsumbul", ig: "https://instagram.com/djyilmazsumbul", based: "London, UK", tags: ["Turkish House", "Arabic House", "Afro House", "Indie House", "Pop"], bio: "A London-based DJ whose sets pull from Turkish, Arabic and Afro House traditions, delivering a global sound most selectors never attempt.", long: "DJ Yilmaz Sumbul brings international experience across club nights, private events and large-scale concert productions. His sets thread Turkish House, Arabic House, Afro House, Indie House, Pop and global dance music into a premium listening experience that works for diverse, international audiences. For events that need a selector who can read a cosmopolitan room and deliver something outside the usual rotation, Yilmaz is that booking.", highlights: [["Based", "London, UK"], ["Scope", "Club nights · Private events · Concert productions"], ["Sound", "Turkish, Arabic & Afro House fusion"]] },
 
-  lemmy: { name: "DJ Lemmy", img: "lemmy", gallery: ["lemmy"], role: "DJ · Afrobeats, Hip Hop, Dance & Afro House", handle: "@dj_lemmy", ig: "https://instagram.com/dj_lemmy", based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip Hop", "Dance", "Afro House"], bio: "DJ Lemmy makes every genre sound mainstream and the way his performances make people lose composure in every venue he plays.", long: "Having shared a stage with the best of the best, DJ Lemmy's sound always stands out and his sets make audiences dance to all flavours of music, playing across Afrobeats, tribal, street and Afro house with hints of Hip hop, Pop and old-school sounds. His mission is simple: reinvent African music, bring back its commerciality, and add some seasoning.", highlights: [["Style", "Dance, Streets and House founded in African sounds"]] },
+  lemmy: { name: "DJ Lemmy", img: "lemmy", gallery: ["lemmy"], role: "DJ · Afrobeats, Hip Hop, Dance & Afro House", handle: "@dj_lemmy", ig: "https://instagram.com/dj_lemmy", based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip Hop", "Dance", "Afro House"], bio: "DJ Lemmy makes every genre sound mainstream and the way his performances make people lose composure in every venue he plays.", long: "Having shared a stage with the best of the best, DJ Lemmy's sound always stands out and his sets make audiences dance to all flavours of music, playing across Afrobeats, tribal, street and Afro house with hints of Hip hop, Pop and old-school sounds. His mission is simple: reinvent African music, bring back its commerciality, and add some seasoning. He has done some collaborations and his single Zekethe featuring Amapiano superstar Jobe London made waves.", highlights: [["Residency", "Wakame Asian Kitchen" ], ["Style", "Dance, Streets and House founded in African sounds"], ["Collab", "Zekethe featuring Jobe London"]] },
 
   versatile: { name: "Versatile", img: "versatile", gallery: ["versatile"], role: "DJ · Amapiano, Gqom & Afro House", handle: "@versatile_les", ig: "https://instagram.com/versatile_les", based: "London, UK", tags: ["Amapiano", "Gqom", "Afro House", "Tribal House", "Bashment", "Soca"], bio: "London-based and true to the name, blending African and Caribbean undertones across every genre she touches.", long: "Versatile plays a wide spread of sounds and brings heat to every deck: Amapiano, Gqom, Afro House, Tribal House, Bashment and Soca, all blended with African and Caribbean influences that give the sets a distinct flavour. With four-plus years in the game, she has played Notting Hill Carnival, Heaven, Tape London, BoxPark, Pop Brixton and international venues in Nairobi. She co-hosts a Saturday bi-weekly show on Reprezent Radio alongside JustShardz, and has done guest mixes on Sound Source Radio, BBC 1Xtra and Brixton Radio. You never know exactly what to expect, but the energy is always accounted for.", highlights: [["Festival", "Notting Hill Carnival"], ["Venues", "Tape London · Heaven · Pop Brixton"], ["International", "Nairobi, Kenya"], ["Radio", "BBC 1Xtra · Reprezent Radio"]] },
 
@@ -258,7 +258,7 @@ export const CLIENTS = [
   { name: "Simmons Bar", logo: "simmons-bar.png" },
   { name: "Top FM 99.9", logo: "top-fm-99-9.jpg" },
   { name: "Tune Afrique", logo: "tune-afrique.png" },
-  { name: "Tunnel Vision Aldgate", logo: "tunnel-vision-aldgate.jpg" },
+  { name: "Tunnel Vision Aldgate", logo: "tunnel-vision-aldgate.png" },
   { name: "Venn Street Records", logo: "venn-street-records.jpg" },
   { name: "Wakanow", logo: "wakanow.png" },
 ];
