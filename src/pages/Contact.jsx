@@ -12,32 +12,48 @@ import PageHead from "../components/PageHead.jsx";
 const DJ_NO_PREF = "No preference / recommend one";
 const DJ_OPTIONS = [DJ_NO_PREF, ...ROSTER.map(d => d.name)];
 
-function mailto(subject, fields) {
-  const body = fields
-    .map(([k, v]) => `${k}: ${v || "(not provided)"}`)
-    .join("\n");
-  window.location.href =
-    `mailto:${LINKS.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-}
+const BOOK_DEFAULTS = {
+  name: "", email: "", phone: "", date: "",
+  eventType: BOOKING_EVENT_TYPES[0], crowd: BOOKING_CROWD_SIZES[0],
+  budget: BOOKING_BUDGETS[0], equipment: BOOKING_EQUIPMENT[0],
+  dj: DJ_NO_PREF, venue: "", details: "",
+};
 
 function BookForm() {
-  const [f, setF] = useState({
-    name: "", email: "", phone: "", date: "",
-    eventType: BOOKING_EVENT_TYPES[0], crowd: BOOKING_CROWD_SIZES[0],
-    budget: BOOKING_BUDGETS[0], equipment: BOOKING_EQUIPMENT[0],
-    dj: DJ_NO_PREF, venue: "", details: "",
-  });
+  const [f, setF] = useState(BOOK_DEFAULTS);
+  const [status, setStatus] = useState("idle");
   const set = k => e => setF(s => ({ ...s, [k]: e.target.value }));
 
-  const send = () => {
-    const subject = `DJ Booking: ${f.eventType}${f.name ? ` - ${f.name}` : ""}`;
-    mailto(subject, [
-      ["Name", f.name], ["Email", f.email], ["Phone", f.phone],
-      ["Event date", f.date], ["Event type", f.eventType], ["Crowd size", f.crowd],
-      ["Budget", f.budget], ["Sound/mixing gear needed", f.equipment],
-      ["Which DJ", f.dj], ["Venue / location", f.venue], ["Details", f.details],
-    ]);
+  const handleSubmit = async () => {
+    setStatus("sending");
+    try {
+      const res = await fetch(LINKS.formBooking, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: f.name, email: f.email, phone: f.phone, eventDate: f.date,
+          eventType: f.eventType, crowdSize: f.crowd, budget: f.budget,
+          equipment: f.equipment, dj: f.dj, venue: f.venue, details: f.details,
+        }),
+      });
+      if (res.ok) {
+        setStatus("sent");
+        setF(BOOK_DEFAULTS);
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
+
+  if (status === "sent") {
+    return (
+      <Reveal className="form" delay={100}>
+        <p>Your booking request has been sent. We'll be in touch shortly.</p>
+      </Reveal>
+    );
+  }
 
   return (
     <Reveal className="form" delay={100}>
@@ -95,21 +111,51 @@ function BookForm() {
         <span>Details</span>
         <textarea rows={5} value={f.details} onChange={set("details")} placeholder="Tell us about your event, the vibe you want and anything else we should know…" />
       </label>
-      <Btn lg block onClick={send}>Send Booking Request →</Btn>
+      <Btn lg block onClick={handleSubmit} disabled={status === "sending"}>
+        {status === "sending" ? "Sending..." : "Submit Booking →"}
+      </Btn>
+      {status === "error" && (
+        <p className="form__err">Something went wrong. Please try again or email us directly at {LINKS.email}.</p>
+      )}
     </Reveal>
   );
 }
 
+const ENQUIRY_DEFAULTS = { name: "", email: "", subject: ENQUIRY_SUBJECTS[0], message: "" };
+
 function EnquiryForm() {
-  const [f, setF] = useState({ name: "", email: "", subject: ENQUIRY_SUBJECTS[0], message: "" });
+  const [f, setF] = useState(ENQUIRY_DEFAULTS);
+  const [status, setStatus] = useState("idle");
   const set = k => e => setF(s => ({ ...s, [k]: e.target.value }));
 
-  const send = () => {
-    const subject = `Enquiry: ${f.subject}${f.name ? ` - ${f.name}` : ""}`;
-    mailto(subject, [
-      ["Name", f.name], ["Email", f.email], ["Subject", f.subject], ["Message", f.message],
-    ]);
+  const handleSubmit = async () => {
+    setStatus("sending");
+    try {
+      const res = await fetch(LINKS.formEnquiry, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: f.name, email: f.email, subject: f.subject, message: f.message,
+        }),
+      });
+      if (res.ok) {
+        setStatus("sent");
+        setF(ENQUIRY_DEFAULTS);
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
+
+  if (status === "sent") {
+    return (
+      <Reveal className="form" delay={100}>
+        <p>Your enquiry has been sent. We'll be in touch shortly.</p>
+      </Reveal>
+    );
+  }
 
   return (
     <Reveal className="form" delay={100}>
@@ -131,7 +177,12 @@ function EnquiryForm() {
         <span>Message</span>
         <textarea rows={5} value={f.message} onChange={set("message")} placeholder="How can we help?" />
       </label>
-      <Btn lg block onClick={send}>Send Enquiry →</Btn>
+      <Btn lg block onClick={handleSubmit} disabled={status === "sending"}>
+        {status === "sending" ? "Sending..." : "Send Enquiry →"}
+      </Btn>
+      {status === "error" && (
+        <p className="form__err">Something went wrong. Please try again or email us directly at {LINKS.email}.</p>
+      )}
     </Reveal>
   );
 }

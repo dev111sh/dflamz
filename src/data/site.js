@@ -16,6 +16,9 @@ export const LINKS = {
   ig: "https://instagram.com/dflamzz",
   igUk: "https://instagram.com/dflamzuk",
   epkPdf: "#",       // link a downloadable EPK / press kit PDF
+  // Replace with your Formspree endpoints, e.g. "https://formspree.io/f/xxxxabcd"
+  formBooking: "https://formspree.io/f/mlgqwvpb",
+  formEnquiry: "https://formspree.io/f/mzdnawjv",
 };
 
 export const SOCIALS = [
@@ -82,17 +85,17 @@ export const PROFILES = {
   },
   tonik: {
     name: "Tonik", img: "tonik", gallery: ["tonik"],
-    role: "International DJ · Afro House", handle: "@glassoftonik", ig: "https://instagram.com/glassoftonik",
-    based: "Lagos · NY USA  ", tags: ["AfroBeats", "House", "Old School"],
-    bio: "An international DJ who reads a floor in seconds and never lets the energy sit still.",
-    long: "Tonik works across Afrobeats, afro house and different global genres that keep people moving, shifting between them without breaking the flow. The sets travel well, which is why the bookings do too, from private rooms to peak-time club slots. Give Tonik a crowd and a brief, and the read is quick and the delivery is clean.",
-    highlights: [["Residency", "Lagos Marriott Hotel ·  Danfo Bistro"], ], draft: true,
+    role: "International DJ · Afrobeats, House & Hip-Hop", handle: "@glassoftonik", ig: "https://instagram.com/glassoftonik",
+    based: "Lagos · NY USA  ", tags: ["AfroBeats", "House", "R&B", "Hip-Hop", "Dancehall", "Classic Hits", "International Sounds"],
+    bio: "As co-owner of D'Flamz, TONIK has established herself as one of the most dynamic DJs on the scene since 2019. She delivers expertly curated sets that fuse Afrobeats, Hip-Hop, R&B, House, Dancehall, classic hits, and international sounds into unforgettable musical experiences.",
+    long: "Having performed at festivals, clubs, weddings, radio shows, lounges, and corporate events across Nigeria, the United Kingdom, and the United States, TONIK has built a reputation for connecting with diverse audiences whether performing for an intimate gathering or a packed venue, she brings passion, precision, and a unique ability to turn every event into an unforgettable celebration.",
+    highlights: [["Residency", "Lagos Marriott Hotel ·  Danfo Bistro Ikoyi · Wakame Asian Kitchen"], ["Festival", "The BPM DJ Festival 2022"], ["Festival", "The Beach House Festival"], ["Radio", "98.9 Kiss FM · Boston 87.7fm · Afrosurge Radio"], ["Events", "First bank of Nigeria Ltd · Alat by Wema Bank "], ["Tours", "UK · USA"]], draft: true,
   },
   shawn: {
     name: "DJ Shawn", img: "shawn", gallery: ["shawn"],
     role: "DJ · Afrobeats, Amapiano & House", handle: "@deejayshawn_", ig: "https://instagram.com/deejayshawn_",
     based: "Lagos, Nigeria", tags: ["Afrobeats", "Amapiano", "Deep House", "Dancehall", "Hip-Hop", "EDM"],
-    bio: "A Lagos DJ who came up through radio and residencies and now runs floors from Ikoyi to Nairobi.",
+    bio: "An international DJ from Lagos who came up through radio and residencies and now runs floors from Ikoyi to Nairobi.",
     long: "DJ Shawn started on the decks in 2012, joining D'Flamz and landing residencies at Lagos spots like W Bar in Ikoyi and a slot on Rhythm 93.7 FM. He plays the city's premier nightlife rooms, from Obi's House to Lulu Beach, and has taken the brand on the road with African club tours through Nairobi and dates in the UK. Across Afrobeats, Amapiano, deep house, dancehall, Hip-Hop and Pop, he covers whatever a night demands.",
     highlights: [["Radio", "City FM 105 · Rhythm 93.7"], ["Residency", "W Bar, Ikoyi · Vaniti Lagos"], ["Nightlife", "Obi's House", "Pitstop Village"], ["Worked with", "Falz · Pheelz · L.A.X · Magnito"], ["Tours", "Nairobi · UK"]],
   },
@@ -162,7 +165,7 @@ export const PROFILES = {
   },
   miky: {
     name: "Unstoppable DjMiky", img: "miky", gallery: ["miky"],
-    role: "DJ · Afrobeats, Pop & Dance", handle: "@unstoppabledjmiky_fanspage", ig: "https://instagram.com/unstoppabledjmiky_fanspage",
+    role: "DJ · Afrobeats, Pop & Dance", handle: "@unstoppabledjmiky6", ig: "https://instagram.com/unstoppabledjmiky6",
     based: "Lagos, Nigeria", tags: ["Afrobeats", "Pop", "Dance"],
     bio: "The life of the party and the reason the floor stays full.",
     long: "DjMiky plays for the room first, leaning on Afrobeats, pop and dance records with the read of a DJ who knows how to keep a crowd on its feet. The style is high-energy and unfussy, built to keep a party moving from the first record to the last. For an event that needs to feel alive start to finish, this is a safe pair of hands.",
