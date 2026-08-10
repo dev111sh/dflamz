@@ -1020,7 +1020,7 @@ export const ALLIES = [
     blurb:
       'The governing body responsible for the management of DJing in Nigeria, providing quality services to DJs nationwide.',
     long: "The Nigerian DJ (NDJ) is the governing body responsible for the management of DJing in Nigeria, providing quality services to all the DJs in Nigeria. Our partnership connects the D'Flamz roster to the wider professional standards and network of the Nigerian DJ community.",
-    instagram: null,
+    instagram: "https://www.instagram.com/nigeriandj",
     website: null,
   },
   {
