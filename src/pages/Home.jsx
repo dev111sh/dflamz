@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useMemo, useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { ROSTER, STATS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
@@ -9,19 +10,35 @@ import Ticker from "../components/Ticker.jsx";
 import SectionHead from "../components/SectionHead.jsx";
 import RosterCard from "../components/RosterCard.jsx";
 import PartnerWall from "../components/PartnerWall.jsx";
+import AlliesSection from "../components/AlliesSection.jsx";
 import GalleryMarquee from "../components/GalleryMarquee.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
-function pickRandom(arr, n) {
-  const shuffled = [...arr].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, n);
-}
+const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
+
+/* Mirrors the .roster grid breakpoints in global.css (980px / 600px).
+   2 columns fits 4 cards as a clean 2x2; 1 and 3 columns both fill exactly on 3. */
+const columnsFor = (w) => (w <= 600 ? 1 : w <= 980 ? 2 : 3);
+const countFor = (cols) => (cols === 2 ? 4 : 3);
+const readCount = () => countFor(columnsFor(window.innerWidth));
 
 export default function Home() {
   const navigate = useNavigate();
-  const [featured] = useState(() => pickRandom(ROSTER, 3));
+  const [count, setCount] = useState(3);
+  useEffect(() => {
+    const onResize = () => setCount(readCount());
+    onResize();
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+  const pool = useMemo(() => shuffle(ROSTER), []);
+  const featured = pool.slice(0, count);
   return (
     <>
+      <Helmet>
+        <title>D'Flamz Nation | Africa's Premier DJ Management Crew</title>
+        <meta name="description" content="D'Flamz Nation books, manages and represents top DJs across Nigeria, the UK and beyond. Direct booking for venues, festivals and residencies, no middlemen." />
+      </Helmet>
       <section className="hero hero--center">
         <div className="vinyl-bg" />
         <div className="hero__glow" />
@@ -32,7 +49,7 @@ export default function Home() {
             <p className="hero__s">The most dynamic DJ booking, management,and entertainment company, giving global recognition, building careers and delivering world-class DJ services across venues, festivals and residencies.</p>
             <div className="row-btns">
               <Btn lg onClick={() => navigate("/contact")}>Book a DJ</Btn>
-              <Btn kind="outline" lg onClick={() => navigate("/presskit")}>Press Kit</Btn>
+              <Btn kind="outline" lg onClick={() => navigate("/projects")}>View Projects</Btn>
             </div>
             <div className="hero__meta">
               {STATS.map(s => (
@@ -67,6 +84,8 @@ export default function Home() {
         <SectionHead n="03" eyebrow="Esteemed Clients" title="Clients (Past & Present)" />
         <PartnerWall />
       </section>
+
+      <AlliesSection />
 
       <CtaBand />
     </>

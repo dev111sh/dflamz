@@ -13,7 +13,7 @@ export default function CtaBand() {
       <p className="cta__p">From a single night to a full residency, tell us the brief and we bring the fire.</p>
       <div className="row-btns">
         <Btn lg onClick={() => navigate("/contact")}>Book a DJ</Btn>
-        <Btn kind="outline" lg onClick={() => navigate("/presskit")}>View Press Kit</Btn>
+        <Btn kind="outline" lg onClick={() => navigate("/projects")}>View Projects</Btn>
       </div>
     </Reveal>
   );

@@ -1,10 +1,13 @@
 import { useNavigate } from "react-router-dom";
+import InstagramIcon from "./InstagramIcon.jsx";
 import Reveal from "./Reveal.jsx";
 import Media from "./Media.jsx";
+import { PROFILES } from "../data/site.js";
 
 export default function RosterCard({ dj }) {
   const navigate = useNavigate();
   const clickable = dj.profile;
+  const ig = PROFILES[dj.slug]?.ig;
   const onClick = () => { if (dj.profile) navigate("/dj/" + dj.slug); };
   return (
     <Reveal className="rc-wrap">
@@ -22,7 +25,21 @@ export default function RosterCard({ dj }) {
           <div className="tags">
             {dj.tags.map(t => <span key={t} className="tag">{t}</span>)}
           </div>
-          {clickable && <span className="rc__view">View profile →</span>}
+          <div className="rc__foot">
+            {clickable && <span className="rc__view">View profile →</span>}
+            {ig && (
+              <a
+                className="rc__ig"
+                href={ig}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`${dj.name} on Instagram`}
+                onClick={e => e.stopPropagation()}
+              >
+                <InstagramIcon size={15} />
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </Reveal>

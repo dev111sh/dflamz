@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { ROSTER } from "../data/site.js";
 import gangLogo from "../assets/gang-of-djs-logo.png";
 import Reveal from "../components/Reveal.jsx";
@@ -9,6 +10,10 @@ import CtaBand from "../components/CtaBand.jsx";
 export default function GangOfDJs() {
   return (
     <>
+      <Helmet>
+        <title>Gang of DJs | D'Flamz Nation — Book a DJ Direct</title>
+        <meta name="description" content="Browse D'Flamz Nation's resident roster and extended Gang of DJs network across Lagos, London and beyond. Afrobeats, Amapiano, House, EDM and more." />
+      </Helmet>
       <section className="phead">
         <Reveal>
           <Eyebrow n="The Crew"> </Eyebrow>

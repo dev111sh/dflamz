@@ -22,5 +22,19 @@ import homdiggy from "./homdiggy.jpg";
 import geshgroove from "./geshgroove.jpg";
 import femzey from "./femzey.jpg";
 import play from "./play.jpg";
+import kiss from "./kiss.jpg";
+import xray from "./xray.jpg";
+import karlos from "./karlos.jpg";
+import gaga from "./gaga.jpg";
 
-export const IMAGES = { flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play };
+import evGlobalSoundLondon from "./events/global-sound-london.jpg";
+import pjGlobalSound from "./projects/global-sound.jpg";
+import pjBpm from "./projects/bpm-festival.jpg";
+import pjKissAcademy from "./projects/kiss-dj-academy.jpg";
+import pjMavin from "./projects/mavin-campaign.jpg";
+import pjRaveAward from "./projects/rave-tv-award.jpg";
+import pjBeachHouse from "./projects/beach-house.jpg";
+import pjRadioRun from "./projects/radio-run.jpg";
+import pjUkTour from "./projects/uk-tour.jpg";
+
+export const IMAGES = { evGlobalSoundLondon, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga , pjBpm, pjKissAcademy, pjMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour };

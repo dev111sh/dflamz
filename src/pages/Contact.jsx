@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import {
   LINKS, SOCIALS, ROSTER,
   BOOKING_EVENT_TYPES, BOOKING_CROWD_SIZES, BOOKING_BUDGETS, BOOKING_EQUIPMENT,
-  ENQUIRY_SUBJECTS,
+  ENQUIRY_SUBJECTS, REFERRAL_SOURCES,
 } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Btn from "../components/Btn.jsx";
 import PageHead from "../components/PageHead.jsx";
+import { getReferral } from "../hooks/useReferral.js";
 
 const DJ_NO_PREF = "No preference / recommend one";
 const DJ_OPTIONS = [DJ_NO_PREF, ...ROSTER.map(d => d.name)];
@@ -16,7 +18,7 @@ const BOOK_DEFAULTS = {
   name: "", email: "", phone: "", date: "",
   eventType: BOOKING_EVENT_TYPES[0], crowd: BOOKING_CROWD_SIZES[0],
   budget: BOOKING_BUDGETS[0], equipment: BOOKING_EQUIPMENT[0],
-  dj: DJ_NO_PREF, venue: "", details: "",
+  dj: DJ_NO_PREF, venue: "", details: "", referralSource: REFERRAL_SOURCES[0],
 };
 
 function BookForm() {
@@ -34,6 +36,7 @@ function BookForm() {
           name: f.name, email: f.email, phone: f.phone, eventDate: f.date,
           eventType: f.eventType, crowdSize: f.crowd, budget: f.budget,
           equipment: f.equipment, dj: f.dj, venue: f.venue, details: f.details,
+          referralSource: f.referralSource, referralCode: getReferral() || "none",
         }),
       });
       if (res.ok) {
@@ -108,6 +111,12 @@ function BookForm() {
         <input value={f.venue} onChange={set("venue")} placeholder="Venue, city or address" />
       </label>
       <label className="fld">
+        <span>How did you hear about us?</span>
+        <select value={f.referralSource} onChange={set("referralSource")}>
+          {REFERRAL_SOURCES.map(t => <option key={t}>{t}</option>)}
+        </select>
+      </label>
+      <label className="fld">
         <span>Details</span>
         <textarea rows={5} value={f.details} onChange={set("details")} placeholder="Tell us about your event, the vibe you want and anything else we should know…" />
       </label>
@@ -136,6 +145,7 @@ function EnquiryForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: f.name, email: f.email, subject: f.subject, message: f.message,
+          referralCode: getReferral() || "none",
         }),
       });
       if (res.ok) {
@@ -177,6 +187,7 @@ function EnquiryForm() {
         <span>Message</span>
         <textarea rows={5} value={f.message} onChange={set("message")} placeholder="How can we help?" />
       </label>
+      <p className="form__note">For general enquiries you can also email us directly at <a href={`mailto:${LINKS.email}`}>{LINKS.email}</a>.</p>
       <Btn lg block onClick={handleSubmit} disabled={status === "sending"}>
         {status === "sending" ? "Sending..." : "Send Enquiry →"}
       </Btn>
@@ -193,6 +204,10 @@ export default function Contact() {
 
   return (
     <>
+      <Helmet>
+        <title>Contact & Booking | D'Flamz Nation</title>
+        <meta name="description" content="Book a DJ or send a general enquiry to D'Flamz Nation. Based in Lagos, Nigeria and London, UK, booking DJs for venues, festivals and residencies worldwide." />
+      </Helmet>
       <PageHead n="Get In Touch" title={<>Book a <span>DJ</span></>} />
       <section className="section contact">
         <Reveal className="contact__i">
@@ -213,8 +228,8 @@ export default function Contact() {
             </div>
           </div>
           <div className="ci ci--note">
-            <p>Marketing or press enquiry? Grab the full <strong>press kit</strong> with everything in one place.</p>
-            <button className="larrow" onClick={() => navigate("/presskit")}>Open the Press Kit →</button>
+            <p>Marketing or press enquiry? See our <strong>projects</strong> for a look at our work.</p>
+            <button className="larrow" onClick={() => navigate("/projects")}>View Projects →</button>
           </div>
         </Reveal>
         <div className="contact__forms">

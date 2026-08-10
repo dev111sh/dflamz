@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { VALUES, MILESTONES } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Media from "../components/Media.jsx";
@@ -9,6 +10,10 @@ import CtaBand from "../components/CtaBand.jsx";
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>About Us | D'Flamz Nation</title>
+        <meta name="description" content="D'Flamz Nation is a DJ booking and management collective connecting top DJs directly with venues, festivals, brands and event planners across Nigeria, the UK and beyond." />
+      </Helmet>
       <PageHead n="About" title={<>Spreading Music<br /><span>Like Wild Fire</span></>} />
 
       <section className="section about">
