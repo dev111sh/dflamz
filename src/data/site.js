@@ -248,7 +248,7 @@ export const PROFILES = {
 
 };
 
-export const GANG = ["DJ Shizzy", "DJ Choice", "DJ Voltron", "DJ Dayo", "DJ Nazee", "DJ Mekury"];
+export const GANG = ["DJ Shawn", "DJ Famzy", "DJ Six7even", "DJ Scandamile Mercury", "DJ Yilmaz Sumbul", "DJ Versatile", "DJ Homdiggy", "DJ Geshgroove", "DJ Femzey", "DJ Play", "DJ Kiss", "DJ Xray", "DJ Karlos", "DJ Gaga"];
 
 export const SERVICES = [
   { n: "01", t: "DJ Booking, Direct", d: "Browse the roster and book the right DJ for your event, venue or residency without the middlemen. We handle logistics, contracts and standards end-to-end." },
