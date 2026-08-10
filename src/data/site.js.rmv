@@ -12,7 +12,7 @@
    ===================================================================== */
 
 export const LINKS = {
-  email: "info@dflamz.com" || "dflamzentertainment@gmail.com",
+  email: "dflamzentertainment@gmail.com",
   ig: "https://instagram.com/dflamzz",
   igUk: "https://instagram.com/dflamzuk",
   // Replace with your Formspree endpoints, e.g. "https://formspree.io/f/xxxxabcd"
@@ -66,10 +66,10 @@ export const ROSTER = [
   { slug: "blaa",       name: "DJ Blaa",              img: "blaa",      mono: "BL", role: "Afro House · Amapiano · EDM",      tags: ["Afrobeats", "Afro House", "Amapiano", "EDM"], profile: true },
   { slug: "shumzy", name: "DJ Shumzy", img: "shumzy", mono: "SZ", role: "Afrobeats · Hip-Hop", tags: ["Afrobeats", "Hip-Hop"], profile: true },
   { slug: "play", name: "DJ Play", img: "play", mono: "PL", role: "Afrobeats · House · Hip-Hop", tags: ["Afrobeats", "House", "Hip-Hop", "Old School"], profile: true },
-  { slug: "gaga",   name: "DJ Gaga",    img: "gaga",   mono: "GG", role: "Afrobeats · Amapiano · Street Pop", tags: ["Afrobeats", "Hip-Hop", "Amapiano", "Dancehall"], profile: true },
   { slug: "kiss",   name: "DJ Kiss",    img: "kiss",   mono: "KS", role: "Afrobeats · Amapiano · Afro House", tags: ["Afrobeats", "Amapiano", "Afro House", "R&B"],   profile: true },
   { slug: "xray",   name: "DJ Xray",    img: "xray",   mono: "XR", role: "Open Format · Luxury Events",       tags: ["Afrobeats", "Amapiano", "House", "Garage"],     profile: true },
   { slug: "karlos", name: "DJ Karlos",  img: "karlos", mono: "KL", role: "All Genres · Radio",                tags: ["Open Format", "All Genres", "Radio"],           profile: true },
+  { slug: "gaga",   name: "DJ Gaga",    img: "gaga",   mono: "GG", role: "Afrobeats · Amapiano · Street Pop", tags: ["Afrobeats", "Hip-Hop", "Amapiano", "Dancehall"], profile: true },
 ];
 
 /* ---------------------------------------------------------------------
@@ -192,19 +192,6 @@ export const PROFILES = {
 
   play: { name: "DJ Play", img: "play", gallery: ["play"], role: "DJ · Afrobeats, House & Hip-Hop", handle: "@djplay021", ig: "https://instagram.com/djplay021", based: "Lagos, Nigeria", tags: ["Afrobeats", "House", "Hip-Hop", "Old School"], bio: "A professional DJ covering the full spread of social and corporate events with a sound rooted in Afrobeats, House, Hip-Hop and old-school records.", long: "DJ Play provides a wide range of DJ services for both social and corporate events, drawing from Afrobeats, House, Hip-Hop and old-school records. The approach is professional and event-ready: understand the brief, match the crowd, and deliver a set that runs clean from open to close. For organisers looking for reliable, experienced hands on the decks, Play is a solid fit.", highlights: [["Speciality", "Social & corporate events"], ["Sound", "Afrobeats · House · Hip-Hop · Old School"]], draft: true },
 
-  gaga: {
-    name: "DJ Gaga", img: "gaga", gallery: ["gaga"],
-    role: "DJ · Afrobeats, Amapiano & Street Pop", handle: "@djgaga01", ig: "https://instagram.com/djgaga01",
-    based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip-Hop", "Amapiano", "R&B", "Dancehall", "Street Pop"],
-    bio: "A high-energy Nigerian DJ moving across Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall and Street Pop.",
-    long: "DJ Gaga has years of experience playing to genuinely mixed audiences, from clubs and concerts to weddings, corporate events and private parties. The approach leans on crowd reading and keeping the energy from dipping, with mixes that move between Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall and Street Pop without losing the room. Booked for the nights that need to stay alive from the first record to the last.",
-    highlights: [
-      ["Speciality", "Clubs, concerts, weddings and private events"],
-      ["Sound", "Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall"],
-      ["Based", "Lagos, Nigeria"],
-    ],
-  },
-
   kiss: {
     name: "Celebrity DJ Kiss", img: "kiss", gallery: ["kiss"],
     role: "DJ & Platform Founder · Afrobeats and House", handle: "@kiss.haus", ig: "https://instagram.com/kiss.haus",
@@ -246,6 +233,18 @@ export const PROFILES = {
     ],
   },
 
+  gaga: {
+    name: "DJ Gaga", img: "gaga", gallery: ["gaga"],
+    role: "DJ · Afrobeats, Amapiano & Street Pop", handle: "@djgaga01", ig: "https://instagram.com/djgaga01",
+    based: "Lagos, Nigeria", tags: ["Afrobeats", "Hip-Hop", "Amapiano", "R&B", "Dancehall", "Street Pop"],
+    bio: "A high-energy Nigerian DJ moving across Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall and Street Pop.",
+    long: "DJ Gaga has years of experience playing to genuinely mixed audiences, from clubs and concerts to weddings, corporate events and private parties. The approach leans on crowd reading and keeping the energy from dipping, with mixes that move between Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall and Street Pop without losing the room. Booked for the nights that need to stay alive from the first record to the last.",
+    highlights: [
+      ["Speciality", "Clubs, concerts, weddings and private events"],
+      ["Sound", "Afrobeats, Amapiano, Hip-Hop, R&B, Dancehall"],
+      ["Based", "Lagos, Nigeria"],
+    ],
+  },
 };
 
 export const GANG = ["DJ Shizzy", "DJ Choice", "DJ Voltron", "DJ Dayo", "DJ Nazee", "DJ Mekury"];
@@ -404,7 +403,7 @@ export const PROJECTS = [
     title: "Global Sound",
     year: "2025 to present",
     location: "Mayfair, Central London",
-    img: "pjGlobalSound",
+    img: null,
     tags: ["Flagship Brand", "Nightlife", "Multi-Genre"],
     summary: "Our flagship event brand, born in Mayfair and built around a single DJ taking a room through the world's music in one continuous set.",
     body: "Global Sound started in the heart of Mayfair as an exclusive nightlife concept and has grown into a recognised music experience. Where most DJ events split the night between several selectors, Global Sound runs on one carefully curated journey: Afrobeats, Amapiano, House, Hip-Hop, R&B, Dancehall, UK Garage, Bashment, Soca, Reggae, Latin, old school classics and global anthems, sequenced to pull a mixed crowd onto the same dancefloor. The draw is the programming. Seamless transitions, musical storytelling and constant crowd reading keep the room engaged from the first record to the last, and the brand continues to grow around audiences who care about exceptional DJing and genuine musical range.",
@@ -420,7 +419,7 @@ export const PROJECTS = [
     title: "BPM Music Festival",
     year: "2021",
     location: "Wave Beach, Lagos",
-    img: "pjBpm",
+    img: null,
     tags: ["Festival", "Beach", "10+ DJs"],
     summary: "One of Lagos' largest beach music experiences, run in partnership with Wave Beach and Wakanow. Seventeen hours, more than ten DJs, thousands in attendance.",
     body: "D'Flamz partnered with Wave Beach and Wakanow to build BPM, a beachfront festival that ran from noon straight through to five the following morning. More than ten DJs took turns across Afrobeats, Amapiano, House, Hip-Hop, old school and global sounds, giving the crowd a genuinely multi-genre day and night rather than a single lane. It pulled thousands of music lovers to the beach and stands as one of our largest production undertakings to date.",
@@ -436,7 +435,7 @@ export const PROJECTS = [
     title: "Kiss DJ Academy",
     year: "2019",
     location: "Lagos, Nigeria",
-    img: "pjKissAcademy",
+    img: null,
     tags: ["Talent Development", "Radio", "Training"],
     summary: "A talent development programme built with Kiss FM 98.9 Lagos to find, train and mentor DJs looking to turn the craft into a career.",
     body: "Working with Kiss FM 98.9 Lagos, we built an academy that went beyond technical training. Participants got practical DJ instruction, live performance opportunities and mentorship from working professionals, which is the combination that actually moves someone from hobbyist to bookable. The standout graduate was awarded a management deal with D'Flamz, giving them a direct route into the professional circuit rather than leaving them to figure it out alone.",
@@ -452,7 +451,7 @@ export const PROJECTS = [
     title: "Mavin Records Campaign",
     year: "2014",
     location: "Nationwide, Nigeria",
-    img: "pjMavin",
+    img: null,
     tags: ["Music Promotion", "Distribution", "Radio"],
     summary: "A nationwide promotion and distribution campaign supporting Mavin Records' emerging artists, including Reekado Banks, Korede Bello and Di'Ja.",
     body: "D'Flamz partnered with Mavin Records to introduce the label's new generation to audiences across Nigeria. The work ran through club promotion, DJ activations, radio support and grassroots marketing, the channels that actually break a record in Nigeria rather than just announce it. The campaign fed into a strong run for the artists involved, with Reekado Banks going on to take both Headies Rookie of the Year and Next Rated.",
@@ -468,7 +467,7 @@ export const PROJECTS = [
     title: "International Artist & DJ Promotions",
     year: "Ongoing",
     location: "Lagos and international",
-    img: "pjRaveAward",
+    img: null,
     tags: ["International", "Touring", "Media"],
     summary: "Promotional tours, media runs and club engagements connecting international artists and DJs with Nigerian audiences.",
     body: "We have built a track record of bringing international talent into the Lagos scene and giving them a real route to an audience rather than a single booking. Working with promoters, media houses, venues and nightlife partners, we have coordinated campaigns and performances for artists including Ntosh Gazi and Jobe London from South Africa, DJ Toyor from Ghana, T Brixton from the UK and Dean Kelly from the US, among others. It is the side of the business that makes us a useful bridge in both directions.",
@@ -498,7 +497,7 @@ export const EVENTS = [
     venue: "Mayfair",
     city: "London, UK",
     dj: "flammzy",
-    img: "evGlobalSoundLondon",
+    img: null,
     tags: ["Global Sound", "Nightlife"],
     blurb: "The flagship Global Sound night returns to Mayfair. One DJ, one continuous journey through the world's music.",
     ticketUrl: null,

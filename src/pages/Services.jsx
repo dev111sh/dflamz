@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { SERVICES, PROCESS } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import PageHead from "../components/PageHead.jsx";
@@ -7,6 +8,10 @@ import CtaBand from "../components/CtaBand.jsx";
 export default function Services() {
   return (
     <>
+      <Helmet>
+        <title>Our Services | D'Flamz Nation</title>
+        <meta name="description" content="DJ bookings, residencies, event production and DJ training. D'Flamz Nation delivers fire at every level, from single-night bookings to full event production." />
+      </Helmet>
       <PageHead
         n="Our Services"
         title={<>What <span>We Do</span></>}

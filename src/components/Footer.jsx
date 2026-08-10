@@ -7,8 +7,10 @@ const NAV_LINKS = [
   ["/about", "About"],
   ["/services", "Services"],
   ["/gangofdjs", "Gang of DJs"],
-  ["/presskit", "Press Kit"],
-  ["/contact", "Contact"],
+  ["/projects", "Projects"],
+  ["/events", "Events"],
+  ["/allies", "Allies"],
+  ["/contact", "Book a DJ"],
 ];
 
 export default function Footer() {
@@ -32,6 +34,7 @@ export default function Footer() {
           <span className="footer__h">Reach us</span>
           <a className="footer__a" href={`mailto:${LINKS.email}`}>{LINKS.email}</a>
           <span className="footer__a footer__a--s">Lagos, NG · London, UK</span>
+          <a className="footer__a" href="mailto:bookings@dflamz.com">For Bookings: bookings@dflamz.com</a>
         </div>
         <div className="footer__col">
           <span className="footer__h">Follow</span>

@@ -1,4 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import InstagramIcon from "../components/InstagramIcon.jsx";
 import { PROFILES } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
@@ -16,6 +18,10 @@ export default function Artist() {
   if (!p) { navigate("/gangofdjs"); return null; }
   return (
     <>
+      <Helmet>
+        <title>{p.name} | D'Flamz Nation</title>
+        <meta name="description" content={p.bio} />
+      </Helmet>
       <section className="section">
         <Reveal>
           <button className="larrow larrow--back" onClick={() => navigate("/gangofdjs")}>← Back to roster</button>
@@ -27,8 +33,10 @@ export default function Artist() {
           <Reveal className="ap__c" delay={100}>
             <Eyebrow n="★">{p.role}</Eyebrow>
             <h1 className="ap__n">{p.name}</h1>
-            {p.handle && (
-              <a className="ap__h" href={p.ig} target="_blank" rel="noreferrer">{p.handle}</a>
+            {p.handle && p.ig && (
+              <a className="ap__h" href={p.ig} target="_blank" rel="noreferrer">
+                <InstagramIcon size={15} style={{ verticalAlign: "-2px" }} />{" "}{p.handle}
+              </a>
             )}
             <p className="ap__bio">{p.bio}</p>
             <p className="ap__long">{p.long}</p>
