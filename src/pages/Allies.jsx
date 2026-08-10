@@ -27,7 +27,7 @@ export default function Allies() {
       <PageHead
         n="Network"
         title={<>Our <span>Allies</span></>}
-        intro="These are the brands and businesses we work alongside, not just clients we've played for, but active collaborators. We're always open to partnership enquiries."
+        intro="These are the brands and businesses we work alongside and our active collaborators. We're always open to partnership enquiries."
       />
       <section className="section">
         <div className="proj">
