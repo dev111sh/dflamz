@@ -34,7 +34,7 @@ export const MARQUEE = [
 ];
 
 export const STATS = [
-  { n: '20+', l: 'DJs on the roster' },
+  { n: '30+', l: 'DJs on the roster' },
   { n: '5K+', l: 'Festival crowd' },
   { n: '10+', l: 'Radio stations' },
   { n: '4', l: 'Continents played' },
@@ -97,6 +97,33 @@ export const ROSTER = [
     mono: 'S7',
     role: 'Amapiano · Deep House · 3-Step',
     tags: ['Amapiano', 'Deep House', '3-Step'],
+    profile: true,
+  },
+  {
+    slug: 'pricha',
+    name: 'Mixed by PrichA',
+    img: 'pricha',
+    mono: 'PR',
+    role: 'Mix Engineer · Afro House · Amapiano',
+    tags: ['Afro House', 'Amapiano', 'Hip-Hop', 'Gospel'],
+    profile: true,
+  },
+  {
+    slug: 'kiss',
+    name: 'DJ Kiss',
+    img: 'kiss',
+    mono: 'KS',
+    role: 'Afrobeats · Amapiano · Afro House',
+    tags: ['Afrobeats', 'Amapiano', 'Afro House', 'R&B'],
+    profile: true,
+  },
+  {
+    slug: 'mazemxtreme',
+    name: 'Maze x Mxtreme',
+    img: 'mazemxtreme',
+    mono: 'MX',
+    role: 'Afro EDM · Electronic Duo',
+    tags: ['Afro EDM', 'Electronic'],
     profile: true,
   },
   {
@@ -163,12 +190,30 @@ export const ROSTER = [
     profile: true,
   },
   {
+    slug: 'femzey',
+    name: 'Luminos DJ Femzey',
+    img: 'femzey',
+    mono: 'FE',
+    role: 'Afrobeats · Radio · Events',
+    tags: ['Afrobeats', 'Radio', 'Events'],
+    profile: true,
+  },
+  {
     slug: 'lemmy',
     name: 'DJ Lemmy',
     img: 'lemmy',
     mono: 'LM',
     role: 'Afrobeats · Hip-hop · Afro House',
     tags: ['Afrobeats', 'Hip-Hop', 'Afro House'],
+    profile: true,
+  },
+  {
+    slug: 'tumz',
+    name: 'DJ Tumz',
+    img: 'tumz',
+    mono: 'TZ',
+    role: 'Afrobeats · Afro House · Amapiano',
+    tags: ['Afrobeats', 'Afro House', 'Amapiano', 'R&B'],
     profile: true,
   },
   {
@@ -187,15 +232,6 @@ export const ROSTER = [
     mono: 'MF',
     role: 'All Genres · Afrobeats',
     tags: ['Afrobeats', 'Amapiano'],
-    profile: true,
-  },
-  {
-    slug: 'femzey',
-    name: 'Luminos DJ Femzey',
-    img: 'femzey',
-    mono: 'FE',
-    role: 'Afrobeats · Radio · Events',
-    tags: ['Afrobeats', 'Radio', 'Events'],
     profile: true,
   },
   {
@@ -244,15 +280,6 @@ export const ROSTER = [
     profile: true,
   },
   {
-    slug: 'kiss',
-    name: 'DJ Kiss',
-    img: 'kiss',
-    mono: 'KS',
-    role: 'Afrobeats · Amapiano · Afro House',
-    tags: ['Afrobeats', 'Amapiano', 'Afro House', 'R&B'],
-    profile: true,
-  },
-  {
     slug: 'xray',
     name: 'DJ Xray',
     img: 'xray',
@@ -268,6 +295,33 @@ export const ROSTER = [
     mono: 'KL',
     role: 'All Genres · Radio',
     tags: ['Open Format', 'All Genres', 'Radio'],
+    profile: true,
+  },
+  {
+    slug: 'leezyace',
+    name: 'DJ Leezy Ace',
+    img: 'leezyace',
+    mono: 'LA',
+    role: 'Afrobeats · Afro House · Techno',
+    tags: ['Afrobeats', 'Dancehall', 'Afro House', 'Techno'],
+    profile: true,
+  },
+  {
+    slug: 'lazer',
+    name: 'DJ Lazer',
+    img: 'lazer',
+    mono: 'LZ',
+    role: 'Afro House · Amapiano · Radio',
+    tags: ['Afro House', 'Amapiano', 'Hip-Hop', 'Jazz'],
+    profile: true,
+  },
+  {
+    slug: 'real',
+    name: 'DJ Real',
+    img: 'real',
+    mono: 'RL',
+    role: 'Open Format',
+    tags: ['Open Format'],
     profile: true,
   },
 ];
@@ -325,7 +379,7 @@ export const PROFILES = {
       ['Festival', 'The BPM DJ Festival 2022'],
       ['Festival', 'The Beach House Festival'],
       ['Radio', '98.9 Kiss FM · Boston 87.7fm · Afrosurge Radio'],
-      ['Events', 'First bank of Nigeria Ltd · Alat by Wema Bank '],
+      // ['Events', 'First bank of Nigeria Ltd · Alat by Wema Bank '],
       ['Tours', 'UK · USA'],
     ],
     draft: true,
@@ -374,11 +428,11 @@ export const PROFILES = {
     name: 'Scandamile Mercury',
     img: 'scan',
     gallery: ['scan'],
-    role: 'DJ · Alternative, Rock & Electronic',
+    role: 'DJ · Alternative, Trance, Dance, Afro Tech, Rock & Electronic',
     handle: null,
     ig: null,
     based: 'Lagos, Nigeria',
-    tags: ['Alternative', 'Rock', 'Festival'],
+    tags: ['Alternative', 'Rock', 'Trance', 'Dance', 'Afro Tech', 'Electronic',],
     bio: 'King of Rock, and Alternative genres with one of the most versatile and unique sounds in the world.',
     long: 'Scandamile Mercury breathes new air into Rock and Alternative genres with the intensity and the presence of a DJ who has worked the big stages. His unique love for Alternative, Punk Rock, Metal, Dance and his signature Electronic Body Music, along with his mysterious persona and his ability to fuse all his influences together makes him one of the most unique and versatile new generation DJs.',
     highlights: [
@@ -484,7 +538,7 @@ export const PROFILES = {
     role: 'DJ · Amapiano & Afro House',
     handle: '@djmaf_classic',
     ig: 'https://instagram.com/djmaf_classic',
-    based: 'Lagos, Nigeria',
+    based: 'South Africa/Nigeria',
     tags: ['Amapiano', 'Afro House'],
     bio: 'An SA-based Nigerian DJ who fuses genres across dancefloors and plays whatever the moment needs.',
     long: 'Maff is a versatile selector who moves across genres rather than boxing himself into one lane, ready to swing a set wherever the crowd takes it.',
@@ -717,13 +771,14 @@ export const PROFILES = {
     tags: [
       'Afrobeats',
       'Amapiano',
+      'Afro Tech',
       'Afro House',
       'Tribal House',
       'R&B',
       'House',
     ],
     bio: 'A Lagos DJ who turned a university curiosity into a career, and then built a platform that gives emerging Afrobeats artists somewhere to be heard.',
-    long: 'Ajayi Abimbola, known as Celebrity DJ Kiss, was born in Lagos and studied English at the University of Ilorin, where a neighbour who happened to be a DJ pulled her into the craft during her first year. Music had always been the thing that connected her to people, and DJing turned that instinct into a profession. Years of work later she moves comfortably across Afrobeats, Amapiano, Afro house, tribal house, R&B and house. She also founded Industry People, a Clubhouse platform where emerging Afrobeats artists play their music to a real audience and come away with constructive criticism, airplay, collaborations and in some cases record deals. The room regularly hosts Grammy nominated producers and artists alongside established industry names.',
+    long: 'Ajayi Abimbola, known as Celebrity DJ Kiss, was born in Lagos and studied English at the University of Ilorin, where a neighbour who happened to be a DJ pulled her into the craft during her first year. Music had always been the thing that connected her to people, and DJing turned that instinct into a profession. Years of work later she moves comfortably across Afrobeats, Amapiano, Afro tech, tribal house, R&B and house. She also founded Industry People, a Clubhouse platform where emerging Afrobeats artists play their music to a real audience and come away with constructive criticism, airplay, collaborations and in some cases record deals. The room regularly hosts Grammy nominated producers and artists alongside established industry names.',
     highlights: [
       ['Founder', 'Industry People (Clubhouse platform)'],
       ['Focus', 'Emerging Afrobeats artist development'],
@@ -759,7 +814,7 @@ export const PROFILES = {
     handle: '@djkarlos_official',
     ig: 'https://instagram.com/djkarlos_official',
     based: 'Lagos, Nigeria',
-    tags: ['Open Format', 'All Genres', 'Radio', 'Club'],
+    tags: ['Open Format',],
     bio: 'A Lagos DJ with a radio residency and a reputation for electrifying beats and seamless mixes across every genre.',
     long: 'DJ Karlos plays across the full spread rather than committing to one lane, which is what makes him a fit for club nights, weddings and corporate functions alike. He holds a resident slot at Law FM 103.9 in Lagos, so the selection stays current and the delivery is broadcast clean. Wherever the booking lands, the priority is the same: keep the crowd moving and the night running without a dip.',
     highlights: [
@@ -767,6 +822,115 @@ export const PROFILES = {
       ['Speciality', 'Club nights, weddings, corporate functions'],
       ['Sound', 'All genres, open format'],
     ],
+  },
+
+  pricha: {
+    name: 'Mixed by PrichA',
+    img: 'pricha',
+    gallery: ['pricha'],
+    role: 'Mix Engineer & DJ · Genre Agnostic',
+    handle: '@mixedbypricha',
+    ig: 'https://instagram.com/mixedbypricha',
+    based: 'South Africa',
+    tags: ['Afro House', 'Afrobeats', 'Amapiano', 'House', 'Hip-Hop', 'R&B', 'Gospel'],
+    bio: 'Twenty years of streaming and radio-ready mixes, with a client list that reads like a roll call of African music.',
+    long: 'PrichA has spent two decades delivering mixes built for streaming and radio, with work carrying placements at the Grammys, BET, the South African Music Awards and Metro FM Awards. The catalogue moves from Amapiano and Hip-Hop through Jazz, Afro House and Gospel without losing finesse in any of them, which is rarer than it sounds. The workflow runs a Neve and SSL anchored analogue chain into a Pro Tools rig, giving the warmth of analogue with the precision of digital. Clients have included Black Coffee, Tyla, Sho Madjozi, Black Motion, TNS, Ape Drums, Diplo, Major Lazer, Major League DJz, AKA, Kwesta, Oskido, DJ Maphorisa and Kabza de Small.',
+    highlights: [
+      ['Experience', '20 years mixing'],
+      ['Awards', 'Grammy · BET · SAMA · Metro FM placements'],
+      ['Clients', 'Black Coffee · Tyla · Diplo · Major Lazer'],
+      ['Also', 'Kabza de Small · DJ Maphorisa · Major League DJz'],
+    ],
+  },
+
+  mazemxtreme: {
+    name: 'Maze x Mxtreme',
+    img: 'mazemxtreme',
+    gallery: ['mazemxtreme'],
+    role: 'Electronic Duo · Afro EDM',
+    handle: '@mazexmxtreme',
+    ig: 'https://instagram.com/mazexmxtreme',
+    based: 'Nigeria',
+    tags: ['Afro EDM', 'Electronic', 'Dance'],
+    bio: 'A Nigerian electronic duo pioneering Afro EDM, fusing African electronic music with the original EDM sound.',
+    long: 'Maze x Mxtreme build their sets around a genre they are actively helping define. Afro EDM takes African electronic music and runs it through the framework of original EDM, producing a cross-cultural blend that pulls more out of the electronic form than either tradition manages alone. Two DJs working as one unit, with the visual identity to match the sound.',
+    highlights: [
+      ['Format', 'Electronic duo'],
+      ['Sound', 'Afro EDM, pioneers'],
+      ['Based', 'Nigeria'],
+    ],
+  },
+
+  leezyace: {
+    name: 'DJ Leezy Ace',
+    img: 'leezyace',
+    gallery: ['leezyace'],
+    role: 'Club & Event DJ · Music Promoter',
+    handle: '@djleezyace',
+    ig: 'https://instagram.com/djleezyace',
+    based: 'Lagos, Nigeria',
+    tags: ['Afrobeats', 'Dancehall', 'Hip-Hop', 'Afro House', 'Trap', 'Grime', 'Techno'],
+    bio: 'A Lagos club and event DJ with a range that runs from Afrobeats and Dancehall through to Grime and techno house.',
+    long: 'Leezy Ace works the club and event circuit in Lagos and doubles as a music promoter, which means he hears what is coming before most people do. The range is genuinely wide: Afrobeats, Dancehall, Hip-Hop, Afro House, Trap, Grime, house and techno house all sit in the crate, and the read of the room decides which comes out. Booked for nights that need someone who can turn a floor in more than one direction.',
+    highlights: [
+      ['Speciality', 'Club nights and events'],
+      ['Also', 'Music promoter'],
+      ['Based', 'Lagos, Nigeria'],
+    ],
+  },
+
+  tumz: {
+    name: 'DJ Tumz',
+    img: 'tumz',
+    gallery: ['tumz'],
+    role: 'Open Format DJ · Afrobeats & Amapiano',
+    handle: '@deejaytumz_',
+    ig: 'https://instagram.com/deejaytumz_',
+    based: 'Lagos, Nigeria',
+    tags: ['Afrobeats', 'Afro House', 'Amapiano', 'Hip-Hop', 'R&B', 'Old School'],
+    bio: 'A Lagos open-format DJ who has been building the craft since 2016.',
+    long: 'Adedeji Ayomikun Samuel, known as DJ Tumz, works across Afrobeats, Afro House, Amapiano, Hip-Hop, R&B and old school classics, moving between them as the night asks rather than committing to a single lane. Years on Lagos decks have sharpened the instinct for what a room needs and when, which is the part that separates a set that works from a playlist that plays.',
+    highlights: [
+      ['Since', '2016'],
+      ['Style', 'Afrobeats, Amapiano, Dance, Hip-Hop and Classics'],
+      ['Based', 'Lagos, Nigeria'],
+    ],
+  },
+
+  lazer: {
+    name: 'DJ Lazer',
+    img: 'lazer',
+    gallery: ['lazer'],
+    role: 'Radio DJ, Artist & Producer',
+    handle: '@iamdjlazer',
+    ig: 'https://instagram.com/iamdjlazer',
+    based: 'Uyo, Nigeria',
+    tags: ['Afro House', 'Amapiano', 'Hip-Hop', 'Alternative', 'Jazz'],
+    bio: 'A radio DJ, artist and producer working out of Uyo, with a crate that stretches from Amapiano to old school jazz.',
+    long: 'DJ Lazer works all three sides of the booth: radio DJ, recording artist and producer. The selection runs Afro, Afro House, Amapiano and Hip-Hop, with alternative and old school jazz turning up where most sets would not risk them. His single Jolly features Maxycool and Victor Grand. Based in Uyo, which gives the sound a different centre of gravity from the Lagos circuit.',
+    highlights: [
+      ['Release', 'Jolly, featuring Maxycool and Victor Grand'],
+      ['Roles', 'Radio DJ · Artist · Producer'],
+      ['Based', 'Uyo, Nigeria'],
+    ],
+  },
+
+  real: {
+    name: 'DJ Real',
+    img: 'real',
+    gallery: ['real'],
+    role: 'DJ · Afrobeats',
+    handle: '@djreal001',
+    ig: 'https://instagram.com/djreal001',
+    based: 'Nigeria',
+    tags: ['Afrobeats', 'Dance'],
+    bio: 'A Nigerian DJ playing open format across clubs, events and private bookings.',
+    long: 'Yahya Rilwan, known behind the decks as DJ Real, plays afrobeats and takes each booking on what the room actually needs rather than a fixed sound. Available across club nights, events and private bookings.',
+    highlights: [
+      ['Sound', 'Afrobeats'],
+      ['Based', 'Nigeria'],
+    ],
+    draft: true,
   },
 };
 
@@ -1008,12 +1172,16 @@ export const ENQUIRY_SUBJECTS = [
    brands we have worked for). These are active collaborators.
    - tier: "founding" | "standard" — reserved for future paid tiers
    - logo: filename in src/assets/logos/, or null for a styled name card
+   - gallery: filenames in src/assets/allies/ (or src/assets/logos/)
+   - offer: short public-facing line about what the partner brings.
+     Public copy only — never commercial terms.
+   - featured: true pins this partner to the first spotlight position
    --------------------------------------------------------------------- */
 export const ALLIES = [
   {
     slug: 'nigerian-dj',
     name: 'The Nigerian DJ',
-    logo: 'nigerian-dj.jpg',
+    logo: 'nigeriandj.png',
     location: 'Nigeria',
     category: 'Governing Body',
     tier: 'founding',
@@ -1022,11 +1190,29 @@ export const ALLIES = [
     long: "The Nigerian DJ (NDJ) is the governing body responsible for the management of DJing in Nigeria, providing quality services to all the DJs in Nigeria. Our partnership connects the D'Flamz roster to the wider professional standards and network of the Nigerian DJ community.",
     instagram: "https://www.instagram.com/nigeriandj",
     website: null,
+    gallery: [],
+    offer: null,
+    featured: false,
+  },
+  {
+    slug: "mavin-records",
+    name: "Mavin Records",
+    logo: "mavin-records.png",
+    location: "Lagos, Nigeria",
+    category: "Record Label",
+    tier: "founding",
+    featured: false,
+    offer: null,
+    blurb: "One of Africa's leading record labels, home to a generation of Afrobeats stars.",
+    long: "D'Flamz worked with Mavin Records on the nationwide promotion and distribution campaign for the label's emerging talent, running club promotion, DJ activations and radio support across Nigeria.",
+    instagram: "https://instagram.com/mavinrecords",
+    website: null,
+    gallery: [],
   },
   {
     slug: 'clooza',
     name: 'Clooza',
-    logo: 'clooza.jpg',
+    logo: 'clooza.png',
     location: 'Nigeria',
     category: 'Music & Culture Commerce',
     tier: 'founding',
@@ -1035,11 +1221,14 @@ export const ALLIES = [
     long: 'Clooza is a music and culture commerce platform built for DJs, artists and event creators. It takes a DJ beyond streaming: upload mixes, edits and exclusive content, sell tickets to events, monetise listening parties and intimate sessions, manage collaborations, and see where listeners and buyers actually are. For our roster it means a route to discover fans, monetise work, protect IP and grow a career in one place.',
     instagram: 'https://www.instagram.com/useclooza',
     website: null,
+    gallery: [],
+    offer: null,
+    featured: false,
   },
   {
     slug: 'the-mine-studios',
     name: 'The Mine Studios',
-    logo: 'the-mine-studios.jpg',
+    logo: 'the-mine-studios.png',
     location: 'Lagos, Nigeria',
     category: 'Studio & Live Sessions',
     tier: 'founding',
@@ -1048,11 +1237,14 @@ export const ALLIES = [
     long: 'The Mine Studios gives artists a properly equipped room to rehearse, record and run live sessions in. For DJs on our roster it means somewhere to sharpen a set, record a mix or shoot content without hunting for a space every time.',
     instagram: 'https://instagram.com/theminestudios',
     website: null,
+    gallery: [],
+    offer: "Studio access for D'Flamz DJs",
+    featured: false,
   },
   {
     slug: 'zuris-nectar',
     name: "Zuri's Nectar",
-    logo: 'zuris-nectar.jpg',
+    logo: 'zuris-nectar.png',
     location: 'Birmingham, UK',
     category: 'Beverage Partner',
     tier: 'founding',
@@ -1061,12 +1253,28 @@ export const ALLIES = [
     long: "Zuri's Nectar makes cold-pressed juice from real fruit and vegetables with no additives or concentrate. They keep our events and activations stocked, which matters more than it sounds when a night runs from evening into the small hours.",
     instagram: 'https://instagram.com/zuris_nectar',
     website: null,
+    gallery: [],
+    offer: "Official beverage partner for D'Flamz events",
+    featured: false,
   },
 ];
 
 /* ---------------------------------------------------------------------
    PROJECTS — past work and events. Replaces the Press Kit page.
    img:null renders the branded placeholder until a photo is added.
+
+   - img / gallery: IMAGE SLOT KEYS from src/assets/images.js (not raw
+     filenames) — that is what <Media slot={...}> and <Gallery slots={...}>
+     resolve. To add a photo: drop the file in src/assets/projects/, import
+     it in images.js under a pj* key, then reference that key here.
+   - partners: display names of collaborators. A name that matches an entry
+     in ALLIES or CLIENTS renders with that partner's logo on the detail page.
+   - stats: headline numbers for the detail page. Only figures actually
+     stated in this project's own summary/body/highlights — never invented.
+     [] omits the stats strip entirely.
+   - layout: "gallery" for photo-rich projects (hero + gallery grid) or
+     "editorial" for photo-poor projects (typographic treatment, no images
+     anywhere on the page — not even a placeholder).
    --------------------------------------------------------------------- */
 export const PROJECTS = [
   {
@@ -1075,6 +1283,8 @@ export const PROJECTS = [
     year: '2025 to present',
     location: 'Mayfair, Central London',
     img: 'pjGlobalSound',
+    gallery: ['pjGlobalSound', 'pjUkTour'],
+    layout: 'gallery',
     tags: ['Flagship Brand', 'Nightlife', 'Multi-Genre'],
     summary:
       "Our flagship event brand, born in Mayfair and built around a single DJ taking a room through the world's music in one continuous set.",
@@ -1085,6 +1295,9 @@ export const PROJECTS = [
       'A single curated multi-genre journey per event',
       'Premium nightlife experience built on music selection and crowd engagement',
     ],
+    /* No figures stated in the copy — stats strip is omitted on the detail page. */
+    partners: [],
+    stats: [],
   },
   {
     slug: 'bpm-festival',
@@ -1092,6 +1305,8 @@ export const PROJECTS = [
     year: '2021',
     location: 'Wave Beach, Lagos',
     img: 'pjBpm',
+    gallery: ['pjBpm', 'pjBeachHouse'],
+    layout: 'gallery',
     tags: ['Festival', 'Beach', '10+ DJs'],
     summary:
       "One of Lagos' largest beach music experiences, run in partnership with Wave Beach and Wakanow. Seventeen hours, more than ten DJs, thousands in attendance.",
@@ -1102,6 +1317,12 @@ export const PROJECTS = [
       '17 hours of continuous music',
       'Large-scale event production and audience engagement',
     ],
+    partners: ['Wave Beach', 'Wakanow'],
+    stats: [
+      { n: '10+', l: 'DJs' },
+      { n: '17', l: 'Hours' },
+      { n: '1000s', l: 'Attendees' },
+    ],
   },
   {
     slug: 'kiss-dj-academy',
@@ -1109,6 +1330,8 @@ export const PROJECTS = [
     year: '2019',
     location: 'Lagos, Nigeria',
     img: 'pjKissAcademy',
+    gallery: ['pjKissAcademy', 'pjRadioRun'],
+    layout: 'gallery',
     tags: ['Talent Development', 'Radio', 'Training'],
     summary:
       'A talent development programme built with Kiss FM 98.9 Lagos to find, train and mentor DJs looking to turn the craft into a career.',
@@ -1119,6 +1342,8 @@ export const PROJECTS = [
       'Live performance experience',
       'Management contract awarded to the top graduate',
     ],
+    partners: ['Kiss FM Lagos 98.9'],
+    stats: [{ n: '1', l: 'Management deal' }],
   },
   {
     slug: 'mavin-campaign',
@@ -1126,6 +1351,8 @@ export const PROJECTS = [
     year: '2014',
     location: 'Nationwide, Nigeria',
     img: 'pjMavin',
+    gallery: ['pjMavin', 'pjDJMavin'],
+    layout: 'gallery',
     tags: ['Music Promotion', 'Distribution', 'Radio'],
     summary:
       "A nationwide promotion and distribution campaign supporting Mavin Records' emerging artists, including Reekado Banks, Korede Bello and Di'Ja.",
@@ -1136,13 +1363,20 @@ export const PROJECTS = [
       'Radio and industry engagement',
       'Campaign period culminating in multiple Headies honours',
     ],
+    partners: ['Mavin'],
+    stats: [
+      { n: '3', l: 'Artists supported' },
+      { n: '2', l: 'Headies honours' },
+    ],
   },
   {
     slug: 'international-promotions',
     title: 'International Artist & DJ Promotions',
     year: 'Ongoing',
     location: 'Lagos and international',
-    img: 'pjRaveAward',
+    img: 'pjIntlJobeDubai',
+    gallery: ['pjVuligateRadio', 'pjVuligateStage', 'pjVuligateClub', 'pjVuligateStreet', 'pjIntlJobeLeicester', 'pjIntlJobeCity105', 'pjIntlWondaArtwork'],
+    layout: 'gallery',
     tags: ['International', 'Touring', 'Media'],
     summary:
       'Promotional tours, media runs and club engagements connecting international artists and DJs with Nigerian audiences.',
@@ -1153,7 +1387,37 @@ export const PROJECTS = [
       'Club and venue partnerships',
       'Cross-border entertainment collaborations',
     ],
+    partners: [],
+    stats: [
+      { n: '5+', l: 'International artists' },
+      { n: '4', l: 'Countries' },
+    ],
   },
+  // {
+  //   slug: 'john-vuligate-tour',
+  //   title: 'John Vuligate Media Tour',
+  //   year: '2023',
+  //   location: 'Lagos, Nigeria',
+  //   img: 'pjVuligateFlyer',
+  //   gallery: ['pjVuligateFlyer', ],
+  //   layout: 'gallery',
+  //   tags: ['Media Tour', 'Radio', 'Artist Promotion'],
+  //   partners: [],
+  //   stats: [
+  //     { n: '7', l: 'Radio stations' },
+  //     { n: '9', l: 'Days' },
+  //     { n: '1', l: 'Artist' },
+  //   ],
+  //   summary:
+  //     "A nine-day media run putting John Vuligate in front of Lagos radio, powered end to end by D'Flamz.",
+  //   body: "D'Flamz built and ran the media tour for John Vuligate across nine days in April, moving him through seven Lagos stations including City 105.1, Rhythm 93.7, Vybz 94.5, Eko 89.7, Max 102.3 and 98.5, alongside Aforevo. The run paired station interviews with club appearances and on-the-ground activation, which is what turns airtime into an actual audience rather than a schedule of visits. Coordinating that many stations inside one window takes relationships, and this is the part of the business those relationships were built for.",
+  //   highlights: [
+  //     'Seven Lagos radio stations across nine days',
+  //     'Station interviews paired with club appearances',
+  //     'Full media coordination and scheduling',
+  //     "Powered end to end by D'Flamz",
+  //   ],
+  // },
 ];
 
 /* ---------------------------------------------------------------------
@@ -1163,6 +1427,12 @@ export const PROJECTS = [
    - img: filename in src/assets/events/, or null for branded placeholder
    - ticketUrl: null hides the ticket button
    - sponsored: true marks a paid listing slot (external DJ or promoter)
+   - dj: the HEADLINE act; lineup: supporting DJs, so a single-DJ event
+     needs only `dj`
+   - gallery: IMAGE SLOT KEYS from src/assets/images.js (see PROJECTS note),
+     mainly for past events where the photos are the proof of the night
+   - description: longer copy for the detail page; null falls back to blurb
+   - price: display string e.g. "From £15", or null to hide
    --------------------------------------------------------------------- */
 export const EVENTS = [
   {
@@ -1174,9 +1444,13 @@ export const EVENTS = [
     city: 'London, UK',
     dj: 'flammzy',
     img: 'evGlobalSoundLondon',
+    gallery: [],
+    lineup: [],
     tags: ['Global Sound', 'Nightlife'],
     blurb:
       "The flagship Global Sound night returns to Mayfair. One DJ, one continuous journey through the world's music.",
+    description: null,
+    price: null,
     ticketUrl: null,
     sponsored: false,
   },

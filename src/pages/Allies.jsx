@@ -1,4 +1,5 @@
-import { useNavigate } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ALLIES } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
@@ -8,16 +9,43 @@ import PageHead from "../components/PageHead.jsx";
 import CtaBand from "../components/CtaBand.jsx";
 
 const LOGO_URLS = import.meta.glob("../assets/logos/*", { eager: true, import: "default" });
-const logoSrc = file => file && LOGO_URLS[`../assets/logos/${file}`];
+const ALLY_URLS = import.meta.glob("../assets/allies/*", { eager: true, import: "default" });
+/* ally logos live in assets/allies/; assets/logos/ stays as a fallback */
+const allyLogoSrc = file => file && (ALLY_URLS[`../assets/allies/${file}`] || LOGO_URLS[`../assets/logos/${file}`]);
+/* .png ally logos are pre-cut transparent marks that sit directly on the dark
+   background; .jpg ones still carry a baked-in background and keep the light
+   rounded container as a fallback */
+const isTransparent = file => !!file && file.toLowerCase().endsWith(".png");
 
-function withUtm(url) {
-  if (!url) return url;
-  const utm = "utm_source=dflamz&utm_medium=referral&utm_campaign=allies";
-  return url.includes("?") ? `${url}&${utm}` : `${url}?${utm}`;
+/* Sized by height only, never a fixed box — logos vary from a wide wordmark
+   (Clooza) to a square mark (Mavin, Zuri's), and a box would crop or dwarf one. */
+function AllyMark({ ally, size }) {
+  const src = allyLogoSrc(ally.logo);
+  if (ally.logo && isTransparent(ally.logo)) {
+    return (
+      <div className={`amark amark--${size}`}>
+        <img src={src} alt={ally.name} loading="lazy" />
+      </div>
+    );
+  }
+  return (
+    <div className={`ally__logo ally__logo--${size}`}>
+      {src
+        ? <img src={src} alt={ally.name} />
+        : <span>{ally.name}</span>}
+    </div>
+  );
 }
 
 export default function Allies() {
   const navigate = useNavigate();
+
+  /* featured partners pin to the front, everyone else keeps array order */
+  const ordered = useMemo(
+    () => [...ALLIES].sort((a, b) => (b.featured === true) - (a.featured === true)),
+    []
+  );
+
   return (
     <>
       <Helmet>
@@ -27,31 +55,18 @@ export default function Allies() {
       <PageHead
         n="Network"
         title={<>Our <span>Allies</span></>}
-        intro="These are the brands and businesses we work alongside and our active collaborators. We're always open to partnership enquiries."
+        intro="The brands and businesses we work alongside."
       />
+
       <section className="section">
-        <div className="proj">
-          {ALLIES.map((a, i) => (
-            <Reveal key={a.slug} delay={i * 60} className={`proj__r${i % 2 ? " proj__r--rev" : ""}`}>
-              <div className="ally__logo ally__logo--lg">
-                {a.logo
-                  ? <img src={logoSrc(a.logo)} alt={a.name} />
-                  : <span>{a.name}</span>}
-              </div>
-              <div className="proj__c">
-                <Eyebrow n={String(i + 1).padStart(2, "0")}>{a.category}</Eyebrow>
-                <h2 className="h2">{a.name}</h2>
-                <span className="ally__loc">{a.location}</span>
-                <p className="lead">{a.long}</p>
-                <div className="row-btns">
-                  {a.instagram && (
-                    <Btn kind="outline" href={withUtm(a.instagram)} target="_blank" rel="noreferrer">Instagram ↗</Btn>
-                  )}
-                  {a.website && (
-                    <Btn kind="outline" href={withUtm(a.website)} target="_blank" rel="noreferrer">Website ↗</Btn>
-                  )}
-                </div>
-              </div>
+        <div className="agrid">
+          {ordered.map((a, i) => (
+            <Reveal key={a.slug} delay={i * 40} className="acard-wrap">
+              <Link to={`/allies/${a.slug}`} className="acard" aria-label={a.name}>
+                <AllyMark ally={a} size="tile" />
+                <span className="acard__n">{a.name}</span>
+                <span className="acard__cat">{a.category}</span>
+              </Link>
             </Reveal>
           ))}
         </div>
@@ -61,7 +76,7 @@ export default function Allies() {
         <Reveal className="pk-contact">
           <Eyebrow n="—">Partner with us</Eyebrow>
           <h2 className="h2">Let's work together</h2>
-          <p className="lead">Studio space, drinks, media, venues, whatever the collaboration, if it lines up with D'Flamz Nation we want to hear about it.</p>
+          <p className="lead">If it lines up with D'Flamz Nation, we want to hear about it.</p>
           <div className="row-btns">
             <Btn lg onClick={() => navigate("/contact")}>Send a partnership enquiry</Btn>
           </div>
