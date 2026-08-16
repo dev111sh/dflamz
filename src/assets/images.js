@@ -26,15 +26,32 @@ import kiss from "./kiss.jpg";
 import xray from "./xray.jpg";
 import karlos from "./karlos.jpg";
 import gaga from "./gaga.jpg";
+import mazemxtreme from "./mazemxtreme.jpg";
+import leezyace from "./leezyace.jpg";
+import real from "./real.jpg";
+import lazer from "./lazer.jpg";
+import pricha from "./pricha.jpg";
+import tumz from "./tumz.jpg";
 
 import evGlobalSoundLondon from "./events/global-sound-london.jpg";
 import pjGlobalSound from "./projects/global-sound.jpg";
 import pjBpm from "./projects/bpm-festival.jpg";
 import pjKissAcademy from "./projects/kiss-dj-academy.jpg";
 import pjMavin from "./projects/mavin-campaign.jpg";
+import pjDJMavin from "./projects/donjazzy-mavin.jpg";
 import pjRaveAward from "./projects/rave-tv-award.jpg";
 import pjBeachHouse from "./projects/beach-house.jpg";
 import pjRadioRun from "./projects/radio-run.jpg";
 import pjUkTour from "./projects/uk-tour.jpg";
+import pjIntlJobeDubai from "./projects/intl-jobe-dubai.jpg";
+import pjIntlJobeLeicester from "./projects/intl-jobe-leicester.jpg";
+import pjIntlJobeCity105 from "./projects/intl-jobe-city105.jpg";
+import pjIntlWondaArtwork from "./projects/intl-wonda-artwork.jpg";
+import pjVuligateFlyer from "./projects/vuligate-tour-flyer.jpg";
+import pjVuligateRadio from "./projects/vuligate-radio.jpg";
+import pjVuligateStage from "./projects/vuligate-stage.jpg";
+import pjVuligateClub from "./projects/vuligate-club.jpg";
+import pjVuligateStreet from "./projects/vuligate-street.jpg";
 
-export const IMAGES = { evGlobalSoundLondon, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga , pjBpm, pjKissAcademy, pjMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour };
+
+export const IMAGES = { evGlobalSoundLondon, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, pjBpm, pjKissAcademy, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet };

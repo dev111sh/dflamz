@@ -5,8 +5,20 @@
   <url><loc>https://dflamz.com/gangofdjs</loc><priority>0.9</priority></url>
   <url><loc>https://dflamz.com/services</loc><priority>0.8</priority></url>
   <url><loc>https://dflamz.com/projects</loc><priority>0.7</priority></url>
+  <url><loc>https://dflamz.com/projects/global-sound</loc><priority>0.7</priority></url>
+  <url><loc>https://dflamz.com/projects/bpm-festival</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/projects/kiss-dj-academy</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/projects/mavin-campaign</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/projects/international-promotions</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/projects/john-vuligate-tour</loc><priority>0.6</priority></url>
   <url><loc>https://dflamz.com/events</loc><priority>0.7</priority></url>
+  <url><loc>https://dflamz.com/events/global-sound-mayfair</loc><priority>0.6</priority></url>
   <url><loc>https://dflamz.com/allies</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/allies/nigerian-dj</loc><priority>0.5</priority></url>
+  <url><loc>https://dflamz.com/allies/mavin-records</loc><priority>0.5</priority></url>
+  <url><loc>https://dflamz.com/allies/clooza</loc><priority>0.5</priority></url>
+  <url><loc>https://dflamz.com/allies/the-mine-studios</loc><priority>0.5</priority></url>
+  <url><loc>https://dflamz.com/allies/zuris-nectar</loc><priority>0.5</priority></url>
   <url><loc>https://dflamz.com/contact</loc><priority>0.9</priority></url>
   <url><loc>https://dflamz.com/dj/flammzy</loc><priority>0.7</priority></url>
   <url><loc>https://dflamz.com/dj/tonik</loc><priority>0.6</priority></url>
@@ -28,5 +40,11 @@
   <!-- <url><loc>https://dflamz.com/dj/femzey</loc><priority>0.6</priority></url> -->
   <!-- <url><loc>https://dflamz.com/dj/play</loc><priority>0.6</priority></url> -->
   <url><loc>https://dflamz.com/dj/maff</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/pricha</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/mazemxtreme</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/leezyace</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/tumz</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/lazer</loc><priority>0.6</priority></url>
+  <url><loc>https://dflamz.com/dj/real</loc><priority>0.6</priority></url>
   <!-- <url><loc>https://dflamz.com/dj/miky</loc><priority>0.6</priority></url> -->
 </urlset>
