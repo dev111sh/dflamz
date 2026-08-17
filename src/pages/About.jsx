@@ -22,7 +22,7 @@ export default function About() {
           <p>We book, represent and manage a roster of top-tier DJs for venues, events and residencies across Nigeria, the UK and beyond, built on a single belief: music, properly delivered, is a force of nature. From intimate lounges to festival stages of 5,000+, our DJs own the room and not just play songs.</p>
           <p>Our <strong>Gang of DJs</strong> network extends our reach further, connecting venues with carefully vetted independent talent who carry the same standard our name is built on.</p>
           <div className="facts">
-            {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · UK · USA"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) => (
+            {[["Founded", "Lagos, Nigeria"], ["Global reach", "Nigeria · SA · UK · USA · Worldwide"], ["Slogan", "Spreading Music Like Wild Fire"]].map(([k, v]) => (
               <div key={k} className="facts__r"><span>{k}</span><b>{v}</b></div>
             ))}
           </div>
