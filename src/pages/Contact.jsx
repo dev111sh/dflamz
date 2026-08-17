@@ -217,7 +217,7 @@ export default function Contact() {
           </div>
           <div className="ci">
             <span>Based in</span>
-            <b>Lagos, Nigeria · London, UK</b>
+            <b>Nigeria · SA · UK · US · Worldwide</b>
           </div>
           <div className="ci">
             <span>Follow</span>
