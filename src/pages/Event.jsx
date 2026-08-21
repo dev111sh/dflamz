@@ -23,7 +23,7 @@ export default function Event() {
   const ev = EVENTS.find(e => e.slug === slug);
   if (!ev) return <Navigate to="/events" replace />;
 
-  const past = ev.date < new Date().toISOString().slice(0, 10);
+  const past = (ev.endDate ?? ev.date) < new Date().toISOString().slice(0, 10);
   /* Headline act first, then supporting DJs, de-duplicated. */
   const acts = [ev.dj, ...(ev.lineup || [])]
     .filter(Boolean)
@@ -44,14 +44,14 @@ export default function Event() {
         </Reveal>
 
         <div className="pd">
-          <Reveal className="pd__media">
+          <Reveal className="pd__media evd__media">
             <Media slot={ev.img} mono={ev.title.slice(0, 2).toUpperCase()} alt={ev.title} ratio="16 / 10" className="media--glow" />
           </Reveal>
           <Reveal className="pd__c" delay={100}>
             <Eyebrow n="★">{past ? "Past event" : "Upcoming"}</Eyebrow>
             <h1 className="pd__t">{ev.title}</h1>
-            <p className="evd__when">{fmtLong(ev.date)}</p>
-            <p className="evd__where">{ev.time} · {ev.venue}, {ev.city}</p>
+            <p className="evd__when">{ev.endDate ? `${fmtLong(ev.date)} – ${fmtLong(ev.endDate)}` : fmtLong(ev.date)}</p>
+            <p className="evd__where">{ev.endDate ? `${ev.venue}, ${ev.city}` : `${ev.time} · ${ev.venue}, ${ev.city}`}</p>
             <div className="tags">
               {ev.tags.map(t => <span key={t} className="tag">{t}</span>)}
             </div>

@@ -83,6 +83,16 @@
 .media{position:relative; width:100%; overflow:hidden; background:var(--card); border:1px solid var(--border);}
 .media img{width:100%; height:100%; object-fit:cover; display:block;}
 .media--glow{box-shadow:0 30px 80px -30px rgba(26,115,232,.5); border-color:var(--border2);}
+/* Project heroes are 4/3 landscape frames; a portrait source (e.g. kiss-dj-academy)
+   crops from the center by default, which can cut off a subject's head. Bias
+   the crop upward instead of stretching. */
+.pd__media .media img{object-position:center 20%;}
+/* Event flyers are full portrait posters — the date/venue panel usually sits
+   in the lower third. Landscape frames cropped with object-fit:cover would
+   cut that panel, so show the whole flyer letterboxed instead. */
+.evd__media .media img,
+.evf__media .media img,
+.ev-card__media .media img{object-fit:contain; object-position:center;}
 .media__ph{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; color:var(--muted2);
   background:radial-gradient(120% 90% at 50% 0%, rgba(26,115,232,.12), transparent 60%), var(--card);}
 .media__ph span{font-family:var(--disp); font-size:46px; letter-spacing:2px; color:var(--muted);}
