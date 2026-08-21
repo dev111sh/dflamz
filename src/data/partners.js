@@ -48,6 +48,11 @@ export const CLIENTS = [
    - offer: short public-facing line about what the partner brings.
      Public copy only — never commercial terms.
    - featured: true pins this partner to the first spotlight position
+   - releases: optional array of artefacts produced through the partnership
+     (e.g. official remixes). Each entry is { title, credit, art, url },
+     where art is an IMAGE SLOT KEY from src/assets/images.js (not a raw
+     filename), same convention as PROJECTS img/gallery. url may be null,
+     in which case the release card renders without a link.
    --------------------------------------------------------------------- */
 export const ALLIES = [
   {
@@ -110,6 +115,20 @@ export const ALLIES = [
     instagram: null,
     website: null,
     gallery: [],
+    releases: [
+      {
+        title: 'Yegede (Sakarapiano)',
+        credit: "DJ Flammzy x Yusuf Olatunji",
+        art: 'rlYegede',
+        url: null,
+      },
+      {
+        title: 'Happy Birthday (Remix)',
+        credit: "DJ Flammzy x Vibemaster JD ft Evi Edna Ogholi x Clayrocksu",
+        art: 'rlHappyBirthday',
+        url: null,
+      },
+    ],
     offer: 'Catalogue access for official remixes',
     featured: true,
   },

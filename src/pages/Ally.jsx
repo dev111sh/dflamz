@@ -1,6 +1,7 @@
 import { useParams, useNavigate, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ALLIES } from "../data/site.js";
+import { IMAGES } from "../assets/images.js";
 import Reveal from "../components/Reveal.jsx";
 import Btn from "../components/Btn.jsx";
 import CtaBand from "../components/CtaBand.jsx";
@@ -55,6 +56,33 @@ export default function Ally() {
           <p className="ad__meta">{a.category} · {a.location}</p>
           {a.offer && <p className="ad__offer">{a.offer}</p>}
           <p className="ad__long">{a.long}</p>
+
+          {Array.isArray(a.releases) && a.releases.length > 0 && (
+            <div className="ad__rel">
+              <span className="pd__label">Releases</span>
+              <div className="relgrid">
+                {a.releases.map(r => {
+                  const art = IMAGES[r.art];
+                  const body = (
+                    <>
+                      <div className="relcard__art">
+                        {art && <img src={art} alt={r.title} loading="lazy" />}
+                      </div>
+                      <strong className="relcard__t">{r.title}</strong>
+                      <span className="relcard__c">{r.credit}</span>
+                    </>
+                  );
+                  return r.url ? (
+                    <a key={r.title} className="relcard relcard--link" href={withUtm(r.url)} target="_blank" rel="noreferrer">
+                      {body}
+                    </a>
+                  ) : (
+                    <div key={r.title} className="relcard">{body}</div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           <div className="row-btns ad__btns">
             {a.instagram && (
