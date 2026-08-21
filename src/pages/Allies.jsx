@@ -41,10 +41,10 @@ export default function Allies() {
   const navigate = useNavigate();
 
   /* featured partners pin to the front, everyone else keeps array order */
-  const ordered = useMemo(
-    () => [...ALLIES].sort((a, b) => (b.featured === true) - (a.featured === true)),
-    []
-  );
+  // const ordered = useMemo(
+  //   () => [...ALLIES].sort((a, b) => (b.featured === true) - (a.featured === true)),
+  //   []
+  // );
 
   return (
     <>
@@ -60,7 +60,7 @@ export default function Allies() {
 
       <section className="section">
         <div className="agrid">
-          {ordered.map((a, i) => (
+          {ALLIES.map((a, i) => (
             <Reveal key={a.slug} delay={i * 40} className="acard-wrap">
               <Link to={`/allies/${a.slug}`} className="acard" aria-label={a.name}>
                 <AllyMark ally={a} size="tile" />
