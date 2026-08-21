@@ -37,6 +37,7 @@ import necterr from "./necterr.jpg";
 import nikky from "./nikky.jpg";
 import tai from "./tai.jpg";
 import dlite from "./dlite.jpg";
+import toyor from "./toyor.jpg";
 
 import evGlobalSoundLondon from "./events/global-sound-london.jpg";
 import evDJShawn from "./events/DJShawnEvent.jpeg";
@@ -64,4 +65,4 @@ import pjVuligateClub from "./projects/vuligate-club.jpg";
 import pjVuligateStreet from "./projects/vuligate-street.jpg";
 
 
-export const IMAGES = { evGlobalSoundLondon, evDJShawn, evLondonToLagos, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet };
+export const IMAGES = { evGlobalSoundLondon, evDJShawn, evLondonToLagos, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, toyor, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet };
