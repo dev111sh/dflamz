@@ -52,14 +52,14 @@ export const CLIENTS = [
 export const ALLIES = [
   {
     slug: 'nigerian-dj',
-    name: 'The Nigerian DJ',
+    name: 'Nigerian DJ',
     logo: 'nigeriandj.png',
     location: 'Nigeria',
     category: 'Governing Body',
     tier: 'founding',
     blurb:
       'The governing body responsible for the management of DJing in Nigeria, providing quality services to DJs nationwide.',
-    long: "The Nigerian DJ (NDJ) is the governing body responsible for the management of DJing in Nigeria, providing quality services to all the DJs in Nigeria. Our partnership connects the D'Flamz roster to the wider professional standards and network of the Nigerian DJ community.",
+    long: "Nigerian DJ (NDJ) is the governing body responsible for the management of DJing in Nigeria, providing quality services to all the DJs in Nigeria. Our partnership connects the D'Flamz roster to the wider professional standards and network of the Nigerian DJ community.",
     instagram: "https://www.instagram.com/nigeriandj",
     website: null,
     gallery: [],
