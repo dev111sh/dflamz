@@ -247,6 +247,7 @@ export const ROSTER = [
     tags: ['Afrobeats', 'House', 'Hip-Hop', 'Old School'],
     profile: true,
   },
+  { slug: "ambra", name: "Ambra Andela", img: "ambra", mono: "AA", role: "Afro House · Amapiano · 3-Step", tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats"], profile: true },
   {
     slug: 'gaga',
     name: 'DJ Gaga',
@@ -265,6 +266,7 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Amapiano', 'House', 'Garage'],
     profile: true,
   },
+  { slug: "nekkadex", name: "NEKKA DEX", img: "nekkadex", mono: "ND", role: "House · Minimal · Tech House", tags: ["Afro House", "Tech House", "Soulful House", "Minimal", "House"], profile: true },
   {
     slug: 'karlos',
     name: 'DJ Karlos',
@@ -1021,6 +1023,38 @@ export const PROFILES = {
       ['Awards', 'Ghana DJ Awards, Mobile DJ 2022 and Record Promoter 2025'],
       ['Radio', 'Starr 103.5 FM & Kasapa 102.5 FM, Accra'],
       ['Based', 'Accra, Ghana'],
+    ],
+  },
+
+  nekkadex: {
+    name: "NEKKA DEX", img: "nekkadex", gallery: ["nekkadex"],
+    role: "House DJ · Co-founder of Vibelab",
+    handle: "@nekka_dex", ig: "https://instagram.com/nekka_dex",
+    based: "United Kingdom",
+    tags: ["Afro House", "Tech House", "Soulful House", "Minimal", "House", "Electronic"],
+    bio: "A Bulgarian born, UK based house DJ working across minimal, tech house, soulful house and Afro house, and co-founder of the DJ platform Vibelab.",
+    long: "NEKKA DEX built her connection to electronic music through years inside club culture across Bulgaria, Romania, Hungary and the UK, which is a different education to a scene learned in one city. The sound runs through minimal, tech house, soulful house and Afro house, and leans on smooth selection and musical depth rather than obvious peaks, taking a floor somewhere over the course of a set. She cites Caiiro, Tomi & Kesh and Gruuve among her influences. Away from the decks she co-founded Vibelab, an online platform built to support the house scene by connecting DJs, artists and listeners, so she works on the infrastructure of the culture as well as playing in it.",
+    highlights: [
+      ["Also", "Co-founder, Vibelab"],
+      ["Sound", "Minimal, Tech House, Soulful House, Afro House"],
+      ["Scene", "Bulgaria, Romania, Hungary and the UK"],
+      ["Based", "United Kingdom"],
+    ],
+  },
+
+  ambra: {
+    name: "Ambra Andela", img: "ambra", gallery: ["ambra"],
+    role: "Afro-electronic DJ, dancer and creative",
+    handle: "@ambraandela", ig: "https://instagram.com/ambraandela",
+    based: "United Kingdom",
+    tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats", "Afro-Electronic"],
+    bio: "A dancer, Afro-electronic DJ and creative working across Amapiano, Afro house, 3-Step and Gqom, with Nigerian influence running through the selection.",
+    long: "Ambra Andela came to the decks from dance, having worked as a professional dancer alongside major artists and performed at industry ceremonies including the BRITs and the Grammys. That background shows in how she reads a floor: someone who has spent years responding to music with her body hears a room differently to someone who has only ever stood behind a booth. Her own lane is Afro-electronic, built on Amapiano, Afro house, 3-Step and Gqom, with the Nigerian side of her taste threading through it. She has been building the DJ side deliberately rather than trading on the visibility she already has.",
+    highlights: [
+      ["Also", "Professional dancer"],
+      ["Stages", "BRIT Awards and Grammy Awards"],
+      ["Sound", "Amapiano, Afro House, 3-Step, Gqom"],
+      ["Based", "United Kingdom"],
     ],
   },
 };

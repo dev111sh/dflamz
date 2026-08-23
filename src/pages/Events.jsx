@@ -54,7 +54,9 @@ function FeaturedEvent({ ev }) {
             <span className="evf__when">
               {ev.endDate
                 ? `${weekdayOf(ev.date)} – ${weekdayOf(ev.endDate)}`
-                : `${weekdayOf(ev.date)} · ${ev.time}`}
+                : ev.time
+                ? `${weekdayOf(ev.date)} · ${ev.time}`
+                : weekdayOf(ev.date)}
             </span>
             <h3 className="evf__t">
               <button className="evf__link" onClick={go}>{ev.title}</button>
@@ -113,7 +115,7 @@ function EventCard({ ev, past }) {
             <DateTile iso={ev.date} past={past} />
             <div className="ev-card__head">
               <h3 className="ev-card__t">{ev.title}</h3>
-              <p className="ev-card__meta">{ev.endDate ? `${ev.venue}, ${ev.city}` : `${ev.time} · ${ev.venue}, ${ev.city}`}</p>
+              <p className="ev-card__meta">{ev.endDate || !ev.time ? `${ev.venue}, ${ev.city}` : `${ev.time} · ${ev.venue}, ${ev.city}`}</p>
               {acts.length > 0 && (
                 <p className="ev-card__acts">{acts.map(d => d.name).join(" · ")}</p>
               )}

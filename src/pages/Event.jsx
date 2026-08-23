@@ -51,7 +51,7 @@ export default function Event() {
             <Eyebrow n="★">{past ? "Past event" : "Upcoming"}</Eyebrow>
             <h1 className="pd__t">{ev.title}</h1>
             <p className="evd__when">{ev.endDate ? `${fmtLong(ev.date)} – ${fmtLong(ev.endDate)}` : fmtLong(ev.date)}</p>
-            <p className="evd__where">{ev.endDate ? `${ev.venue}, ${ev.city}` : `${ev.time} · ${ev.venue}, ${ev.city}`}</p>
+            <p className="evd__where">{ev.endDate || !ev.time ? `${ev.venue}, ${ev.city}` : `${ev.time} · ${ev.venue}, ${ev.city}`}</p>
             <div className="tags">
               {ev.tags.map(t => <span key={t} className="tag">{t}</span>)}
             </div>

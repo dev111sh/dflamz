@@ -57,27 +57,27 @@ export default function Ally() {
           {a.offer && <p className="ad__offer">{a.offer}</p>}
           <p className="ad__long">{a.long}</p>
 
-          {Array.isArray(a.releases) && a.releases.length > 0 && (
-            <div className="ad__rel">
-              <span className="pd__label">Releases</span>
-              <div className="relgrid">
-                {a.releases.map(r => {
-                  const art = IMAGES[r.art];
+          {a.showcase && Array.isArray(a.showcase.items) && a.showcase.items.length > 0 && (
+            <div className="ad__sc">
+              <span className="pd__label">{a.showcase.label}</span>
+              <div className="scgrid">
+                {a.showcase.items.map(item => {
+                  const art = IMAGES[item.art];
                   const body = (
                     <>
-                      <div className="relcard__art">
-                        {art && <img src={art} alt={r.title} loading="lazy" />}
+                      <div className="sccard__art">
+                        {art && <img src={art} alt={item.title} loading="lazy" />}
                       </div>
-                      <strong className="relcard__t">{r.title}</strong>
-                      <span className="relcard__c">{r.credit}</span>
+                      <strong className="sccard__t">{item.title}</strong>
+                      <span className="sccard__c">{item.credit}</span>
                     </>
                   );
-                  return r.url ? (
-                    <a key={r.title} className="relcard relcard--link" href={withUtm(r.url)} target="_blank" rel="noreferrer">
+                  return item.url ? (
+                    <a key={item.title} className="sccard sccard--link" href={withUtm(item.url)} target="_blank" rel="noreferrer">
                       {body}
                     </a>
                   ) : (
-                    <div key={r.title} className="relcard">{body}</div>
+                    <div key={item.title} className="sccard">{body}</div>
                   );
                 })}
               </div>

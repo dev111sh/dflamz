@@ -48,11 +48,14 @@ export const CLIENTS = [
    - offer: short public-facing line about what the partner brings.
      Public copy only — never commercial terms.
    - featured: true pins this partner to the first spotlight position
-   - releases: optional array of artefacts produced through the partnership
-     (e.g. official remixes). Each entry is { title, credit, art, url },
-     where art is an IMAGE SLOT KEY from src/assets/images.js (not a raw
-     filename), same convention as PROJECTS img/gallery. url may be null,
-     in which case the release card renders without a link.
+   - showcase: optional { label, items } for allies with visual output worth
+     surfacing (releases, event artwork, etc). label is a caller-supplied
+     heading (e.g. "Releases", "Recent Events"). Each item is
+     { title, credit, art, url }, where art is an IMAGE SLOT KEY from
+     src/assets/images.js (not a raw filename), same convention as
+     PROJECTS img/gallery. url may be null, in which case the card renders
+     without a link. Aspect ratios are not forced — square covers and
+     portrait flyers both render intact.
    --------------------------------------------------------------------- */
 export const ALLIES = [
   {
@@ -115,20 +118,23 @@ export const ALLIES = [
     instagram: null,
     website: null,
     gallery: [],
-    releases: [
-      {
-        title: 'Yegede (Sakarapiano)',
-        credit: "DJ Flammzy x Yusuf Olatunji",
-        art: 'rlYegede',
-        url: null,
-      },
-      {
-        title: 'Happy Birthday (Remix)',
-        credit: "DJ Flammzy x Vibemaster JD ft Evi Edna Ogholi x Clayrocksu",
-        art: 'rlHappyBirthday',
-        url: null,
-      },
-    ],
+    showcase: {
+      label: 'Releases',
+      items: [
+        {
+          title: 'Yegede (Sakarapiano)',
+          credit: "DJ Flammzy x Yusuf Olatunji",
+          art: 'rlYegede',
+          url: null,
+        },
+        {
+          title: 'Happy Birthday (Remix)',
+          credit: "DJ Flammzy x Vibemaster JD ft Evi Edna Ogholi x Clayrocksu",
+          art: 'rlHappyBirthday',
+          url: null,
+        },
+      ],
+    },
     offer: 'Catalogue access for official remixes',
     featured: true,
   },
@@ -194,6 +200,38 @@ export const ALLIES = [
     website: null,
     gallery: [],
     offer: "Official beverage partner for D'Flamz events",
+    featured: false,
+  },
+  {
+    slug: 'haus-london',
+    name: 'The Haus London',
+    logo: 'haus-london.png',
+    location: 'London, UK',
+    category: 'Events & Promotions',
+    tier: 'founding',
+    blurb: "An events company building and running nightlife concepts across London, holding a residency at Egnite Lounge in Chingford.",
+    long: "The Haus London is an events company that builds and runs nightlife concepts across the city, from day parties and themed club nights to one-off collaborations. Each concept is developed with its own identity, audience and atmosphere rather than being run as a single recurring brand, and the company handles the full chain from concept and branding through promotion, entertainment programming and delivery on the night. It holds a residency at Egnite Lounge in Chingford, which gives its concepts a consistent home, while a multi-venue model lets it move the experience elsewhere. For D'Flamz it is a route into London rooms through a partner who already owns the audience and the venue relationships.",
+    instagram: null,
+    website: null,
+    gallery: [],
+    showcase: {
+      label: 'Recent Events',
+      items: [
+        {
+          title: 'After Dark',
+          credit: 'Egnite London, Chingford',
+          art: 'hsAfterDark',
+          url: null,
+        },
+        {
+          title: 'All White Party',
+          credit: 'Egnite London x The Haus London',
+          art: 'hsAllWhiteParty',
+          url: null,
+        },
+      ],
+    },
+    offer: null,
     featured: false,
   },
 ];
