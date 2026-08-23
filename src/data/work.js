@@ -199,6 +199,28 @@ export const EVENTS = [
     sponsored: false,
   },
   {
+    slug: 'kiss-timaya-afterparty',
+    title: 'Timaya Official Afterparty',
+    date: '2026-08-22',
+    time: '11:00 PM',
+    venue: 'Tunnel Vision London',
+    city: 'London, UK',
+    dj: 'kiss',
+    img: 'evKissTimaya',
+    gallery: [],
+    lineup: [],
+    tags: ['Afterparty', 'Afrobeats'],
+    blurb:
+      "DJ Kiss performed at the official Timaya afterparty at Tunnel Vision London, running from 11pm through to 4am.",
+    description:
+      "The official afterparty for Timaya's London show, held at Tunnel Vision on Jewry Street with DJ Kiss performing, running 11pm to 4am. Presented by SMADE Group and DM Records.",
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
+  // date/endDate are a September placeholder; individual city dates unannounced.
+  // Replace with the real start date (and endDate) once Shawn announces.
+  {
     slug: 'shawn-uk-tour',
     title: 'DJ Shawn UK Tour 2026',
     date: '2026-09-01',
@@ -233,6 +255,28 @@ export const EVENTS = [
     blurb:
       "The flagship Global Sound night returns to Mayfair. One DJ, one continuous journey through global music.",
     description: null,
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
+  // date is a September placeholder; individual city dates unannounced.
+  // Replace with the real start date (and endDate) once Kiss announces.
+  {
+    slug: 'kiss-europe-tour',
+    title: 'Ajayi in Europe Tour',
+    date: '2026-09-30',
+    time: null,
+    venue: 'Paris, Rome, London, Berlin, Madrid and Athens',
+    city: 'Europe',
+    dj: 'kiss',
+    img: 'evKissEurope',
+    gallery: [],
+    lineup: [],
+    tags: ['Tour', 'Europe', 'Nightlife'],
+    blurb:
+      "DJ Kiss takes the Ajayi in Europe tour through six cities in September. Individual dates to be announced.",
+    description:
+      "DJ Kiss brings her sound to Europe across six cities: Paris, Rome, London, Berlin, Madrid and Athens. The tour runs in September 2026 and individual dates are still to be announced. Check back here or follow her for city announcements as they land.",
     price: null,
     ticketUrl: null,
     sponsored: false,
