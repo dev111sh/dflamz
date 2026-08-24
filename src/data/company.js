@@ -7,7 +7,7 @@ export const MARQUEE = [
 ];
 
 export const STATS = [
-  { n: '39', l: 'DJs on the roster' },
+  { n: '40', l: 'DJs on the roster' },
   { n: '5K+', l: 'Festival crowd' },
   { n: '10+', l: 'Radio stations' },
   { n: '4', l: 'Continents played' },

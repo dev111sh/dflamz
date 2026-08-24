@@ -139,15 +139,7 @@ export const ROSTER = [
     tags: ['R&B', 'Hip-Hop', 'Amapiano', 'House'],
     profile: true,
   },
-  {
-    slug: 'femzey',
-    name: 'Luminos DJ Femzey',
-    img: 'femzey',
-    mono: 'FE',
-    role: 'Afrobeats · Radio · Events',
-    tags: ['Afrobeats', 'Radio', 'Events'],
-    profile: true,
-  },
+  { slug: "ambra", name: "Ambra Andela", img: "ambra", mono: "AA", role: "Afro House · Amapiano · 3-Step", tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats"], profile: true },
   {
     slug: 'yilmaz',
     name: 'DJ Yilmaz Sumbul',
@@ -220,15 +212,7 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Afro House', 'Amapiano', 'EDM'],
     profile: true,
   },
-  {
-    slug: 'bluecrystal',
-    name: 'DJ Blue Crystal',
-    img: 'bluecrystal',
-    mono: 'BC',
-    role: 'Afrobeats · Hip-Hop · House',
-    tags: ['Afrobeats', 'Hip-Hop', 'Trap', 'House', 'R&B'],
-    profile: true,
-  },
+  { slug: "nekkadex", name: "NEKKA DEX", img: "nekkadex", mono: "ND", role: "House · Minimal · Tech House", tags: ["Afro House", "Tech House", "Soulful House", "Minimal", "House"], profile: true },
   {
     slug: 'shumzy',
     name: 'DJ Shumzy',
@@ -247,7 +231,15 @@ export const ROSTER = [
     tags: ['Afrobeats', 'House', 'Hip-Hop', 'Old School'],
     profile: true,
   },
-  { slug: "ambra", name: "Ambra Andela", img: "ambra", mono: "AA", role: "Afro House · Amapiano · 3-Step", tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats"], profile: true },
+  {
+    slug: 'femzey',
+    name: 'Luminos DJ Femzey',
+    img: 'femzey',
+    mono: 'FE',
+    role: 'Afrobeats · Radio · Events',
+    tags: ['Afrobeats', 'Radio', 'Events'],
+    profile: true,
+  },
   {
     slug: 'gaga',
     name: 'DJ Gaga',
@@ -266,7 +258,15 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Amapiano', 'House', 'Garage'],
     profile: true,
   },
-  { slug: "nekkadex", name: "NEKKA DEX", img: "nekkadex", mono: "ND", role: "House · Minimal · Tech House", tags: ["Afro House", "Tech House", "Soulful House", "Minimal", "House"], profile: true },
+  {
+    slug: 'bluecrystal',
+    name: 'DJ Blue Crystal',
+    img: 'bluecrystal',
+    mono: 'BC',
+    role: 'Afrobeats · Hip-Hop · House',
+    tags: ['Afrobeats', 'Hip-Hop', 'Trap', 'House', 'R&B'],
+    profile: true,
+  },
   {
     slug: 'karlos',
     name: 'DJ Karlos',
@@ -285,6 +285,7 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Dancehall', 'Afro House', 'Techno'],
     profile: true,
   },
+  { slug: "dayo", name: "DJ Dayo", img: "dayo", mono: "DY", role: "Amapiano · Afrobeats · Afro House", tags: ["Amapiano", "Afrobeats", "Afro House", "Street"], profile: true },
   {
     slug: 'tai',
     name: 'DJ TAI',
@@ -1055,6 +1056,21 @@ export const PROFILES = {
       ["Stages", "BRIT Awards and Grammy Awards"],
       ["Sound", "Amapiano, Afro House, 3-Step, Gqom"],
       ["Based", "United Kingdom"],
+    ],
+  },
+
+  dayo: {
+    name: "DJ Dayo", img: "dayo", gallery: ["dayo"],
+    role: "DJ · Amapiano, Afrobeats and Afro House",
+    handle: "@dj_dayo", ig: "https://instagram.com/dj_dayo",
+    based: "Lagos, Nigeria",
+    tags: ["Amapiano", "Afrobeats", "Afro House", "Street", "Party"],
+    bio: "A Lagos DJ playing Amapiano, Afrobeats, Afro house and street sounds, known for energetic transitions and reading a room.",
+    long: "DJ Dayo works the current end of Lagos sound: Amapiano, Afrobeats, Afro house and the street records that move a floor before they reach radio. What she is known for is the mechanics rather than the selection alone, with energetic transitions and smooth blends of what is trending, held together by crowd control. That last part is the difference between a DJ who plays good records and one a promoter books again, and it is the skill that carries across parties, clubs and private events.",
+    highlights: [
+      ["Sound", "Amapiano, Afrobeats, Afro House, Street"],
+      ["Strength", "Transitions and crowd control"],
+      ["Based", "Lagos, Nigeria"],
     ],
   },
 };

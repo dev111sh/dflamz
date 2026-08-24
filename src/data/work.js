@@ -22,7 +22,7 @@ export const PROJECTS = [
     year: '2025 to present',
     location: 'Mayfair, Central London',
     img: 'pjUkTour',
-    gallery: ['evGlobalSoundLondon', 'pjUkTour'],
+    gallery: ['pjEasterLondon', 'pjUkTour'],
     layout: 'gallery',
     tags: ['Flagship Brand', 'Nightlife', 'Multi-Genre'],
     summary:
