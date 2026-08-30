@@ -87,6 +87,13 @@
    crops from the center by default, which can cut off a subject's head. Bias
    the crop upward instead of stretching. */
 .pd__media .media img{object-position:center 20%;}
+/* Roster/hero photo boxes are fixed 4/5 portrait frames via aspect-ratio + cover;
+   Jimi's source is square and Timz's is landscape, so a plain center crop can
+   miss the face — bias both toward the top instead of stretching the grid. */
+.rc .media img[alt="Jimi D Baldheaded Guy"],
+.ap__media .media img[alt="Jimi D Baldheaded Guy"],
+.rc .media img[alt="DJ Timz"],
+.ap__media .media img[alt="DJ Timz"]{object-position:center 15%;}
 /* Event flyers are full portrait posters — the date/venue panel usually sits
    in the lower third. Landscape frames cropped with object-fit:cover would
    cut that panel, so show the whole flyer letterboxed instead. */

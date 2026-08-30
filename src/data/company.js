@@ -7,7 +7,7 @@ export const MARQUEE = [
 ];
 
 export const STATS = [
-  { n: '40', l: 'DJs on the roster' },
+  { n: '44', l: 'DJs on the roster' },
   { n: '5K+', l: 'Festival crowd' },
   { n: '10+', l: 'Radio stations' },
   { n: '4', l: 'Continents played' },
@@ -130,7 +130,7 @@ export const MILESTONES = [
 
 export const PK_FACTS = [
   ['Based in', 'Lagos, Nigeria · London, UK'],
-  ['Roster', 'Over 500 DJs all over the world, one flat booking hub'],
+  ['Roster', '44 DJs on the books, one flat booking hub'],
   [
     'Genres',
     'Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop, Global Sound · Old School · Pop · Dancehall · Reggae · R&B · Soul · Electronic · Dub',

@@ -331,6 +331,10 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Street Pop', 'Dance'],
     profile: true,
   },
+  { slug: "salty", name: "DJ Salty", img: "salty", mono: "SA", role: "Open Format · Lagos", tags: ["Afrobeats", "Amapiano", "Hip-Hop", "House", "R&B", "Open Format"], profile: true },
+  { slug: "donlon", name: "DJ Don Lon", img: "donlon", mono: "DN", role: "Open Format · Afro-Caribbean", tags: ["Open Format", "Afro-Caribbean", "Soulful", "Club"], profile: true },
+  { slug: "jimi", name: "Jimi D Baldheaded Guy", img: "jimi", mono: "JB", role: "Afrobeats · Highlife · Juju", tags: ["Afrobeats", "Afropop", "Highlife", "Juju", "Amapiano", "Soul", "Jazz"], profile: true },
+  { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
 ];
 
 /* ---------------------------------------------------------------------
@@ -1071,6 +1075,64 @@ export const PROFILES = {
       ["Sound", "Amapiano, Afrobeats, Afro House, Street"],
       ["Strength", "Transitions and crowd control"],
       ["Based", "Lagos, Nigeria"],
+    ],
+  },
+
+  salty: {
+    name: "DJ Salty", img: "salty", gallery: ["salty"],
+    role: "Open Format DJ · Lagos", handle: "@djane_salty", ig: "https://instagram.com/djane_salty",
+    based: "Lagos, Nigeria",
+    tags: ["Afrobeats", "Amapiano", "Hip-Hop", "R&B", "House", "Open Format"],
+    bio: "A Lagos open format DJ blending Afrobeats, Amapiano, Hip-Hop, R&B and house with an emphasis on energy and transitions.",
+    long: "DJ Salty plays open format, which in Lagos means being able to move a room from Amapiano into Hip-Hop into house without losing it in the gap. Afrobeats, Amapiano, Hip-Hop, R&B and house all sit in the selection, and what holds them together is crowd awareness rather than a fixed running order. The sets are built to stay high energy across their whole length, which suits rooms that fill early and keep filling.",
+    highlights: [
+      ["Sound", "Afrobeats, Amapiano, Hip-Hop, R&B, House"],
+      ["Style", "Open format, energy led"],
+      ["Based", "Lagos, Nigeria"],
+    ],
+  },
+
+  donlon: {
+    name: "DJ Don Lon", img: "donlon", gallery: ["donlon"],
+    role: "Open Format DJ · Afro-Caribbean", handle: "@donlonxo", ig: "https://instagram.com/donlonxo",
+    based: null,
+    tags: ["Open Format", "Afro-Caribbean", "Soulful", "Club", "Global"],
+    bio: "An open format DJ working across global sounds, rooted in Afro-Caribbean influences and built on reading the room.",
+    long: "DJ Don Lon plays across cultures rather than within one, with Afro-Caribbean influences as the root and the rest of the selection moving out from there. Soulful grooves sit next to higher energy club records, and the sets are built to evolve with the room rather than run to a plan. Expect blends that should not work and do, familiar records in unfamiliar places, and a floor that keeps moving because someone is watching it rather than the tracklist.",
+    highlights: [
+      ["Style", "Open format across global sounds"],
+      ["Root", "Afro-Caribbean"],
+      ["Strength", "Transitions and reading the room"],
+    ],
+  },
+
+  jimi: {
+    name: "Jimi D Baldheaded Guy", img: "jimi", gallery: ["jimi"],
+    role: "DJ, music journalist and broadcaster · London",
+    handle: "@jimibaldhead", ig: "https://instagram.com/jimibaldhead",
+    based: "London, UK",
+    tags: ["Afrobeats", "Afropop", "Highlife", "Juju", "Amapiano", "Soul", "Smooth Jazz"],
+    bio: "A London based British-Nigerian DJ, music journalist and broadcaster, playing professionally since 1999 under the banner Afrigroove on the Dancefloor.",
+    long: "Jimi D Baldheaded Guy has been playing professionally since 1999 and following African music for more than three decades, and the depth shows in what he reaches for. Afrigroove on the Dancefloor is built on Afrobeats and Afropop alongside Nigerian classics, Highlife, Juju, Amapiano and contemporary African sounds, sequenced with one aim, which is that nobody stands still. The music has never been the whole of it: he has worked in entertainment journalism and broadcasting, promoted concerts, and been part of London's Nigerian live music scene, which means he books and plays with a working knowledge of where the records came from. Useful for rooms that want the catalogue as well as the current chart.",
+    highlights: [
+      ["Playing since", "1999"],
+      ["Also", "Music journalist and broadcaster"],
+      ["Sound", "Afrobeats, Afropop, Highlife, Juju, Amapiano"],
+      ["Based", "London, UK"],
+    ],
+  },
+
+  timz: {
+    name: "DJ Timz", img: "timz", gallery: ["timz"],
+    role: "DJ · Afro, R&B and Hip-Hop", handle: "@timz_dj", ig: "https://instagram.com/timz_dj",
+    based: null,
+    tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "90s", "Classics"],
+    bio: "A DJ with R&B and Afro at the core of his sound, moving between golden era classics, nineties anthems and current records.",
+    long: "DJ Timz builds around R&B and Afro and fuses outward from there, which means a set can run from golden era classics through nineties anthems into whatever is currently working, without the joins showing. He plays club nights, private parties and corporate events, three rooms that want very different things from a DJ, and the common thread is treating a set as a journey rather than a queue of records. A useful booking where the guest list spans a couple of generations and nobody wants to sit out the first hour.",
+    highlights: [
+      ["Sound", "Afrobeats, R&B, Hip-Hop, Dancehall"],
+      ["Range", "Golden era classics through to current"],
+      ["Speciality", "Clubs, private parties and corporate events"],
     ],
   },
 };
