@@ -335,6 +335,7 @@ export const ROSTER = [
   { slug: "donlon", name: "DJ Don Lon", img: "donlon", mono: "DN", role: "Open Format · Afro-Caribbean", tags: ["Open Format", "Afro-Caribbean", "Soulful", "Club"], profile: true },
   { slug: "jimi", name: "Jimi D Baldheaded Guy", img: "jimi", mono: "JB", role: "Afrobeats · Highlife · Juju", tags: ["Afrobeats", "Afropop", "Highlife", "Juju", "Amapiano", "Soul", "Jazz"], profile: true },
   { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
+  { slug: "jekyl", name: "DJ Jekyl", img: "jekyl", mono: "JK", role: "Open Format · Garage · London", tags: ["Open Format", "UK Garage", "House", "R&B", "Hip-Hop", "Afrobeats", "Dancehall"], profile: true },
 ];
 
 /* ---------------------------------------------------------------------
@@ -358,6 +359,7 @@ export const PROFILES = {
       ['Festival', 'RocktoberFest 2016, 2017 and 2019'],
       ['Festival', 'The BPM DJ Festival 2022'],
       ['Festival', 'The Beach House 2023'],
+      ['Carnival', 'Notting Hill Carnival 2026'],
       ['Tour', 'Night with Mavins East African Tour'],
       ['Tour', 'Global Sound Central London Tour (current)'],
       ['Genre', 'Global Sound'],
@@ -1133,6 +1135,22 @@ export const PROFILES = {
       ["Sound", "Afrobeats, R&B, Hip-Hop, Dancehall"],
       ["Range", "Golden era classics through to current"],
       ["Speciality", "Clubs, private parties and corporate events"],
+    ],
+  },
+
+  jekyl: {
+    name: "DJ Jekyl", img: "jekyl", gallery: ["jekyl"],
+    role: "Open Format DJ · London", handle: "@djjekyluk", ig: "https://instagram.com/djjekyluk",
+    based: "London, UK",
+    tags: ["Open Format", "UK Garage", "Jungle", "House", "Funky House", "R&B", "Hip-Hop", "Soul", "Afrobeats", "Amapiano", "Dancehall", "Grime"],
+    bio: "A London open format DJ of decades' standing, from Jungle and UK Garage roots into House, R&B, Hip-Hop, Afrobeats and club classics.",
+    long: "DJ Jekyl started in Jungle and UK Garage and never lost the ear that came with it, which is why the open format sets hold together rather than jumping between lanes. House, garage and club classics sit alongside R&B, Hip-Hop, Afrobeats, dancehall and commercial records, and the running order is built from reading the room rather than a prepared list. He has played clubs and bars across London as well as Ayia Napa and Malta, and holds slots on internet stations including Manic FM and Flames Radio. He also brings his own professional sound system and DJ setup, which makes him a single booking for events without house sound: weddings, corporate functions, birthdays and private celebrations where the venue supplies the room and nothing else.",
+    highlights: [
+      ["Roots", "Jungle and UK Garage"],
+      ["Radio", "Manic FM and Flames Radio"],
+      ["Played", "London, Ayia Napa and Malta"],
+      ["Equipment", "Own sound system and DJ setup"],
+      ["Based", "London, UK"],
     ],
   },
 };
