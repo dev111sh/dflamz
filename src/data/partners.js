@@ -115,7 +115,7 @@ export const ALLIES = [
     blurb:
       "Nigeria's oldest record label, with the largest catalogue in West Africa — D'Flamz has access for official remixes.",
     long: "Premier Music is the oldest record label in Nigeria, founded in Lagos in March 1963 as Phillips West Africa Records and trading over the decades as Phonogram and then Polygram before returning to independence as Premier Records Limited. The catalogue it holds is the largest in West Africa and reads like a history of Nigerian popular music, from highlife and juju through Afrobeat, reggae and gospel. D'Flamz has catalogue access to rework that archive, and the partnership has already produced three remixes with two released: Yegede, a Sakarapiano rework of Yusuf Olatunji built by DJ Flammzy, and the Happy Birthday Remix with Vibemaster JD featuring Evi Edna Ogholi and Clayrocksu. Both draw on original masters rather than samples, which is the part that cannot be replicated without the label in the room.",
-    instagram: null,
+    instagram: "https://instagram.com/premiermusic_ng",
     website: null,
     gallery: [],
     showcase: {
@@ -180,7 +180,7 @@ export const ALLIES = [
     blurb:
       "A Lagos hospitality brand with multiple outlets across the city — D'Flamz supplies the sound across its floors.",
     long: "Bheerhugz Café is a Lagos hospitality brand with multiple outlets across the city and a crowd that turns up for the room as much as the menu. D'Flamz has supplied the sound across its floors, which is the kind of multi-outlet booking that tests whether a roster can hold a consistent standard across several venues on the same night.",
-    instagram: null,
+    instagram: "https://instagram.com/bheerhugzcafe",
     website: null,
     gallery: [],
     offer: null,
@@ -211,7 +211,7 @@ export const ALLIES = [
     tier: 'founding',
     blurb: "An events company building and running nightlife concepts across London, holding a residency at Egnite Lounge in Chingford.",
     long: "The Haus London is an events company that builds and runs nightlife concepts across the city, from day parties and themed club nights to one-off collaborations. Each concept is developed with its own identity, audience and atmosphere rather than being run as a single recurring brand, and the company handles the full chain from concept and branding through promotion, entertainment programming and delivery on the night. It holds a residency at Egnite Lounge in Chingford, which gives its concepts a consistent home, while a multi-venue model lets it move the experience elsewhere. For D'Flamz it is a route into London rooms through a partner who already owns the audience and the venue relationships.",
-    instagram: null,
+    instagram: "https://instagram.com/thehaus.ldn",
     website: null,
     gallery: [],
     showcase: {

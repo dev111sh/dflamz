@@ -218,6 +218,27 @@ export const EVENTS = [
     ticketUrl: null,
     sponsored: false,
   },
+  {
+    slug: 'nigerian-corner-carnival',
+    title: 'Nigerian Corner at Notting Hill Carnival',
+    date: '2026-08-30',
+    endDate: '2026-08-31',
+    time: null,
+    venue: 'Nigerian Corner, Notting Hill',
+    city: 'London, UK',
+    dj: 'flammzy',
+    img: 'evNigerianCorner',
+    gallery: [],
+    lineup: [],
+    tags: ['Carnival', 'Afrobeats', 'London'],
+    blurb:
+      "DJ Flammzy plays Nigerian Corner at Notting Hill Carnival, back for its 40th year.",
+    description:
+      "DJ Flammzy performs at Nigerian Corner, the Nigerian presence at Notting Hill Carnival, marking its 40th year. Carnival runs across the August bank holiday weekend, with the street celebration on Sunday 30 and Monday 31 August 2026 and the main adult parade on the Monday. Supported by AfriChange and Air Peace.",
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
   // date/endDate are a September placeholder; individual city dates unannounced.
   // Replace with the real start date (and endDate) once Shawn announces.
   {
