@@ -175,6 +175,8 @@ export const PROJECTS = [
    - endDate: ISO date of the final night for multi-date runs. Omit for
      single-night events. Upcoming/Past filtering uses endDate when present
      so a run stays Upcoming until the last night has passed.
+  - socialUrl: link to the announcement post. Optional; renders a
+     secondary link, not a ticket button. null hides it.
    --------------------------------------------------------------------- */
 export const EVENTS = [
   {
@@ -279,6 +281,7 @@ export const EVENTS = [
       "Nova Restaurant relaunches with a Turkish Night on Friday 4 September 2026, with Yilmaz Sumbul on the decks. Nova is at 2 Kendal Avenue, London W3 0PA.",
     price: null,
     ticketUrl: null,
+    socialUrl: 'https://www.instagram.com/reel/DcvmaScMhuU/',
     sponsored: false,
   },
   {

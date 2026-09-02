@@ -70,6 +70,9 @@ export default function Event() {
                   {ev.price && <span className="evf__price">{ev.price}</span>}
                 </>
               )}
+              {ev.socialUrl && (
+                <Btn kind="outline" lg href={ev.socialUrl} target="_blank" rel="noreferrer">View announcement</Btn>
+              )}
             </div>
           </Reveal>
         </div>
