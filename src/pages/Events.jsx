@@ -152,7 +152,7 @@ export default function Events() {
     <>
       <Helmet>
         <title>Events | D'Flamz Nation</title>
-        <meta name="description" content="Catch D'Flamz Nation DJs live. Upcoming and past events, club nights, festivals and residencies." />
+        <meta name="description" content="Catch our DJs live. Upcoming and past events, club nights, festivals and residencies." />
       </Helmet>
       <PageHead
         n="Live"
