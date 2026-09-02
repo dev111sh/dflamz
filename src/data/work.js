@@ -244,8 +244,8 @@ export const EVENTS = [
   {
     slug: 'shawn-uk-tour',
     title: 'DJ Shawn UK Tour 2026',
-    date: '2026-09-01',
-    endDate: '2026-09-30',
+    date: '2026-10-01',
+    endDate: '2026-11-30',
     time: '10:00 PM',
     venue: 'UK',
     city: 'London, UK',
@@ -257,6 +257,26 @@ export const EVENTS = [
     blurb:
       "Superstar DJ Shawn takes on the UK, touring venues and creating unforgettable experiences through his blend of sounds from around the world.",
     description: null,
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
+  {
+    slug: 'nova-turkish-night',
+    title: 'Turkish Night at Nova Restaurant',
+    date: '2026-09-04',
+    time: null,
+    venue: 'Nova Restaurant, 2 Kendal Ave',
+    city: 'London, UK',
+    dj: 'yilmaz',
+    img: 'evNovaTurkishNight',
+    gallery: [],
+    lineup: [],
+    tags: ['Turkish Night', 'Restaurant', 'London'],
+    blurb:
+      "Yilmaz Sumbul plays Turkish Night at Nova Restaurant in West London, marking the venue's relaunch.",
+    description:
+      "Nova Restaurant relaunches with a Turkish Night on Friday 4 September 2026, with Yilmaz Sumbul on the decks. Nova is at 2 Kendal Avenue, London W3 0PA.",
     price: null,
     ticketUrl: null,
     sponsored: false,
