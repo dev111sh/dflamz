@@ -304,15 +304,7 @@ export const ROSTER = [
     tags: ['Afro House', 'Amapiano', 'Hip-Hop', 'Jazz'],
     profile: true,
   },
-  {
-    slug: 'real',
-    name: 'DJ Real',
-    img: 'real',
-    mono: 'RL',
-    role: 'DJ · Afrobeats · Fuji',
-    tags: ['Fuji', 'Afrobeats', 'Amapiano', 'Streets', 'Dance'],
-    profile: true,
-  },
+  { slug: "miamilee", name: "Miami Lee",  img: "miamilee", mono: "ML", role: "Afro House · Afro Tech · London", tags: ["Afro House", "Afro Tech", "Amapiano", "Deep House", "Gqom", "3-Step"], profile: true },
   {
     slug: 'necterr',
     name: 'DJ Necterr',
@@ -334,8 +326,18 @@ export const ROSTER = [
   { slug: "salty", name: "DJ Salty", img: "salty", mono: "SA", role: "Open Format · Lagos", tags: ["Afrobeats", "Amapiano", "Hip-Hop", "House", "R&B", "Open Format"], profile: true },
   { slug: "donlon", name: "DJ Don Lon", img: "donlon", mono: "DN", role: "Open Format · Afro-Caribbean", tags: ["Open Format", "Afro-Caribbean", "Soulful", "Club"], profile: true },
   { slug: "jimi", name: "Jimi D Baldheaded Guy", img: "jimi", mono: "JB", role: "Afrobeats · Highlife · Juju", tags: ["Afrobeats", "Afropop", "Highlife", "Juju", "Amapiano", "Soul", "Jazz"], profile: true },
-  { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
+  { slug: "rainbow",  name: "DJ Rainbow", img: "rainbow",  mono: "RB", role: "Afrobeats · Amapiano · Open Format", tags: ["Afrobeats", "Amapiano", "Afro House", "Afro-Fusion", "Open Format"], profile: true },
   { slug: "jekyl", name: "DJ Jekyl", img: "jekyl", mono: "JK", role: "Open Format · Garage · London", tags: ["Open Format", "UK Garage", "House", "R&B", "Hip-Hop", "Afrobeats", "Dancehall"], profile: true },
+  { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
+  {
+    slug: 'real',
+    name: 'DJ Real',
+    img: 'real',
+    mono: 'RL',
+    role: 'DJ · Afrobeats · Fuji',
+    tags: ['Fuji', 'Afrobeats', 'Amapiano', 'Streets', 'Dance'],
+    profile: true,
+  },
 ];
 
 /* ---------------------------------------------------------------------
@@ -1151,6 +1153,36 @@ export const PROFILES = {
       ["Played", "London, Ayia Napa and Malta"],
       ["Equipment", "Own sound system and DJ setup"],
       ["Based", "London, UK"],
+    ],
+  },
+
+  miamilee: {
+    name: "Miami Lee", img: "miamilee", gallery: ["miamilee"],
+    role: "DJ & Curator · Founder of SYRÁ", handle: "@miamiiilee", ig: "https://instagram.com/miamiiilee",
+    based: "London, UK",
+    tags: ["Afro House", "Afro Tech", "Amapiano", "Deep House", "Gqom", "3-Step", "Afro-Electronic"],
+    bio: "A London DJ and curator working in Afro-electronic through a multi genre lens, and founder of the creative platform SYRÁ.",
+    long: "Miami Lee plays across the Afro-electronic spectrum, from Afro house and Afro tech through Amapiano, deep house, Gqom and 3-Step, moving between them without the sets losing their shape. The range is the point, but so is the identity holding it together. Alongside DJing she founded SYRÁ, a creative platform built around music, culture and community, which makes her a curator as well as a selector and puts her on the programming side of the scene as well as the performing one. The focus is increasingly international, across clubs, festivals and hospitality in the UK, Europe and Africa.",
+    highlights: [
+      ["Also", "Founder of SYRÁ"],
+      ["Sound", "Afro House, Afro Tech, Amapiano, Deep House, Gqom"],
+      ["Focus", "Clubs, festivals and hospitality across UK, Europe and Africa"],
+      ["Based", "London, UK"],
+    ],
+  },
+
+  rainbow: {
+    name: "DJ Rainbow", img: "rainbow", gallery: ["rainbow"],
+    role: "DJ, curator and digital creator · Nigeria", handle: "@dj__rainbow", ig: "https://instagram.com/dj__rainbow",
+    based: "Nigeria",
+    tags: ["Afrobeats", "Amapiano", "Afro House", "Afro-Fusion", "Open Format"],
+    bio: "A Nigerian DJ, music curator and digital creator playing Afrobeats, Amapiano, Afro house and open format sets.",
+    long: "DJ Rainbow plays Afrobeats, Amapiano, Afro house and Afro-fusion, and builds open format sets around whoever is in front of her rather than a fixed lane. She has played across recognised Nigerian venues and events and has appeared in media including Channels TV, and works as a digital creator alongside the DJing, which means an audience that travels with her rather than one that belongs to the venue. That combination of floor craft and reach is what makes her useful to brands as well as promoters.",
+    highlights: [
+      ["Also", "Music curator and digital creator"],
+      ["Media", "Channels TV"],
+      ["Sound", "Afrobeats, Amapiano, Afro House, Open Format"],
+      ["Based", "Nigeria"],
     ],
   },
 };
