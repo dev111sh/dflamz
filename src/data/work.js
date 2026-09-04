@@ -230,7 +230,7 @@ export const EVENTS = [
     city: 'London, UK',
     dj: 'flammzy',
     img: 'evNigerianCorner',
-    gallery: [],
+    gallery: ['evNhcDecks', 'evNhcCrowd'],
     lineup: [],
     tags: ['Carnival', 'Afrobeats', 'London'],
     blurb:
@@ -322,6 +322,26 @@ export const EVENTS = [
     description:
       "DJ Kiss brings her sound to Europe across six cities: Paris, Rome, London, Berlin, Madrid and Athens. The tour runs in September 2026 and individual dates are still to be announced. Check back here or follow her for city announcements as they land.",
     price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
+  {
+    slug: 'vibelab-forest-edition',
+    title: 'Vibelab Forest Edition',
+    date: '2026-09-05',
+    time: '10:00 PM',
+    venue: 'North London, location announced on the day',
+    city: 'London, UK',
+    dj: 'kiss',
+    lineup: ['nekkadex'],
+    img: 'evVibelabForest',
+    gallery: [],
+    tags: ['Forest Edition', 'House', 'All Night'],
+    blurb:
+      "Vibelab's first event takes twelve hours of non-stop music outdoors into a North London forest. DJ Kiss and Nekka Dex are on the lineup.",
+    description:
+      "Vibelab's first ever event runs from 10pm on Saturday 5 September through to 10am, twelve hours of continuous music at an outdoor North London location announced on the day. DJ Kiss and Nekka Dex both play, alongside a wider lineup including Ain't That Patchie, Afrocentric, Clipper, David Charles, Gappy Ryder, Joel S, Kenny Hypa, Marcus Mae, Married2House and Shotime. Free entry.",
+    price: 'Free',
     ticketUrl: null,
     sponsored: false,
   },
