@@ -303,6 +303,26 @@ export const EVENTS = [
     ticketUrl: null,
     sponsored: false,
   },
+  {
+    slug: 'saturday-nostalgia',
+    title: 'Saturday Nostalgia at 280 Degrees',
+    date: '2026-09-26',
+    time: '8:00 PM',
+    venue: '280 Degrees, 280 Kilburn High Rd',
+    city: 'London, UK',
+    dj: 'jimi',
+    img: 'evSaturdayNostalgia',
+    gallery: [],
+    lineup: [],
+    tags: ['Nostalgia', 'Afrobeats', 'Classics', 'London'],
+    blurb:
+      "Jimi D Baldheaded Guy plays Saturday Nostalgia at 280 Degrees in Kilburn, 8pm through to 3am.",
+    description:
+      "Saturday Nostalgia at 280 Degrees, 280 Kilburn High Road, with Jimi D Baldheaded Guy on the decks from 8pm until 3am on Saturday 26 September 2026. Afrigroove on the Dancefloor: Afrobeats, Afropop, Nigerian classics, Highlife and Juju. Table bookings recommended on 0207 328 8832 or 07375 047447.",
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
   // date is a September placeholder; individual city dates unannounced.
   // Replace with the real start date (and endDate) once Kiss announces.
   {
