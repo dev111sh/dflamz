@@ -48,6 +48,7 @@ import timz from "./timz.jpg";
 import jekyl from "./jekyl.jpg";
 import moniz from "./moniz.jpg";
 import xiano from "./xiano.jpg";
+import dino from "./dino.jpg";
 
 import rlYegede from "./releases/rl-yegede.jpg";
 import rlHappyBirthday from "./releases/rl-happy-birthday.jpg";
@@ -91,4 +92,4 @@ import miamilee from "./miamilee.jpg";
 import rainbow from "./rainbow.jpg";
 
 
-export const IMAGES = { pjEasterLondon, evGlobalSoundLondon, evDJShawn, evLondonToLagos, evKissEurope, evKissTimaya, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, toyor, nekkadex, ambra, dayo, salty, donlon, jimi, timz, rlYegede, rlHappyBirthday, hsAfterDark, hsAllWhiteParty, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet, evNigerianCorner, jekyl, evNovaTurkishNight, evVibelabForest, evNhcDecks, evNhcCrowd, evSaturdayNostalgia, miamilee, rainbow, moniz, xiano };
+export const IMAGES = { pjEasterLondon, evGlobalSoundLondon, evDJShawn, evLondonToLagos, evKissEurope, evKissTimaya, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, toyor, nekkadex, ambra, dayo, salty, donlon, jimi, timz, rlYegede, rlHappyBirthday, hsAfterDark, hsAllWhiteParty, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet, evNigerianCorner, jekyl, evNovaTurkishNight, evVibelabForest, evNhcDecks, evNhcCrowd, evSaturdayNostalgia, miamilee, rainbow, moniz, xiano, dino };

@@ -329,7 +329,7 @@ export const ROSTER = [
   { slug: "rainbow",  name: "DJ Rainbow", img: "rainbow",  mono: "RB", role: "Afrobeats · Amapiano · Open Format", tags: ["Afrobeats", "Amapiano", "Afro House", "Afro-Fusion", "Open Format"], profile: true },
   { slug: "jekyl", name: "DJ Jekyl", img: "jekyl", mono: "JK", role: "Open Format · Garage · London", tags: ["Open Format", "UK Garage", "House", "R&B", "Hip-Hop", "Afrobeats", "Dancehall"], profile: true },
   { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
-  
+  { slug: "dino", name: "DJ Dino", img: "dino", mono: "DI", role: "Afrobeats · Amapiano · Afro House", tags: ["Afrobeats", "Amapiano", "Afro House"], profile: true },
   { slug: "moniz", name: "DJ Moniz", img: "moniz", mono: "MZ", role: "Afro House · Soulful House · Ibiza", tags: ["Afrobeats", "Amapiano", "Afro House", "Soulful House", "Tribal", "R&B", "Hip-Hop"], profile: true },
   { slug: "xiano", name: "DJ Xiano", img: "xiano", mono: "XN", role: "Afrobeats · House · Dancehall",     tags: ["Afrobeats", "House", "Reggae", "Dancehall", "Hip-Hop", "R&B"],                      profile: true },
   {
@@ -1216,6 +1216,21 @@ export const PROFILES = {
     long: "DJ Xiano plays Afrobeats and house alongside reggae and dancehall, with Hip-Hop and R&B filling out the rest of the range. It is a selection built for rooms that want to move between the Caribbean and West African ends of a night without a hard break in between, and the breadth means he can follow a crowd rather than commit to a single lane from the first record.",
     highlights: [
       ["Sound", "Afrobeats, House, Reggae, Dancehall, Hip-Hop, R&B"],
+    ],
+  },
+
+  dino: {
+    name: "DJ Dino", img: "dino", gallery: ["dino"],
+    role: "DJ · Afrobeats, Amapiano and Afro House",
+    handle: "@sexydjdino", ig: "https://instagram.com/sexydjdino",
+    based: "Abuja, Nigeria",
+    tags: ["Afrobeats", "Amapiano", "Afro House", "Nightlife"],
+    bio: "An Abuja DJ playing Afrobeats, Amapiano and Afro house, known for high energy sets and crowd control.",
+    long: "DJ Dino works Abuja nightlife with a selection built on Amapiano, Afrobeats and Afro house. The sets run high energy and lean on transitions and crowd control, which is what separates a DJ who fills a floor from one who merely plays to it. She is currently the roster's Abuja presence, in a city whose nightlife runs to a different rhythm than Lagos and which needs someone who actually works there.",
+    highlights: [
+      ["Sound", "Afrobeats, Amapiano, Afro House"],
+      ["Strength", "Transitions and crowd control"],
+      ["Based", "Abuja, Nigeria"],
     ],
   },
 };
