@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import InstagramIcon from "../components/InstagramIcon.jsx";
-import { PROFILES } from "../data/site.js";
+import { PROFILES, ROSTER } from "../data/site.js";
 import Reveal from "../components/Reveal.jsx";
 import Eyebrow from "../components/Eyebrow.jsx";
 import Btn from "../components/Btn.jsx";
@@ -16,6 +16,7 @@ export default function Artist() {
   const p = PROFILES[slug];
   // Unknown slug (e.g. a retired profile like /dj/jd) → send to the roster.
   if (!p) { navigate("/gangofdjs"); return null; }
+  const isYoung = ROSTER.find((dj) => dj.slug === slug)?.young === true;
   return (
     <>
       <Helmet>
@@ -44,6 +45,9 @@ export default function Artist() {
               <div><span>Based</span><b>{p.based}</b></div>
               <div><span>Genres</span><b>{p.tags.join(" · ")}</b></div>
             </div>
+            {/* {isYoung && (
+              <p className="ap__note">Kaka is available for daytime and family events. All bookings are arranged with his parent through D'Flamz.</p>
+            )} */}
             <div className="row-btns">
               <Btn lg onClick={() => navigate("/contact")}>Book {p.name.replace("DJ ", "")}</Btn>
               {/* {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>} */}

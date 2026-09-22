@@ -1,6 +1,11 @@
 /* ---------------------------------------------------------------------
    ROSTER — one flat, equal tier. No "head DJ", no featured billing.
    Photo-backed DJs are ordered first so the grid reads full at launch.
+
+   - young: true marks a performer under 18. Excluded from the main roster
+     grid and from DJ counts in STATS; shown in a separate Young Talent
+     section; booked through the parent/guardian for daytime and family
+     events only. Omit for everyone else.
    --------------------------------------------------------------------- */
 export const ROSTER = [
   {
@@ -139,7 +144,7 @@ export const ROSTER = [
     tags: ['R&B', 'Hip-Hop', 'Amapiano', 'House'],
     profile: true,
   },
-  { slug: "ambra", name: "Ambra Andela", img: "ambra", mono: "AA", role: "Afro House · Amapiano · 3-Step", tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats"], profile: true },
+  { slug: "rainbow",  name: "DJ Rainbow", img: "rainbow",  mono: "RB", role: "Afrobeats · Amapiano · Afro House", tags: ["Afrobeats", "Amapiano", "Afro House", "Afro-Fusion", "Open Format"], profile: true },
   {
     slug: 'yilmaz',
     name: 'DJ Yilmaz Sumbul',
@@ -222,15 +227,7 @@ export const ROSTER = [
     tags: ['Afrobeats', 'Hip-Hop'],
     profile: true,
   },
-  {
-    slug: 'play',
-    name: 'DJ Play',
-    img: 'play',
-    mono: 'PL',
-    role: 'Afrobeats · House · Hip-Hop',
-    tags: ['Afrobeats', 'House', 'Hip-Hop', 'Old School'],
-    profile: true,
-  },
+  { slug: "dash", name: "DJ Dash", img: "dash", mono: "DA", role: "Hip-Hop · Soca · Afrobeats · Miami", tags: ["Hip-Hop", "Afrobeats", "Amapiano", "Soca", "Baile Funk", "Open Format"], profile: true },
   {
     slug: 'femzey',
     name: 'Luminos DJ Femzey',
@@ -277,12 +274,12 @@ export const ROSTER = [
     profile: true,
   },
   {
-    slug: 'leezyace',
-    name: 'DJ Leezy Ace',
-    img: 'leezyace',
-    mono: 'LA',
-    role: 'Afrobeats · Afro House · Techno',
-    tags: ['Afrobeats', 'Dancehall', 'Afro House', 'Techno'],
+    slug: 'real',
+    name: 'DJ Real',
+    img: 'real',
+    mono: 'RL',
+    role: 'DJ · Afrobeats · Fuji',
+    tags: ['Fuji', 'Afrobeats', 'Amapiano', 'Streets', 'Dance'],
     profile: true,
   },
   { slug: "dayo", name: "DJ Dayo", img: "dayo", mono: "DY", role: "Amapiano · Afrobeats · Afro House", tags: ["Amapiano", "Afrobeats", "Afro House", "Street"], profile: true },
@@ -296,22 +293,22 @@ export const ROSTER = [
     profile: true,
   },
   {
-    slug: 'real',
-    name: 'DJ Real',
-    img: 'real',
-    mono: 'RL',
-    role: 'DJ · Afrobeats · Fuji',
-    tags: ['Fuji', 'Afrobeats', 'Amapiano', 'Streets', 'Dance'],
+    slug: 'play',
+    name: 'DJ Play',
+    img: 'play',
+    mono: 'PL',
+    role: 'Afrobeats · House · Hip-Hop',
+    tags: ['Afrobeats', 'House', 'Hip-Hop', 'Old School'],
     profile: true,
   },
   { slug: "miamilee", name: "Miami Lee",  img: "miamilee", mono: "ML", role: "Afro House · Afro Tech · London", tags: ["Afro House", "Afro Tech", "Amapiano", "Deep House", "Gqom", "3-Step"], profile: true },
   {
-    slug: 'necterr',
-    name: 'DJ Necterr',
-    img: 'necterr',
-    mono: 'NC',
-    role: 'Multi Genre · Producer',
-    tags: ['Multi Genre', 'Amapiano', 'Afrobeats', 'Producer'],
+    slug: 'leezyace',
+    name: 'DJ Leezy Ace',
+    img: 'leezyace',
+    mono: 'LA',
+    role: 'Afrobeats · Afro House · Techno',
+    tags: ['Afrobeats', 'Dancehall', 'Afro House', 'Techno'],
     profile: true,
   },
   {
@@ -326,7 +323,7 @@ export const ROSTER = [
   { slug: "salty", name: "DJ Salty", img: "salty", mono: "SA", role: "Open Format · Lagos", tags: ["Afrobeats", "Amapiano", "Hip-Hop", "House", "R&B", "Open Format"], profile: true },
   { slug: "donlon", name: "DJ Don Lon", img: "donlon", mono: "DN", role: "Open Format · Afro-Caribbean", tags: ["Open Format", "Afro-Caribbean", "Soulful", "Club"], profile: true },
   { slug: "jimi", name: "Jimi D Baldheaded Guy", img: "jimi", mono: "JB", role: "Afrobeats · Highlife · Juju", tags: ["Afrobeats", "Afropop", "Highlife", "Juju", "Amapiano", "Soul", "Jazz"], profile: true },
-  { slug: "rainbow",  name: "DJ Rainbow", img: "rainbow",  mono: "RB", role: "Afrobeats · Amapiano · Open Format", tags: ["Afrobeats", "Amapiano", "Afro House", "Afro-Fusion", "Open Format"], profile: true },
+  { slug: "ambra", name: "Ambra Andela", img: "ambra", mono: "AA", role: "Afro House · Amapiano · 3-Step", tags: ["Amapiano", "Afro House", "3-Step", "Gqom", "Afrobeats"], profile: true },
   { slug: "jekyl", name: "DJ Jekyl", img: "jekyl", mono: "JK", role: "Open Format · Garage · London", tags: ["Open Format", "UK Garage", "House", "R&B", "Hip-Hop", "Afrobeats", "Dancehall"], profile: true },
   { slug: "timz", name: "DJ Timz", img: "timz", mono: "TZ", role: "Afro · R&B · Hip-Hop", tags: ["Afrobeats", "R&B", "Hip-Hop", "Dancehall", "Classics"], profile: true },
   { slug: "dino", name: "Sexydjdino", img: "dino", mono: "DI", role: "Afrobeats · Amapiano · Afro House", tags: ["Afrobeats", "Amapiano", "Afro House"], profile: true },
@@ -341,6 +338,16 @@ export const ROSTER = [
     tags: ['Afro House', 'Amapiano', 'Hip-Hop', 'Jazz'],
     profile: true,
   },
+  {
+    slug: 'necterr',
+    name: 'DJ Necterr',
+    img: 'necterr',
+    mono: 'NC',
+    role: 'Multi Genre · Producer',
+    tags: ['Multi Genre', 'Amapiano', 'Afrobeats', 'Producer'],
+    profile: true,
+  },
+  { slug: "kaka", name: "Kaka", img: "kaka", mono: "KK", role: "Young DJ & Artist · London", tags: ["Afro-Pop", "Family Events"], profile: true, young: true },
 ];
 
 /* ---------------------------------------------------------------------
@@ -1231,6 +1238,38 @@ export const PROFILES = {
       ["Sound", "Afrobeats, Amapiano, Afro House"],
       ["Strength", "Transitions and crowd control"],
       ["Based", "Abuja, Nigeria"],
+    ],
+  },
+
+  dash: {
+    name: "DJ Dash", img: "dash", gallery: ["dash"],
+    role: "DJ, Turntablist & Producer · Miami",
+    handle: "@damndash", ig: "https://instagram.com/damndash",
+    based: "Miami, USA",
+    tags: ["Hip-Hop", "Afrobeats", "Amapiano", "Soca", "Baile Funk", "Dancehall", "Open Format", "Turntablism"],
+    bio: "A Miami DJ, turntablist and producer who came up through Downtown Miami and Miami Beach nightclubs, and creator of the Mosaic: World Vibes party series.",
+    long: "DJ Dash found the music in high school in Broward County, Florida, starting on a Numark controller and building the mixing, scratching and crowd control over the following five years. While studying mechanical engineering at Florida International University he landed residencies in Downtown Miami at Heart Nightclub and The Hangar, and from 2018 moved into the Miami Beach club circuit at rooms including Studio 23, Exchange Miami, Cameo Nightclub and Mokai Lounge. He is a turntablist as well as a selector, and his sets run across Hip-Hop, Afrobeats, Amapiano, soca and baile funk. Beyond the decks he produces, runs a YouTube channel of full mixes and studio sessions, founded the DJ collective Damn DJ's in 2020 to mentor younger DJs, and created Mosaic: World Vibes, a Miami party series built around global sounds.",
+    highlights: [
+      ["Clubs", "Heart, The Hangar, Studio 23, Exchange Miami, Cameo, Mokai"],
+      ["Also", "Producer, turntablist and YouTuber"],
+      ["Founder", "Damn DJ's and Mosaic: World Vibes"],
+      ["Based", "Miami, USA"],
+    ],
+  },
+
+  kaka: {
+    name: "Kaka", img: "kaka", gallery: ["kaka"],
+    role: "Young DJ & Recording Artist · London",
+    handle: null, ig: null,
+    based: "London, UK",
+    tags: ["Afro-Pop", "Dance", "Family Events"],
+    bio: "A young London DJ and recording artist, and the voice behind the Afro-pop single Birdy Wirdy Dance.",
+    long: "Kaka is a young DJ and recording artist from London. His single Birdy Wirdy Dance, featuring Homdiggy, was released independently in March 2026, an Afro-pop record built around a dance anyone can pick up in a chorus. He is available for daytime children and family events: birthdays, school and community events, family festivals and brand activations aimed at younger audiences.",
+    highlights: [
+      ["Single", "Birdy Wirdy Dance (feat. Homdiggy), 2026"],
+      ["Bookings", "Daytime children and family events "],
+      // ["Managed by", "Parent, via D'Flamz"],
+      ["Based", "London, UK"],
     ],
   },
 };
