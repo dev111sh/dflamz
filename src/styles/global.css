@@ -266,6 +266,7 @@
 .ap__facts span{display:block; font-family:var(--mono); font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted2); margin-bottom:6px;}
 .ap__facts b{font-weight:500;}
 .draft-note{margin-top:18px; font-family:var(--mono); font-size:11px; color:var(--gold); letter-spacing:.5px;}
+.ap__note{color:var(--muted); font-size:14px; line-height:1.6; margin-bottom:20px; max-width:52ch;}
 .hl{display:flex; flex-direction:column;}
 .hl__r{display:grid; grid-template-columns:160px 1fr; gap:24px; padding:18px 0; border-bottom:1px solid var(--border); align-items:baseline;}
 .hl__k{font-family:var(--mono); font-size:12px; letter-spacing:1px; color:var(--bright);}

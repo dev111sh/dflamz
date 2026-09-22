@@ -109,6 +109,16 @@ for (const a of ALLIES) {
 }
 
 // EVENTS
+const youngSlugs = new Set(ROSTER.filter((dj) => dj.young).map((dj) => dj.slug));
+
+function isEveningTime(time) {
+  const m = typeof time === "string" && time.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+  if (!m) return false;
+  let hour = parseInt(m[1], 10) % 12;
+  if (m[3].toUpperCase() === "PM") hour += 12;
+  return hour >= 19 || hour < 5; // 7pm–5am counts as evening
+}
+
 const eventSlugs = new Set();
 for (const e of EVENTS) {
   const slug = e.slug ?? "(missing slug)";
@@ -118,6 +128,15 @@ for (const e of EVENTS) {
   checkImageRef(slug, "event img", e.img);
   if (Array.isArray(e.gallery)) {
     for (const g of e.gallery) checkImageRef(slug, "event gallery entry", g);
+  }
+
+  if (isEveningTime(e.time)) {
+    const performers = [e.dj, ...(Array.isArray(e.lineup) ? e.lineup : [])].filter(Boolean);
+    for (const performer of performers) {
+      if (youngSlugs.has(performer)) {
+        err(slug, `young roster slug "${performer}" is booked on an evening event (time: ${e.time})`);
+      }
+    }
   }
 }
 

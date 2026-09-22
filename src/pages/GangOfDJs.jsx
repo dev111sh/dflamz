@@ -25,9 +25,18 @@ export default function GangOfDJs() {
       <section className="section">
         <SectionHead n="01" eyebrow="Resident Roster" title="Our Network of DJs" />
         <div className="roster">
-          {ROSTER.map((dj, i) => <RosterCard key={i} dj={dj} />)}
+          {ROSTER.filter(dj => !dj.young).map((dj, i) => <RosterCard key={i} dj={dj} />)}
         </div>
       </section>
+
+      {ROSTER.some(dj => dj.young) && (
+        <section className="section">
+          <SectionHead n="02" eyebrow="Family Bookings" title="Young Talent" />
+          <div className="roster">
+            {ROSTER.filter(dj => dj.young).map((dj, i) => <RosterCard key={i} dj={dj} />)}
+          </div>
+        </section>
+      )}
 
       <CtaBand />
     </>

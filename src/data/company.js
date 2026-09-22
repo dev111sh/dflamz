@@ -1,5 +1,7 @@
 import { ROSTER } from './roster.js';
 
+const ADULT_ROSTER_COUNT = ROSTER.filter((dj) => !dj.young).length;
+
 export const MARQUEE = [
   'Spreading Music Like Wild Fire',
   'Book The Right DJ, Direct, No Middlemen',
@@ -9,7 +11,7 @@ export const MARQUEE = [
 ];
 
 export const STATS = [
-  { n: String(ROSTER.length), l: 'DJs on the roster' },
+  { n: String(ADULT_ROSTER_COUNT), l: 'DJs on the roster' },
   { n: '5K+', l: 'Festival crowd' },
   { n: '10+', l: 'Radio stations' },
   { n: '4', l: 'Continents played' },
@@ -132,7 +134,7 @@ export const MILESTONES = [
 
 export const PK_FACTS = [
   ['Based in', 'Lagos, Nigeria · London, UK'],
-  ['Roster', `${ROSTER.length} DJs on the books, one flat booking hub`],
+  ['Roster', `${ADULT_ROSTER_COUNT} DJs on the books, one flat booking hub`],
   [
     'Genres',
     'Afrobeats · Amapiano · Afro House · House · EDM · Hip-Hop, Global Sound · Old School · Pop · Dancehall · Reggae · R&B · Soul · Electronic · Dub',
