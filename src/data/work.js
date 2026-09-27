@@ -374,15 +374,15 @@ export const EVENTS = [
     time: '10:00 PM',
     venue: 'Tunnel Vision Club & Lounge, 37 Jewry Street',
     city: 'London, UK',
-    dj: 'flammzy',
+    dj: null,
     img: 'evOcean11Independence',
     gallery: [],
     lineup: [],
     tags: ['Independence', 'Afrobeats', 'Amapiano', 'London'],
     blurb:
-      "The official launch of Ocean 11, on Nigerian Independence weekend, with DJ Flammzy. Free entry with guest-list registration.",
+      "The official launch of Ocean 11, on Nigerian Independence weekend, with guest DJs. Free entry with guest-list registration.",
     description:
-      "Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with DJ Flammzy on the decks. Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.",
+      "Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with guest DJs across Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.",
     price: 'Free with guest list',
     ticketUrl: 'https://luma.com/xuniqtwo?utm_source=ocean11',
     ctaLabel: 'RSVP',
