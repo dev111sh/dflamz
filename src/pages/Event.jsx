@@ -61,7 +61,7 @@ export default function Event() {
                 <span className="evd__passed">This event has passed</span>
               ) : ev.ticketUrl ? (
                 <>
-                  <Btn lg href={ev.ticketUrl} target="_blank" rel="noreferrer">Get Tickets</Btn>
+                  <Btn lg href={ev.ticketUrl} target="_blank" rel="noreferrer">{ev.ctaLabel || "Get Tickets"}</Btn>
                   {ev.price && <span className="evf__price">{ev.price}</span>}
                 </>
               ) : (

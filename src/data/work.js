@@ -177,6 +177,9 @@ export const PROJECTS = [
      so a run stays Upcoming until the last night has passed.
   - socialUrl: link to the announcement post. Optional; renders a
      secondary link, not a ticket button. null hides it.
+   - ctaLabel: optional override for the ticket button text (default
+     "Get Tickets"), e.g. "RSVP" for free/guest-list events. Only used
+     when ticketUrl is set.
    --------------------------------------------------------------------- */
 export const EVENTS = [
   {
@@ -362,6 +365,27 @@ export const EVENTS = [
       "Vibelab's first ever event runs from 10pm on Saturday 5 September through to 10am, twelve hours of continuous music at an outdoor North London location announced on the day. DJ Kiss and Nekka Dex both play, alongside a wider lineup including Ain't That Patchie, Afrocentric, Clipper, David Charles, Gappy Ryder, Joel S, Kenny Hypa, Marcus Mae, Married2House and Shotime. Free entry.",
     price: 'Free',
     ticketUrl: null,
+    sponsored: false,
+  },
+  {
+    slug: 'ocean11-independence-launch',
+    title: 'Ocean 11 Launch — Nigerian Independence',
+    date: '2026-10-03',
+    time: '10:00 PM',
+    venue: 'Tunnel Vision Club & Lounge, 37 Jewry Street',
+    city: 'London, UK',
+    dj: 'flammzy',
+    img: 'evOcean11Independence',
+    gallery: [],
+    lineup: [],
+    tags: ['Independence', 'Afrobeats', 'Amapiano', 'London'],
+    blurb:
+      "The official launch of Ocean 11, on Nigerian Independence weekend, with DJ Flammzy. Free entry with guest-list registration.",
+    description:
+      "Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with DJ Flammzy on the decks. Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.",
+    price: 'Free with guest list',
+    ticketUrl: 'https://luma.com/xuniqtwo?utm_source=ocean11',
+    ctaLabel: 'RSVP',
     sponsored: false,
   },
 ];
