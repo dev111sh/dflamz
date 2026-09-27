@@ -81,7 +81,7 @@ function FeaturedEvent({ ev }) {
         </div>
         <div className="row-btns evf__btns">
           {ev.ticketUrl
-            ? <Btn lg href={ev.ticketUrl} target="_blank" rel="noreferrer">Get Tickets</Btn>
+            ? <Btn lg href={ev.ticketUrl} target="_blank" rel="noreferrer">{ev.ctaLabel || "Get Tickets"}</Btn>
             : <Btn lg onClick={go}>View event</Btn>}
           {ev.ticketUrl && <Btn kind="outline" lg onClick={go}>Details</Btn>}
           {ev.price && <span className="evf__price">{ev.price}</span>}
