@@ -389,6 +389,26 @@ export const EVENTS = [
     ctaLabel: 'RSVP',
     sponsored: false,
   },
+  {
+    slug: 'so-funked-pioneer-in-the-house',
+    title: 'So Funked presents Pioneer in the House',
+    date: '2026-10-03',
+    time: '9:00 PM',
+    venue: 'After IX at Chargal Mayfair (lower level), 11 Berkeley Street',
+    city: 'London, UK',
+    dj: 'moniz',
+    img: 'evSoFunked',
+    gallery: [],
+    lineup: [],
+    tags: ['House', 'Mayfair', 'Residency'],
+    blurb:
+      "DJ Moniz holds his After IX residency at Chargal Mayfair, with special guest DJ Pioneer.",
+    description:
+      "So Funked presents Pioneer in the House at After IX, Chargal Mayfair, on the lower level at 11 Berkeley Street. Resident DJ Moniz is joined by special guest DJ Pioneer from 9pm till late. VIP tables, priority entry and birthday shout-outs available.",
+    price: null,
+    ticketUrl: 'https://motickets.co.uk/details/so-funked-presents-pioneer-in-the-house',
+    sponsored: false,
+  },
 ];
 
 /* Filter labels for the Events page */
