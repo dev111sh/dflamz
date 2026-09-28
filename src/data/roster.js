@@ -1171,7 +1171,7 @@ export const PROFILES = {
     role: "DJ & Curator · Founder of SYRÁ", handle: "@miamiiilee", ig: "https://instagram.com/miamiiilee",
     based: "London, UK",
     tags: ["Afro House", "Afro Tech", "Amapiano", "Deep House", "GQOM", "3-Step", "Afro-Electronic"],
-    bio: "Miami Lee is a London based DJ and curator shaping an Afro electronic sound through a multi genre lens. Her sets draw from a broad spectrum of African and electronic sounds, allowing her to move fluidly across genres while maintaining a distinct musical identity. Beyond DJing, Miami is the founder of SYRÁ, a creative platform centred around music, culture and community. Through her work as a DJ, curator and creative, she is building a distinct presence within the Afro electronic space, with a growing focus on international clubs, festivals, hospitality and culturally relevant opportunities across the UK, Europe, Africa and beyond.",
+    bio: "Miami Lee is a London based DJ and curator shaping an Afro electronic sound through a multi genre lens. Her sets draw from a broad spectrum of African and electronic sounds, allowing her to move fluidly across genres while maintaining a distinct musical identity. Beyond DJing, Miami is the founder of SYRÁ, a creative platform centred around music, culture and community. Through her work as a DJ, curator and creative, she is building a distinct presence within the Afro electronic space, with a growing focus on international clubs, festivals, hospitality and culturally relevant opportunities across the UK, Europe and beyond.",
     highlights: [
       ["Also", "Founder of SYRÁ"],
       ["Sound", "Afro House, Afro Tech, Amapiano, Deep House, GQOM, 3-Step"],
