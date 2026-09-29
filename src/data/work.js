@@ -377,7 +377,7 @@ export const EVENTS = [
     dj: 'homdiggy',
     lineup: ['flammzy'],
     img: 'evOcean11Independence',
-    gallery: [],
+    gallery: ["evOcean11Independence1", "evOcean11Independence2",],
     // lineup: ['Homdiggy', 'Fire DJ Flammzy'],
     tags: ['Independence', 'Afrobeats', 'Amapiano', 'London'],
     blurb:
