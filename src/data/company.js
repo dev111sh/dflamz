@@ -143,6 +143,6 @@ export const PK_FACTS = [
     'Event types',
     'Festivals · Club nights · Club residencies · Corporate · Private · Weddings · Brunches · Day parties · Concerts · Brand activations · Launches · Fashion shows · Radio · Tours · International DJ bookings',
   ],
-  ['Reach', 'Nigeria, UK, Europe, USA, South Africa, Zambia'],
+  ['Reach', 'Nigeria, UK, Europe, USA, South Africa, Zambia, Ethiopia'],
   ['Languages', 'English · Yoruba · Pidgin'],
 ];
