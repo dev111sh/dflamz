@@ -234,4 +234,20 @@ export const ALLIES = [
     offer: null,
     featured: false,
   },
+  {
+    slug: 'the-isle-959',
+    name: 'The Isle 95.9 FM',
+    logo: 'theisle959.png',
+    location: 'Lagos, Nigeria',
+    category: 'Radio',
+    tier: 'founding',
+    blurb:
+      "A Lagos radio station giving D'Flamz DJs on-air presence, from weekday business programming into a Friday-to-Sunday music and culture block.",
+    long: "The Isle 95.9 FM is a Lagos station built on the idea that business and entertainment belong in the same room. Weekdays run smart and fast with business, the economy and national development, told with Afrobeats and global hits underneath, for an audience that spans Baby Boomers to Gen Z. The weekend starts at 5pm on Friday with K-Show's Company: five hours of music, culture and conversation with Nonye, DJ sets, song battles and listener segments that carry the station from the working week into the weekend proper. From there it runs through Isle Breakfast and SportCast on Saturday into Isle Recess across both nights.",
+    instagram: 'https://instagram.com/theisle959',
+    website: null,
+    gallery: [],
+    offer: "On-air presence for D'Flamz DJs",
+    featured: true,
+  },
 ];

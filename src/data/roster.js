@@ -1590,10 +1590,11 @@ export const PROFILES = {
     based: 'Nigeria',
     tags: ['Afrobeats', 'Amapiano', 'Afro House', 'Afro-Fusion', 'Open Format'],
     bio: 'A Nigerian DJ, music curator and digital creator playing Afrobeats, Amapiano, Afro house and open format sets.',
-    long: 'DJ Rainbow plays Afrobeats, Amapiano, Afro house and Afro-fusion, and builds open format sets around whoever is in front of her rather than a fixed lane. She has played across recognised Nigerian venues and events and has appeared in media including Channels TV, and works as a digital creator alongside the DJing, which means an audience that travels with her rather than one that belongs to the venue. That combination of floor craft and reach is what makes her useful to brands as well as promoters.',
+    long: 'DJ Rainbow plays Afrobeats, Amapiano, Afro house and Afro-fusion, and builds open format sets around whoever is in front of her rather than a fixed lane. She has played across recognised Nigerian venues and events and has appeared in media including television and radio, working as a digital creator alongside the DJing and enchanting he audience with her cheerful personality. That combination of floor craft and reach is what makes her special to brands as well as promoters.',
     highlights: [
       ['Also', 'Music curator and digital creator'],
-      ['Media', 'Channels TV'],
+      ['Tiktok', '@rainbowdj__', 'over 10 million likes'],
+      ['Media', 'Channels TV', 'The Isle 95.9FM'],
       ['Sound', 'Afrobeats, Amapiano, Afro House, Open Format'],
       ['Based', 'Nigeria'],
     ],
