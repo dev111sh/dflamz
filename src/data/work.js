@@ -375,13 +375,14 @@ export const EVENTS = [
     venue: 'Tunnel Vision Club & Lounge, 37 Jewry Street',
     city: 'London, UK',
     dj: 'homdiggy',
-    lineup: ['flammzy'],
+    lineup: '',
+    // lineup: ['flammzy'],
     img: 'evOcean11Independence',
     gallery: ["evOcean11Independence1", "evOcean11Independence2",],
     // lineup: ['Homdiggy', 'Fire DJ Flammzy'],
     tags: ['Independence', 'Afrobeats', 'Amapiano', 'London'],
     blurb:
-      "The official launch of Ocean 11, on Nigerian Independence weekend, with guest DJs Homdiggy & Fire DJ Flammzy. Free entry with guest-list registration.",
+      "The official launch of Ocean 11, on Nigerian Independence weekend, with guest DJs Homdiggy. Free entry with guest-list registration.",
     description:
       "Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with guest DJs across Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.",
     price: 'Free with guest list',
