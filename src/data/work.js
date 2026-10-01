@@ -410,6 +410,25 @@ export const EVENTS = [
     ticketUrl: 'https://motickets.co.uk/details/so-funked-presents-pioneer-in-the-house',
     sponsored: false,
   },
+  {
+    slug: 'global-sound-london',
+    title: 'Global Sound Tour Central London',
+    date: '2026-10-02',
+    time: '09:00 PM',
+    venue: 'Soho',
+    city: 'London, UK',
+    dj: 'flammzy',
+    img: 'evGlobalSoundTourFriSat',
+    gallery: [],
+    lineup: [],
+    tags: ['Global Sound', 'Nightlife'],
+    blurb:
+      "Global Sound returns on two nights in London with Fire DJ Flammzy. ",
+    description: "Friday 2nd October at Soho, Saturday 3rd October at Clapham. One DJ, on a mission to one continuous journey through global music.",
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
 ];
 
 /* Filter labels for the Events page */

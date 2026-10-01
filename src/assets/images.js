@@ -62,7 +62,7 @@ import rlYegede from "./releases/rl-yegede.jpg";
 import rlHappyBirthday from "./releases/rl-happy-birthday.jpg";
 import hsAfterDark from "./releases/hs-after-dark.jpg";
 import hsAllWhiteParty from "./releases/hs-all-white-party.jpg";
-
+import evGlobalSoundTourFriSat from "./events/GlobalSoundTourFriSat.jpg";
 import pjEasterLondon from "./projects/pj-easter-london.jpg";
 import evGlobalSoundLondon from "./events/global-sound-london.jpg";
 import evShawnUkTour from "./events/ev-shawn-uk-tour.jpg";
@@ -104,4 +104,4 @@ import miamilee from "./miamilee.jpg";
 import rainbow from "./rainbow.jpg";
 
 
-export const IMAGES = { pjEasterLondon, evGlobalSoundLondon, evShawnUkTour, evLondonToLagos, evKissEurope, evKissTimaya, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, toyor, nekkadex, ambra, dayo, salty, donlon, jimi, timz, rlYegede, rlHappyBirthday, hsAfterDark, hsAllWhiteParty, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet, evNigerianCorner, jekyl, evNovaTurkishNight, evVibelabForest, evNhcDecks, evNhcCrowd, evSaturdayNostalgia, evOcean11Independence, evOcean11Independence1, evOcean11Independence2, evSoFunked, miamilee, rainbow, moniz, xiano, dino, dash, kaka, venmak, isles, amenpiano, lutz, shellings, shhanniie };
+export const IMAGES = { pjEasterLondon, evGlobalSoundLondon, evGlobalSoundTourFriSat, evShawnUkTour, evLondonToLagos, evKissEurope, evKissTimaya, pjGlobalSound, flammzy, flammzy2, tonik, famzy, scan, shawn, logo, six7even, simss, dyslex, maloney, blaa, maff, miky, jd, shardz, lemmy, yilmaz, versatile, shumzy, homdiggy, geshgroove, femzey, play, kiss, xray, karlos, gaga, mazemxtreme, leezyace, real, lazer, pricha, tumz, bluecrystal, necterr, nikky, tai, dlite, toyor, nekkadex, ambra, dayo, salty, donlon, jimi, timz, rlYegede, rlHappyBirthday, hsAfterDark, hsAllWhiteParty, pjBpm, pjBpmShawn, pjKissAcademy, pjKissAcademyFlammzy, pjKissAcademyStudio, pjMavin, pjDJMavin, pjRaveAward, pjBeachHouse, pjRadioRun, pjUkTour, pjIntlJobeDubai, pjIntlJobeLeicester, pjIntlJobeCity105, pjIntlWondaArtwork, pjVuligateFlyer, pjVuligateRadio, pjVuligateStage, pjVuligateClub, pjVuligateStreet, evNigerianCorner, jekyl, evNovaTurkishNight, evVibelabForest, evNhcDecks, evNhcCrowd, evSaturdayNostalgia, evOcean11Independence, evOcean11Independence1, evOcean11Independence2, evSoFunked, miamilee, rainbow, moniz, xiano, dino, dash, kaka, venmak, isles, amenpiano, lutz, shellings, shhanniie };
