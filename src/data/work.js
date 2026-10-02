@@ -436,7 +436,7 @@ export const EVENTS = [
     description:
       'Friday 2nd October at Soho, Saturday 3rd October at Clapham. One DJ, on a mission to one continuous journey through global music.',
     price: null,
-    ticketUrl: null,
+    ticketUrl: 'https://instagram.com/deejayflammzy',
     sponsored: false,
   },
   {
