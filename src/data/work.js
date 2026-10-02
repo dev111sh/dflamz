@@ -114,7 +114,15 @@ export const PROJECTS = [
     year: 'Ongoing',
     location: 'Lagos and international',
     img: 'pjVuligateFlyer',
-    gallery: ['pjVuligateRadio', 'pjVuligateStage', 'pjVuligateClub', 'pjVuligateStreet', 'pjIntlJobeLeicester', 'pjIntlJobeCity105', 'pjIntlWondaArtwork'],
+    gallery: [
+      'pjVuligateRadio',
+      'pjVuligateStage',
+      'pjVuligateClub',
+      'pjVuligateStreet',
+      'pjIntlJobeLeicester',
+      'pjIntlJobeCity105',
+      'pjIntlWondaArtwork',
+    ],
     layout: 'gallery',
     tags: ['International', 'Touring', 'Media'],
     summary:
@@ -196,7 +204,7 @@ export const EVENTS = [
     lineup: [],
     tags: ['Open Format', 'Nightlife', 'Two Nights'],
     blurb:
-      "DJ TAI brings his London open format sound to Lagos across two nights, Friday at the Marriott and Sunday at Bheerhugz Café Chevron.",
+      'DJ TAI brings his London open format sound to Lagos across two nights, Friday at the Marriott and Sunday at Bheerhugz Café Chevron.',
     description:
       "DJ TAI is a London based open format DJ whose sets move between future beats, Afrobeats, Afro house, Amapiano, Hip-Hop, R&B and dancehall. He plays two Lagos dates: Friday 21 August at the Marriott from 10pm, and Sunday 23 August at Bheerhugz Café Chevron from 4pm. Same range across both, pitched late for the Friday and for a daytime crowd on the Sunday. Powered by D'Flamz, supported by Marriott and Bheerhugz Café.",
     price: null,
@@ -216,7 +224,7 @@ export const EVENTS = [
     lineup: [],
     tags: ['Afterparty', 'Afrobeats'],
     blurb:
-      "DJ Kiss performed at the official Timaya afterparty at Tunnel Vision London, running from 11pm through to 4am.",
+      'DJ Kiss performed at the official Timaya afterparty at Tunnel Vision London, running from 11pm through to 4am.',
     description:
       "The official afterparty for Timaya's London show, held at Tunnel Vision on Jewry Street with DJ Kiss performing, running 11pm to 4am. Presented by SMADE Group and DM Records.",
     price: null,
@@ -237,9 +245,9 @@ export const EVENTS = [
     lineup: [],
     tags: ['Carnival', 'Afrobeats', 'London'],
     blurb:
-      "DJ Flammzy plays Nigerian Corner at Notting Hill Carnival, back for its 40th year.",
+      'DJ Flammzy plays Nigerian Corner at Notting Hill Carnival, back for its 40th year.',
     description:
-      "DJ Flammzy performs at Nigerian Corner, the Nigerian presence at Notting Hill Carnival, marking its 40th year. Carnival runs across the August bank holiday weekend, with the street celebration on Sunday 30 and Monday 31 August 2026 and the main adult parade on the Monday. Supported by AfriChange and Air Peace.",
+      'DJ Flammzy performs at Nigerian Corner, the Nigerian presence at Notting Hill Carnival, marking its 40th year. Carnival runs across the August bank holiday weekend, with the street celebration on Sunday 30 and Monday 31 August 2026 and the main adult parade on the Monday. Supported by AfriChange and Air Peace.',
     price: null,
     ticketUrl: null,
     sponsored: false,
@@ -280,7 +288,7 @@ export const EVENTS = [
     blurb:
       "Yilmaz Sumbul plays Turkish Night at Nova Restaurant in West London, marking the venue's relaunch.",
     description:
-      "Nova Restaurant relaunches with a Turkish Night on Friday 4 September 2026, with Yilmaz Sumbul on the decks. Nova is at 2 Kendal Avenue, London W3 0PA.",
+      'Nova Restaurant relaunches with a Turkish Night on Friday 4 September 2026, with Yilmaz Sumbul on the decks. Nova is at 2 Kendal Avenue, London W3 0PA.',
     price: null,
     ticketUrl: null,
     socialUrl: 'https://www.instagram.com/reel/DcvmaScMhuU/',
@@ -299,7 +307,7 @@ export const EVENTS = [
     lineup: [],
     tags: ['Global Sound', 'Nightlife'],
     blurb:
-      "The flagship Global Sound night returns to Mayfair. One DJ, one continuous journey through global music.",
+      'The flagship Global Sound night returns to Mayfair. One DJ, one continuous journey through global music.',
     description: null,
     price: null,
     ticketUrl: null,
@@ -318,9 +326,9 @@ export const EVENTS = [
     lineup: [],
     tags: ['Nostalgia', 'Afrobeats', 'Classics', 'London'],
     blurb:
-      "Jimi D Baldheaded Guy plays Saturday Nostalgia at 280 Degrees in Kilburn, 8pm through to 3am.",
+      'Jimi D Baldheaded Guy plays Saturday Nostalgia at 280 Degrees in Kilburn, 8pm through to 3am.',
     description:
-      "Saturday Nostalgia at 280 Degrees, 280 Kilburn High Road, with Jimi D Baldheaded Guy on the decks from 8pm until 3am on Saturday 26 September 2026. Afrigroove on the Dancefloor: Afrobeats, Afropop, Nigerian classics, Highlife and Juju. Table bookings recommended on 0207 328 8832 or 07375 047447.",
+      'Saturday Nostalgia at 280 Degrees, 280 Kilburn High Road, with Jimi D Baldheaded Guy on the decks from 8pm until 3am on Saturday 26 September 2026. Afrigroove on the Dancefloor: Afrobeats, Afropop, Nigerian classics, Highlife and Juju. Table bookings recommended on 0207 328 8832 or 07375 047447.',
     price: null,
     ticketUrl: null,
     sponsored: false,
@@ -340,9 +348,9 @@ export const EVENTS = [
     lineup: [],
     tags: ['Tour', 'Europe', 'Nightlife'],
     blurb:
-      "DJ Kiss takes the Ajayi in Europe tour through six cities in September. Individual dates to be announced.",
+      'DJ Kiss takes the Ajayi in Europe tour through six cities in September. Individual dates to be announced.',
     description:
-      "DJ Kiss brings her sound to Europe across six cities: Paris, Rome, London, Berlin, Madrid and Athens. The tour runs in September 2026 and individual dates are still to be announced. Check back here or follow her for city announcements as they land.",
+      'DJ Kiss brings her sound to Europe across six cities: Paris, Rome, London, Berlin, Madrid and Athens. The tour runs in September 2026 and individual dates are still to be announced. Check back here or follow her for city announcements as they land.',
     price: null,
     ticketUrl: null,
     sponsored: false,
@@ -378,13 +386,13 @@ export const EVENTS = [
     lineup: '',
     // lineup: ['flammzy'],
     img: 'evOcean11Independence',
-    gallery: ["evOcean11Independence1", "evOcean11Independence2",],
+    gallery: ['evOcean11Independence1', 'evOcean11Independence2'],
     // lineup: ['Homdiggy', 'Fire DJ Flammzy'],
     tags: ['Independence', 'Afrobeats', 'Amapiano', 'London'],
     blurb:
-      "The official launch of Ocean 11, on Nigerian Independence weekend, with guest DJs Homdiggy. Free entry with guest-list registration.",
+      'The official launch of Ocean 11, on Nigerian Independence weekend, with guest DJs Homdiggy. Free entry with guest-list registration.',
     description:
-      "Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with guest DJs across Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.",
+      'Ocean 11 launches on Saturday 3 October at Tunnel Vision Club & Lounge, 37 Jewry Street, for a Nigerian Independence night with guest DJs across Afrobeats, Amapiano, Hip-Hop, R&B and more, from 10pm. Free entry with guest-list registration; last entry 1am.',
     price: 'Free with guest list',
     ticketUrl: 'https://luma.com/xuniqtwo?utm_source=ocean11',
     ctaLabel: 'RSVP',
@@ -403,11 +411,12 @@ export const EVENTS = [
     lineup: [],
     tags: ['House', 'Mayfair', 'Residency'],
     blurb:
-      "DJ Moniz holds his After IX residency at Chargal Mayfair, with special guest DJ Pioneer.",
+      'DJ Moniz holds his After IX residency at Chargal Mayfair, with special guest DJ Pioneer.',
     description:
-      "So Funked presents Pioneer in the House at After IX, Chargal Mayfair, on the lower level at 11 Berkeley Street. Resident DJ Moniz is joined by special guest DJ Pioneer from 9pm till late. VIP tables, priority entry and birthday shout-outs available.",
+      'So Funked presents Pioneer in the House at After IX, Chargal Mayfair, on the lower level at 11 Berkeley Street. Resident DJ Moniz is joined by special guest DJ Pioneer from 9pm till late. VIP tables, priority entry and birthday shout-outs available.',
     price: null,
-    ticketUrl: 'https://motickets.co.uk/details/so-funked-presents-pioneer-in-the-house',
+    ticketUrl:
+      'https://motickets.co.uk/details/so-funked-presents-pioneer-in-the-house',
     sponsored: false,
   },
   {
@@ -423,10 +432,32 @@ export const EVENTS = [
     lineup: [],
     tags: ['Global Sound', 'Nightlife'],
     blurb:
-      "Global Sound returns on two nights in London with Fire DJ Flammzy. ",
-    description: "Friday 2nd October at Soho, Saturday 3rd October at Clapham. One DJ, on a mission to one continuous journey through global music.",
+      'Global Sound returns on two nights in London with Fire DJ Flammzy. ',
+    description:
+      'Friday 2nd October at Soho, Saturday 3rd October at Clapham. One DJ, on a mission to one continuous journey through global music.',
     price: null,
     ticketUrl: null,
+    sponsored: false,
+  },
+  {
+    slug: 'rakkas-turkish-night',
+    title: 'Turkish Night at Rakkas',
+    date: '2026-10-02',
+    time: '09:00 PM',
+    venue: 'Rakkas Restaurant & Lounge, 369 Green Lanes',
+    city: 'London, UK',
+    dj: 'yilmaz',
+    img: 'evRakkasTurkishNight',
+    gallery: [],
+    lineup: [],
+    tags: ['Turkish Night', 'Restaurant', 'London'],
+    blurb:
+      'Yilmaz Sumbul plays Turkish Night at Rakkas in North London, with fire dancers and a mirror man from 9PM.',
+    description:
+      'Rakkas Restaurant & Lounge hosts a Turkish Night on Friday 2 October 2026, 9PM to 1AM at 369 Green Lanes, London N4 1DY. Fire dancers and a mirror man perform from 9PM, with Yilmaz Sumbul on the decks from 10PM to 1AM and dance shows throughout the night. Bar tables are £30pp minimum spend with nibbles on the table, and seating tables are £60pp minimum spend with hot and cold meze on the table. Car park available.',
+    price: '£30pp min',
+    ticketUrl: 'https://rakkas.co.uk/reservation/',
+    ctaLabel: 'Reserve a Table',
     sponsored: false,
   },
 ];
