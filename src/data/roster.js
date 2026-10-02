@@ -1927,24 +1927,24 @@ export const PROFILES = {
       ['Venues', 'W Bar · Library Lagos · Opal · Dulles · Sailors · Artisan'],
       ['Radio', 'City FM · Kiss FM'],
     ],
+  },
 
-    dindu: {
-      name: 'Dinduthedj',
-      img: 'dindu',
-      gallery: ['dindu'],
-      role: 'DJ · Afrobeats, Amapiano, Hip-Hop, Dancehall & Drill',
-      handle: '@Dinduthedj',
-      ig: 'https://instagram.com/Dinduthedj',
-      based: 'Nigeria',
-      tags: ['Afrobeats', 'Amapiano', 'Hip-Hop', 'Dancehall', 'Drill'],
-      bio: 'A DJ since 2018, mixing Afrobeats, Amapiano and Hip-Hop to keep a crowd moving all night.',
-      long: 'Dinduthedj has been mixing since 2018. Afrobeats, Amapiano and Hip-Hop form the core of his sets, with Dancehall and Drill in the rotation, all aimed at one thing: bringing a room together and keeping it moving until the last record.',
-      highlights: [
-        ['Experience', 'Since 2018'],
-        ['Sound', 'Afrobeats, Amapiano, Hip-Hop, Dancehall, Drill'],
-        ['Based', 'Nigeria'],
-      ],
-    },
+  dindu: {
+    name: 'Dinduthedj',
+    img: 'dindu',
+    gallery: ['dindu'],
+    role: 'DJ · Afrobeats, Amapiano, Hip-Hop, Dancehall & Drill',
+    handle: '@Dinduthedj',
+    ig: 'https://instagram.com/Dinduthedj',
+    based: 'Nigeria',
+    tags: ['Afrobeats', 'Amapiano', 'Hip-Hop', 'Dancehall', 'Drill'],
+    bio: 'A DJ since 2018, mixing Afrobeats, Amapiano and Hip-Hop to keep a crowd moving all night.',
+    long: 'Dinduthedj has been mixing since 2018. Afrobeats, Amapiano and Hip-Hop form the core of his sets, with Dancehall and Drill in the rotation, all aimed at one thing: bringing a room together and keeping it moving until the last record.',
+    highlights: [
+      ['Experience', 'Since 2018'],
+      ['Sound', 'Afrobeats, Amapiano, Hip-Hop, Dancehall, Drill'],
+      ['Based', 'Nigeria'],
+    ],
   },
 
   kaka: {
