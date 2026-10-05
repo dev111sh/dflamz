@@ -50,6 +50,7 @@ export default function Artist() {
             )} */}
             <div className="row-btns">
               <Btn lg onClick={() => navigate("/contact")}>Book {p.name.replace("DJ ", "")}</Btn>
+              {p.mix && <Btn kind="outline" lg href={p.mix} target="_blank" rel="noreferrer">Listen to the mix ↗</Btn>}
               {/* {p.ext && <Btn kind="outline" lg href={p.ext} target="_blank" rel="noreferrer">Official site ↗</Btn>} */}
               {/* {p.apple && <Btn kind="outline" lg href={p.apple} target="_blank" rel="noreferrer">Apple Music ↗</Btn>} */}
             </div>
