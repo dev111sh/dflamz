@@ -68,24 +68,25 @@ export const ALLIES = [
     blurb:
       'The governing body responsible for the management of DJing in Nigeria, providing quality services to DJs nationwide.',
     long: "Nigerian DJ (NDJ) is the governing body responsible for the management of DJing in Nigeria, providing quality services to all the DJs in Nigeria. Our partnership connects the D'Flamz roster to the wider professional standards and network of the Nigerian DJ community.",
-    instagram: "https://www.instagram.com/nigeriandj",
+    instagram: 'https://www.instagram.com/nigeriandj',
     website: null,
     gallery: [],
     offer: null,
     featured: false,
   },
   {
-    slug: "mavin-records",
-    name: "Mavin Records",
-    logo: "mavin-records.png",
-    location: "Lagos, Nigeria",
-    category: "Record Label",
-    tier: "founding",
+    slug: 'mavin-records',
+    name: 'Mavin Records',
+    logo: 'mavin-records.png',
+    location: 'Lagos, Nigeria',
+    category: 'Record Label',
+    tier: 'founding',
     featured: false,
     offer: null,
-    blurb: "One of Africa's leading record labels, home to a generation of Afrobeats stars.",
+    blurb:
+      "One of Africa's leading record labels, home to a generation of Afrobeats stars.",
     long: "D'Flamz worked with Mavin Records on the nationwide promotion and distribution campaign for the label's emerging talent, running club promotion, DJ activations and radio support across Nigeria.",
-    instagram: "https://instagram.com/mavinrecords",
+    instagram: 'https://instagram.com/mavinrecords',
     website: null,
     gallery: [],
   },
@@ -115,7 +116,7 @@ export const ALLIES = [
     blurb:
       "Nigeria's oldest record label, with the largest catalogue in West Africa — D'Flamz has access for official remixes.",
     long: "Premier Music is the oldest record label in Nigeria, founded in Lagos in March 1963 as Phillips West Africa Records and trading over the decades as Phonogram and then Polygram before returning to independence as Premier Records Limited. The catalogue it holds is the largest in West Africa and reads like a history of Nigerian popular music, from highlife and juju through Afrobeat, reggae and gospel. D'Flamz has catalogue access to rework that archive, and the partnership has already produced three remixes with two released: Yegede, a Sakarapiano rework of Yusuf Olatunji built by DJ Flammzy, and the Happy Birthday Remix with Vibemaster JD featuring Evi Edna Ogholi and Clayrocksu. Both draw on original masters rather than samples, which is the part that cannot be replicated without the label in the room.",
-    instagram: "https://instagram.com/premiermusic_ng",
+    instagram: 'https://instagram.com/premiermusic_ng',
     website: null,
     gallery: [],
     showcase: {
@@ -123,13 +124,13 @@ export const ALLIES = [
       items: [
         {
           title: 'Yegede (Sakarapiano)',
-          credit: "DJ Flammzy x Yusuf Olatunji",
+          credit: 'DJ Flammzy x Yusuf Olatunji',
           art: 'rlYegede',
           url: null,
         },
         {
           title: 'Happy Birthday (Remix)',
-          credit: "DJ Flammzy x Vibemaster JD ft Evi Edna Ogholi x Clayrocksu",
+          credit: 'DJ Flammzy x Vibemaster JD ft Evi Edna Ogholi x Clayrocksu',
           art: 'rlHappyBirthday',
           url: null,
         },
@@ -146,8 +147,8 @@ export const ALLIES = [
     category: 'Music Platform',
     tier: 'founding',
     blurb:
-    'A music platform built around African sound, giving the roster a distribution and discovery channel aimed at listeners already looking for this music.',
-    long: 'TuneAfrique is a music platform built around African sound and the artists making it. The partnership gives D\'Flamz releases and roster mixes a distribution and discovery channel aimed squarely at listeners who are already looking for this music, rather than a general audience that has to be convinced first.',
+      'A music platform built around African sound, giving the roster a distribution and discovery channel aimed at listeners already looking for this music.',
+    long: "TuneAfrique is a music platform built around African sound and the artists making it. The partnership gives D'Flamz releases and roster mixes a distribution and discovery channel aimed squarely at listeners who are already looking for this music, rather than a general audience that has to be convinced first.",
     instagram: null,
     website: null,
     gallery: [],
@@ -162,7 +163,7 @@ export const ALLIES = [
     category: 'Music & Culture Commerce',
     tier: 'founding',
     blurb:
-    'A music and culture commerce platform built for DJs, artists and event creators — mixes, ticketing and monetisation in one place.',
+      'A music and culture commerce platform built for DJs, artists and event creators — mixes, ticketing and monetisation in one place.',
     long: 'Clooza is a music and culture commerce platform built for DJs, artists and event creators. It takes a DJ beyond streaming: upload mixes, edits and exclusive content, sell tickets to events, monetise listening parties and intimate sessions, manage collaborations, and see where listeners and buyers actually are. For our roster it means a route to discover fans, monetise work, protect IP and grow a career in one place.',
     instagram: 'https://www.instagram.com/useclooza',
     website: null,
@@ -180,7 +181,7 @@ export const ALLIES = [
     blurb:
       "A Lagos hospitality brand with multiple outlets across the city — D'Flamz supplies the sound across its floors.",
     long: "Bheerhugz Café is a Lagos hospitality brand with multiple outlets across the city and a crowd that turns up for the room as much as the menu. D'Flamz has supplied the sound across its floors, which is the kind of multi-outlet booking that tests whether a roster can hold a consistent standard across several venues on the same night.",
-    instagram: "https://instagram.com/bheerhugzcafe",
+    instagram: 'https://instagram.com/bheerhugzcafe',
     website: null,
     gallery: [],
     offer: null,
@@ -209,9 +210,10 @@ export const ALLIES = [
     location: 'London, UK',
     category: 'Events & Promotions',
     tier: 'founding',
-    blurb: "An events company building and running nightlife concepts across London, holding a residency at Egnite Lounge in Chingford.",
+    blurb:
+      'An events company building and running nightlife concepts across London, holding a residency at Egnite Lounge in Chingford.',
     long: "The Haus London is an events company that builds and runs nightlife concepts across the city, from day parties and themed club nights to one-off collaborations. Each concept is developed with its own identity, audience and atmosphere rather than being run as a single recurring brand, and the company handles the full chain from concept and branding through promotion, entertainment programming and delivery on the night. It holds a residency at Egnite Lounge in Chingford, which gives its concepts a consistent home, while a multi-venue model lets it move the experience elsewhere. For D'Flamz it is a route into London rooms through a partner who already owns the audience and the venue relationships.",
-    instagram: "https://instagram.com/thehaus.ldn",
+    instagram: 'https://instagram.com/thehaus.ldn',
     website: null,
     gallery: [],
     showcase: {
@@ -249,5 +251,21 @@ export const ALLIES = [
     gallery: [],
     offer: "On-air presence for D'Flamz DJs",
     featured: true,
+  },
+  {
+    slug: 'sugar-coated',
+    name: 'Sugar Coated',
+    logo: 'sugar-coated.jpg',
+    location: 'London, UK',
+    category: 'Venue & Event Staffing',
+    tier: 'founding',
+    featured: false,
+    offer: 'Venue staffing and Mayfair club connections',
+    blurb:
+      "Premium staffing for clubs, venues and events, from bartenders and hosts to door and SIA security, and our main connection into Mayfair's biggest rooms.",
+    long: "Sugar Coated supplies the people who run a night: waitresses, bottle girls, bartenders, hostesses, door hosts and SIA security, plus personal licence holders and venue operation managers for rooms that need the whole floor covered.",
+    instagram: null,
+    website: null,
+    gallery: [],
   },
 ];
