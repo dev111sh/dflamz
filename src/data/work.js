@@ -460,6 +460,26 @@ export const EVENTS = [
     ctaLabel: 'Reserve a Table',
     sponsored: false,
   },
+  {
+    slug: 'global-sound-ipswich-halloween',
+    title: 'Global Sound UK Tour: Ipswich Halloween',
+    date: '2026-10-31',
+    time: '09:00 PM',
+    venue: 'Supperclub Ipswich, 10A Tacket St',
+    city: 'Ipswich, UK',
+    dj: 'flammzy',
+    img: 'evGlobalSoundIpswich',
+    gallery: [],
+    lineup: [],
+    tags: ['Global Sound', 'Halloween', 'Nightlife'],
+    blurb:
+      'The Global Sound UK Tour lands in Ipswich on Halloween night with Fire DJ Flammzy. One DJ, one continuous journey through global music.',
+    description:
+      "D'Flamz presents the Global Sound UK Tour in Ipswich with Fire DJ Flammzy, a Halloween night at Supperclub, 10A Tacket St, Ipswich, Suffolk. Doors and music from 9PM local time on Saturday 31st October 2026. One DJ, one continuous journey through global music. DM for ticket policy and bookings.",
+    price: null,
+    ticketUrl: null,
+    sponsored: false,
+  },
 ];
 
 /* Filter labels for the Events page */

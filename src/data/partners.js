@@ -263,9 +263,36 @@ export const ALLIES = [
     offer: 'Venue staffing and Mayfair club connections',
     blurb:
       "Premium staffing for clubs, venues and events, from bartenders and hosts to door and SIA security, and our main connection into Mayfair's biggest rooms.",
-    long: "Sugar Coated supplies the people who run a night: waitresses, bottle girls, bartenders, hostesses, door hosts and SIA security, plus personal licence holders and venue operation managers for rooms that need the whole floor covered.",
+    long: 'Sugar Coated supplies the people who run a night: waitresses, bottle girls, bartenders, hostesses, door hosts and SIA security, plus personal licence holders and venue operation managers for rooms that need the whole floor covered.',
     instagram: null,
     website: null,
     gallery: [],
+  },
+  {
+    slug: 'supperclub-ipswich',
+    name: 'Supperclub Ipswich',
+    logo: 'supperclub-ipswich.jpg',
+    location: 'Ipswich, UK',
+    category: 'Venue',
+    tier: 'founding',
+    blurb:
+      'An Ipswich tapas bar and cocktail venue running DJ nights and live music, and the home of Global Sound in Suffolk.',
+    long: "Supperclub is a tapas bar and restaurant on Tacket Street in Ipswich, known for cocktails, DJ nights and live music. It is where Global Sound lands in Suffolk: D'Flamz is hosting Global Sound UK Tour events at the venue, starting with the Global Sound UK Tour Halloween night. For D'Flamz it is a new home for the brand outside London, and for Supperclub it is a DJ programme with a consistent identity behind it.",
+    instagram: 'https://instagram.com/supperclubipswich',
+    website: null,
+    gallery: [],
+    showcase: {
+      label: 'Upcoming Event',
+      items: [
+        {
+          title: 'Global Sound UK Tour: Ipswich Halloween',
+          credit: "D'Flamz x Supperclub Ipswich, 31 October 2026",
+          art: 'evGlobalSoundIpswich',
+          url: null,
+        },
+      ],
+    },
+    offer: 'Global Sound events in Ipswich',
+    featured: false,
   },
 ];
