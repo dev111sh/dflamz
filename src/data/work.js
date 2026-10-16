@@ -477,7 +477,7 @@ export const EVENTS = [
     description:
       "D'Flamz presents the Global Sound UK Tour in Ipswich with Fire DJ Flammzy, a Halloween night at Supperclub, 10A Tacket St, Ipswich, Suffolk. Doors and music from 10PM local time on Saturday 31st October 2026. One DJ, one continuous journey through global music. Halloween costume required, DM for ticket policy and bookings.",
     price: null,
-    ticketUrl: null,
+    ticketUrl: "https://www.instagram.com/supperclubipswich",
     sponsored: false,
   },
 ];

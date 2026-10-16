@@ -288,7 +288,7 @@ export const ALLIES = [
           title: 'Global Sound UK Tour: Ipswich Halloween',
           credit: "D'Flamz x Supperclub Ipswich, 31 October 2026",
           art: 'evGlobalSoundIpswich',
-          url: null,
+          url: "https://www.instagram.com/supperclubipswich",
         },
       ],
     },
