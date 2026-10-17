@@ -269,6 +269,33 @@ export const ALLIES = [
     gallery: [],
   },
   {
+    slug: 'colourful-radio',
+    name: 'Colourful Radio',
+    logo: 'colourful-radio.png',
+    location: 'UK',
+    category: 'Radio',
+    tier: 'founding',
+    blurb:
+      'A UK radio station rooted in the culture and music of the African and Caribbean diaspora, and home to The Afrobeats Plug Show with Flo & Vina.',
+    long: "Colourful Radio is a UK station, on air since 2002 and licensed by Ofcom, built around soulful music and the culture of the African and Caribbean diaspora. It carries The Afrobeats Plug Show with Flo & Vina every Friday from 8 to 10PM UK time: the hottest Afrobeats sounds, fresh releases, emerging talent and new music from Africa to the world. For D'Flamz it is an on-air home for the sound our DJs play, and a way to put roster names and events in front of listeners who already care about Afrobeats.",
+    instagram: 'https://instagram.com/colourfulradio',
+    website: 'https://www.colourful.com',
+    gallery: [],
+    showcase: {
+      label: 'The Show',
+      items: [
+        {
+          title: 'The Afrobeats Plug Show',
+          credit: 'Flo & Vina · Fridays 8–10PM UK on Colourful Radio',
+          art: 'afrobeatsPlugShow',
+          url: 'https://www.colourful.com/shows/flo',
+        },
+      ],
+    },
+    offer: "On-air presence for D'Flamz DJs and events",
+    featured: false,
+  },
+  {
     slug: 'supperclub-ipswich',
     name: 'Supperclub Ipswich',
     logo: 'supperclub-ipswich.jpg',
@@ -288,7 +315,7 @@ export const ALLIES = [
           title: 'Global Sound UK Tour: Ipswich Halloween',
           credit: "D'Flamz x Supperclub Ipswich, 31 October 2026",
           art: 'evGlobalSoundIpswich',
-          url: "https://www.instagram.com/supperclubipswich",
+          url: 'https://www.instagram.com/supperclubipswich',
         },
       ],
     },
