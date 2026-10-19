@@ -278,8 +278,8 @@ export const ALLIES = [
     blurb:
       'A UK radio station rooted in the culture and music of the African and Caribbean diaspora, and home to The Afrobeats Plug Show with Flo & Vina.',
     long: "Colourful Radio is a UK station, on air since 2002 and licensed by Ofcom, built around soulful music and the culture of the African and Caribbean diaspora. It carries The Afrobeats Plug Show with Flo & Vina every Friday from 8 to 10PM UK time: the hottest Afrobeats sounds, fresh releases, emerging talent and new music from Africa to the world. For D'Flamz it is an on-air home for the sound our DJs play, and a way to put roster names and events in front of listeners who already care about Afrobeats.",
-    instagram: 'https://instagram.com/colourfulradio',
-    website: 'https://www.colourful.com',
+    instagram: 'https://instagram.com/afrobeatplugshow',
+    website: 'https://www.colourful.com/shows/flo',
     gallery: [],
     showcase: {
       label: 'The Show',
