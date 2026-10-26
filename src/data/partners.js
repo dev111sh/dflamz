@@ -290,6 +290,12 @@ export const ALLIES = [
           art: 'afrobeatsPlugShow',
           url: 'https://www.colourful.com/shows/flo',
         },
+        {
+          title: 'DJ Shellings, guest on The Afrobeats Plug Show',
+          credit: 'Colourful Radio · 23 October 2026',
+          art: 'evShellingsPlugShow',
+          url: 'https://www.colourful.com/shows/flo',
+        },
       ],
     },
     offer: "On-air presence for D'Flamz DJs and events",

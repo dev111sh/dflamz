@@ -477,7 +477,28 @@ export const EVENTS = [
     description:
       "D'Flamz presents the Global Sound UK Tour in Ipswich with Fire DJ Flammzy, a Halloween night at Supperclub, 10A Tacket St, Ipswich, Suffolk. Doors and music from 10PM local time on Saturday 31st October 2026. One DJ, one continuous journey through global music. Halloween costume required, DM for ticket policy and bookings.",
     price: null,
-    ticketUrl: "https://www.instagram.com/supperclubipswich",
+    ticketUrl: 'https://www.instagram.com/supperclubipswich',
+    sponsored: false,
+  },
+  {
+    slug: 'shellings-afrobeats-plug-show',
+    title: 'DJ Shellings on The Afrobeats Plug Show',
+    date: '2026-10-23',
+    time: '08:00 PM',
+    venue: 'Colourful Radio (online and DAB)',
+    city: 'UK',
+    dj: 'shellings',
+    img: 'evShellingsPlugShow',
+    gallery: [],
+    lineup: [],
+    tags: ['Radio', 'Guest Mix', 'Amapiano'],
+    blurb:
+      "D'Flamz producer and DJ Shellings joins Flo & Vina as the guest on The Afrobeats Plug Show on Colourful Radio.",
+    description:
+      'DJ Shellings was the guest on The Afrobeats Plug Show with Flo & Vina on Colourful Radio, Friday 23 October 2026 at 8PM UK. The show airs Fridays on colourful.com and on DAB.',
+    price: null,
+    ticketUrl: 'https://www.colourful.com/shows/flo',
+    ctaLabel: 'Listen on Colourful',
     sponsored: false,
   },
 ];
