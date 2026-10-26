@@ -1882,6 +1882,7 @@ export const PROFILES = {
     role: 'Producer & DJ · Electronic Amapiano, 3-Step and GQOM',
     handle: '@shellings.x',
     ig: 'https://instagram.com/shellings.x',
+    mix: 'https://www.colourful.com/shows/flo',
     based: 'London, UK',
     tags: [
       'Amapiano',
