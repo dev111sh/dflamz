@@ -2118,6 +2118,7 @@ export const PROFILES = {
     gallery: ['kaka'],
     role: 'Young DJ & Recording Artist · London',
     handle: null,
+    mix: 'https://youtu.be/mKo5rYo5lSY?is=RyE_YGPAVl4hT6qL',
     ig: null,
     based: 'London, UK',
     tags: ['Afro-Pop', 'Dance', 'Family Events'],
