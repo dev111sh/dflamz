@@ -328,4 +328,20 @@ export const ALLIES = [
     offer: 'Global Sound events in Ipswich',
     featured: false,
   },
+  {
+    slug: 'moy-kolawole-media',
+    name: 'Moy Kolawole Media',
+    logo: 'moy-kolawole-media.png',
+    location: 'Lagos, Nigeria',
+    category: 'Talent Management & Media',
+    tier: 'founding',
+    blurb:
+      'A Lagos-founded talent management, media and event production company, and the team behind the management of DJ Flammzy in the UK and Vibemaster JD in the US.',
+    long: "Moy Kolawole Media is a talent management, media and event production company founded in Lagos in 2018. It focuses on discovering, developing and managing creative talent while delivering quality media and event productions. With a growing international presence, it currently manages DJ Flammzy in the UK and Vibemaster JD in the US, supporting their careers, brand development, media presence and live events. For D'Flamz it is a trusted management and production partner, supporting DJ Flammzy's continued growth and expanding his presence across the UK and the wider international entertainment landscape.",
+    instagram: null,
+    website: null,
+    gallery: [],
+    offer: 'Talent management, media and event production',
+    featured: false,
+  },
 ];
