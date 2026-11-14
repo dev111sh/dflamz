@@ -2187,7 +2187,7 @@ export const PROFILES = {
     img: 'djrohix',
     gallery: ['djrohix'],
     role: 'DJ · Afro, Bollywood, House & Commercial',
-    handle: null,
+    handle: '@djrohix',
     ig: 'https://instagram.com/djrohix',
     based: null,
     tags: [
@@ -2234,10 +2234,10 @@ export const PROFILES = {
     img: 'djjonai',
     gallery: ['djjonai'],
     role: 'DJ · Hip-Hop, R&B, Afrobeats & Amapiano',
-    handle: null,
+    handle: '@djjonai',
     ig: 'https://instagram.com/djjonai',
     mix: 'https://youtube.com/@deejayjonai',
-    based: null,
+    based:  'Dubai, UAE',
     tags: [
       'Hip-Hop',
       'R&B',
