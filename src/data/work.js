@@ -18,16 +18,16 @@
 export const PROJECTS = [
   {
     slug: 'global-sound',
-    title: 'Global Sound',
+    title: 'Global Sound Tour',
     year: '2025 to present',
     location: 'Mayfair, Central London',
     img: 'pjUkTour',
-    gallery: ['pjEasterLondon', 'pjUkTour'],
+    gallery: ['pjEasterLondon', 'evGlobalSoundIpswich'],
     layout: 'gallery',
     tags: ['Flagship Brand', 'Nightlife', 'Multi-Genre'],
     summary:
       "Our flagship event brand, born in Mayfair and built around a single DJ taking a room through the world's music in one continuous set.",
-    body: 'Global Sound started in the heart of Mayfair as an exclusive nightlife concept and has grown into a recognised music experience. Where most DJ events split the night between several selectors, Global Sound runs on one carefully curated journey: Afrobeats, Amapiano, House, Hip-Hop, R&B, Dancehall, UK Garage, Bashment, Soca, Reggae, Latin, old school classics and global anthems, sequenced to pull a mixed crowd onto the same dancefloor. The draw is the programming. Seamless transitions, musical storytelling and constant crowd reading keep the room engaged from the first record to the last, and the brand continues to grow around audiences who care about exceptional DJing and genuine musical range.',
+    body: 'Global Sound Tour started in the heart of Mayfair as an exclusive nightlife concept and has grown into a recognised music experience. Where most DJ events split the night between several selectors, Global Sound runs on one carefully curated journey: Afrobeats, Amapiano, House, Hip-Hop, R&B, Dancehall, UK Garage, Bashment, Soca, Reggae, Latin, old school classics and global anthems, sequenced to pull a mixed crowd onto the same dancefloor. The draw is the programming. Seamless transitions, musical storytelling and constant crowd reading keep the room engaged from the first record to the last, and the brand continues to grow around audiences who care about exceptional DJing and genuine musical range.',
     highlights: [
       'Originated in Mayfair, Central London',
       "D'Flamz flagship entertainment brand",
