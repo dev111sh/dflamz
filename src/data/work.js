@@ -523,7 +523,7 @@ export const EVENTS = [
     blurb:
       "Scandamile Mercury hosts ParteeAnimalz: Jungle Fever in Lagos with DJ Soul-Fiyah and DJ Lemmy. Sponsored by D'Flamz.",
     description:
-      "Scandamile Mercury presents ParteeAnimalz: Jungle Fever, sponsored by D'Flamz, on Saturday 26 December 2026 at D19th Fatai Irawo St., Ajao Estate, Lagos. Doors open at 11PM. Afrohouse, 3-Step, Gqom, House and Amapiano, with DJ Soul-Fiyah, Scandamile Mercury and DJ Lemmy on the decks. RSVP so the hosts can count heads at the gate.",
+      "SCANDAMILE MERCURY PRESENTS - PARTEE ANIMALZ JUNGLE FEVER. Deep in the wild, something is stirring. Answer the call. Leave the ordinary behind and step into a night where instinct takes over and rhythm runs free. A gathering of untamed energy, wild creatures and nocturnal spirits. No rules, just pure animal instinct. The jungle is calling. Will you answer? Secure your place in the wild. RSVP NOW.",
     price: null,
     ticketUrl: 'https://junglefever2026.netlify.app',   // '/rsvp/jungle-fever-2026/', // swap for https://junglefever.dflamz.com once the domain is live
     ctaLabel: 'RSVP',
