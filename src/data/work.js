@@ -22,7 +22,7 @@ export const PROJECTS = [
     year: '2025 to present',
     location: 'Mayfair, Central London',
     img: 'pjUkTour',
-    gallery: ['pjEasterLondon', 'evGlobalSoundIpswich'],
+    gallery: ['evGlobalSoundIpswich', 'pjEasterLondon'],
     layout: 'gallery',
     tags: ['Flagship Brand', 'Nightlife', 'Multi-Genre'],
     summary:
@@ -499,6 +499,34 @@ export const EVENTS = [
     price: null,
     ticketUrl: 'https://www.colourful.com/shows/flo',
     ctaLabel: 'Listen on Colourful',
+    sponsored: false,
+  },
+  {
+    slug: 'jungle-fever-2026',
+    title: 'ParteeAnimalz: Jungle Fever',
+    date: '2026-12-26',
+    time: '11:00 PM',
+    venue: 'D19th Fatai Irawo St., Ajao Estate',
+    city: 'Lagos, Nigeria',
+    dj: 'scandamile',
+    lineup: ['lemmy'],
+    img: 'evJungleFever',
+    gallery: [],
+    tags: [
+      'Afrohouse',
+      '3-Step',
+      'Gqom',
+      'House',
+      'Amapiano',
+      "Sponsored by D'Flamz",
+    ],
+    blurb:
+      "Scandamile Mercury hosts ParteeAnimalz: Jungle Fever in Lagos with DJ Soul-Fiyah and DJ Lemmy. Sponsored by D'Flamz.",
+    description:
+      "Scandamile Mercury presents ParteeAnimalz: Jungle Fever, sponsored by D'Flamz, on Saturday 26 December 2026 at D19th Fatai Irawo St., Ajao Estate, Lagos. Doors open at 11PM. Afrohouse, 3-Step, Gqom, House and Amapiano, with DJ Soul-Fiyah, Scandamile Mercury and DJ Lemmy on the decks. RSVP so the hosts can count heads at the gate.",
+    price: null,
+    ticketUrl: 'https://junglefever2026.netlify.app',   // '/rsvp/jungle-fever-2026/', // swap for https://junglefever.dflamz.com once the domain is live
+    ctaLabel: 'RSVP',
     sponsored: false,
   },
 ];
