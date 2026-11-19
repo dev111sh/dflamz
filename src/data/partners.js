@@ -344,4 +344,20 @@ export const ALLIES = [
     offer: 'Talent management, media and event production',
     featured: false,
   },
+  {
+    slug: 'laygos-watercrafts',
+    name: 'Laygos Watercrafts',
+    logo: 'laygos_logo.png',
+    location: 'Lagos, Nigeria',
+    category: 'Water Activities',
+    tier: 'founding',
+    blurb:
+      'A Lagos provider of luxury water-based activities, with jet skis, boats and experiences built on adventure, safety and style.',
+    long: "Laygos Watercrafts offers a fleet of modern jet skis, elegant boats and more for water-based activities around Lagos. The brand focuses on experiences that blend adventure, safety and style, from private hires to group outings. For D'Flamz, it is a partner for guests who want the day as well as the night.",
+    instagram: 'https://instagram.com/laygoswatercrafts',
+    website: 'https://www.laygoswatercrafts.com',
+    gallery: [],
+    offer: 'Jet skis, boats and luxury water experiences',
+    featured: false,
+  },
 ];
