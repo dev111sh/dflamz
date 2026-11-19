@@ -523,10 +523,53 @@ export const EVENTS = [
     blurb:
       "Scandamile Mercury hosts ParteeAnimalz: Jungle Fever in Lagos with DJ Soul-Fiyah and DJ Lemmy. Sponsored by D'Flamz.",
     description:
-      "SCANDAMILE MERCURY PRESENTS - PARTEE ANIMALZ JUNGLE FEVER. Deep in the wild, something is stirring. Answer the call. Leave the ordinary behind and step into a night where instinct takes over and rhythm runs free. A gathering of untamed energy, wild creatures and nocturnal spirits. No rules, just pure animal instinct. The jungle is calling. Will you answer? Secure your place in the wild. RSVP NOW.",
+      'SCANDAMILE MERCURY PRESENTS - PARTEE ANIMALZ JUNGLE FEVER. Deep in the wild, something is stirring. Answer the call. Leave the ordinary behind and step into a night where instinct takes over and rhythm runs free. A gathering of untamed energy, wild creatures and nocturnal spirits. No rules, just pure animal instinct. The jungle is calling. Will you answer? Secure your place in the wild. RSVP NOW.',
     price: null,
-    ticketUrl: 'https://junglefever2026.netlify.app',   // '/rsvp/jungle-fever-2026/', // swap for https://junglefever.dflamz.com once the domain is live
+    ticketUrl: 'https://junglefever2026.netlify.app', // '/rsvp/jungle-fever-2026/', // swap for https://junglefever.dflamz.com once the domain is live
     ctaLabel: 'RSVP',
+    sponsored: false,
+  },
+  {
+    slug: 'next-dj-star-2',
+    title: 'Next DJ Star: Second Edition',
+    date: '2026-12-27',
+    time: null,
+    venue: 'No. 12 Okuyemi Street, Itire',
+    city: 'Lagos, Nigeria',
+    dj: null,
+    img: 'evNextDjStar',
+    gallery: [],
+    lineup: [],
+    tags: ['Competition', 'Lagos', 'DJ Showcase'],
+    blurb:
+      'Vibemaster Entertainment and Itire Breed present the second edition of Next DJ Star: 10 finalists, 5 stages, 1 winner.',
+    description:
+      'Vibemaster Entertainment in collaboration with Itire Breed presents Next DJ Star (Second Edition) on Sunday 27 December 2026 at No. 12 Okuyemi Street, Itire, Lagos. Prizes: 1st, a DJ controller plus cash; 2nd, headphones plus cash; 3rd, cash. 10 finalists, 5 stages, 1 winner, with an open mic and a cash prize as a side attraction.',
+    price: 'Free',
+    ticketUrl:
+      'https://docs.google.com/forms/d/e/1FAIpQLSeyMEnKoENJEWHWYEjNLmAmXm_3Wc9_lb3tuPbX8IGydbpmcA/viewform',
+    ctaLabel: 'Register',
+    sponsored: false,
+  },
+  {
+    slug: 'gogaga-fest-2026',
+    title: 'GOGAGA FEST',
+    date: '2026-12-08',
+    time: '10:00 PM',
+    venue: 'More Time Exclusive Garden & Resort, Okito, Ajegunle, Olodi-Apapa',
+    city: 'Lagos, Nigeria',
+    dj: 'gaga',
+    img: 'evGoGagaFest',
+    gallery: [],
+    lineup: [],
+    tags: ['Afrobeats', 'Amapiano', 'Hip-Hop', 'Festival', 'Lagos'],
+    blurb:
+      'GOGAGA FEST brings Afrobeats, Amapiano and Hip-Hop to More Time Exclusive Resort in Apapa, with guest DJs and an entry-free night.',
+    description:
+      "GOGAGA FEST X More Time Exclusive Resort presents an Afrobeats, Amapiano and Hip-Hop night on Tuesday 8 December 2026 from 10PM WAT at More Time Exclusive Garden & Resort, 1/3 Okito Street by Mosque Bustop, Oregie, Ajegunle, Apapa, Lagos. Hosted by Rukky's Imagination, with guest DJs Kaybee, DJ Fabulous and DJ Strange. Entry is free and reservations are highly recommended. Reservations: WhatsApp 09048938293, 07032863568 or 07040793870.",
+    price: 'Free',
+    ticketUrl: 'https://wa.me/2349048938293',
+    ctaLabel: 'Enquiries & Reservations',
     sponsored: false,
   },
 ];
