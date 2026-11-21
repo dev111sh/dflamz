@@ -572,6 +572,27 @@ export const EVENTS = [
     ctaLabel: 'Enquiries & Reservations',
     sponsored: false,
   },
+  {
+    slug: 'floating-club-venmak-2026',
+    title: 'Floating Club: Afro House with Venmak',
+    date: '2026-11-28',
+    time: '9:00 PM',
+    venue: 'Wings Office Complex, 17A Ozumba Mbadiwe Ave, Victoria Island',
+    city: 'Lagos, Nigeria',
+    dj: 'venmak',
+    img: 'evFloatingClub',
+    gallery: [],
+    lineup: [],
+    tags: ['Afro House', 'Boat Party', 'Lagos', 'Laygos Watercrafts'],
+    blurb:
+      'Venmak takes the sound out on the water for Floating Club, an Afro House night on a Laygos Watercrafts boat in Victoria Island.',
+    description:
+      'Floating Club presents Afro House with Venmak on Saturday 28 November 2026, 9PM to 1AM, from Wings Office Complex, 17A Ozumba Mbadiwe Avenue, Victoria Island, Lagos. Organised by Laygos Watercrafts. Boarding pass is ₦50K, and bringing your crew lowers the cost per head. Reservations: 0704 907 0759. Terms and conditions apply.',
+    price: '₦50K boarding pass',
+    ticketUrl: 'https://www.laygoswatercrafts.com/events/the-floating-clubnov28',
+    ctaLabel: 'Book a Boarding Pass',
+    sponsored: false,
+  },
 ];
 
 /* Filter labels for the Events page */
