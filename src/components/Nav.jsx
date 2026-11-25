@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   ["/projects", "Projects"],
   ["/events", "Events"],
   ["/allies", "Allies"],
+  ["/shop", "Shop"],
 ];
 
 const MOBILE_ITEMS = [
@@ -18,6 +19,7 @@ const MOBILE_ITEMS = [
   ["/projects", "Projects"],
   ["/events", "Events"],
   ["/allies", "Allies"],
+  ["/shop", "Shop"],
 ];
 
 export default function Nav() {

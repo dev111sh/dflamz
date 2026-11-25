@@ -13,6 +13,7 @@ import Allies from "./pages/Allies.jsx";
 import Ally from "./pages/Ally.jsx";
 import Contact from "./pages/Contact.jsx";
 import Artist from "./pages/Artist.jsx";
+import Shop from "./pages/Shop.jsx";
 import { useReferral } from "./hooks/useReferral.js";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/allies" element={<Allies />} />
           <Route path="/allies/:slug" element={<Ally />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
