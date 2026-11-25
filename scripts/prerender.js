@@ -24,6 +24,12 @@ const routes = [
     desc: p.bio,
     image: `/og/dj/${slug}.jpg`,
   })),
+  ...ALLIES.map(a => ({
+    path: `/allies/${a.slug}`,
+    title: `${a.name} | D'Flamz Nation`,
+    desc: a.blurb,
+    image: `/og/allies/${a.slug}.jpg`,
+  })),
 ];
 
 const template = await readFile(join(DIST, 'index.html'), 'utf8');
